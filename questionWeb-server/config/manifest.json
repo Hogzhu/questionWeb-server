@@ -1,0 +1,20 @@
+{
+  "admin/home.js": "/public/js/chunk/admin/home.js",
+  "runtime.js": "/public/js/runtime.js",
+  "font/element-icons.ttf": "/public/font/element-icons.ttf",
+  "font/element-icons.woff": "/public/font/element-icons.woff",
+  "deps": {
+    "admin/home.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/admin/home.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}

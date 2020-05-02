@@ -7,4 +7,7 @@ export default class Panel extends Vue {
   private handleSetLineChartData(type: string) {
     console.log(type);
   }
+  private created () {
+    console.log(1)
+  }
 }

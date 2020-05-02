@@ -7,7 +7,7 @@
 
 </style>
 <script type="ts">
-  import PanelGroup from '../../component/panel.vue'
+  import PanelGroup from '../../component/panel/panel.vue'
   export default {
     components: {
       PanelGroup

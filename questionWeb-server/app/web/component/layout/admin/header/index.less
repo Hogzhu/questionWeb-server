@@ -1,0 +1,26 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+
+  .nav {
+    display: flex;
+    padding: 1rem 10rem;
+    background-color: rgba(240,240,240,0.6);
+    box-shadow: 10px 5px 5px #eee;
+    a {
+      font-weight: bold;
+      color: #2c3e50;
+      &:not(:first-child) {
+        margin-left: 5rem;
+      }
+      &:last-child {
+        margin-left: auto;
+      }
+      &.router-link-exact-active {
+        color: #42b983;
+      }
+    }
+  }

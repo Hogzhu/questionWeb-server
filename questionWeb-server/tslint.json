@@ -8,6 +8,8 @@
     "member-access": false, 
     "ordered-imports": false,
     "trailing-comma": false,
+    "semicolon": [false, "always"],
+    "space-before-function-paren": [true, "always"],
     "quotemark": [true, "single", "jsx-double"],
     "eofline": false,
     "object-literal-sort-keys": false,

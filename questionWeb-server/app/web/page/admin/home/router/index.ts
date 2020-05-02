@@ -2,38 +2,21 @@ import Vue from 'vue';
 
 import VueRouter from 'vue-router';
 import Dashboard from '../view/dashboard/index.vue';
-import ArticleList from '../view/list/index.vue';
+import Question from '../view/question/index.vue';
+import Home from '../view/home/index.vue';
+import MainPage from '../view/mainPage/index.vue';
 
 Vue.use(VueRouter);
 
-export default function createRouter() {
+export default function createRouter () {
   return new VueRouter({
     mode: 'history',
     base: '/admin/',
     routes: [
       {
         path: '/',
-        component: Dashboard
+        component: Question
       },
-      {
-        path: '/article/list',
-        component: ArticleList
-      },
-      {
-        path: '/article/add',
-        component: () => import('../view/write/index.vue')
-      },
-      {
-        path: '/article/edit/:id',
-        component: () => import('../view/write/index.vue')
-      },
-      {
-        path: '/article/detail/:id',
-        component: () => import('../view/detail/index.vue')
-      },
-      {
-        path: '*', component: () => import('../view/notfound/index.vue')
-      }
     ]
   });
 }

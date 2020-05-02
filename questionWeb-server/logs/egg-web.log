@@ -1,0 +1,140 @@
+2020-05-02 16:06:23,693 INFO 9388 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-02 16:06:23,731 INFO 9388 [egg-multipart] stream mode enable
+2020-05-02 16:06:26,281 INFO 9388 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-02 16:06:26,297 INFO 9388 [egg-security] use csrf middleware
+2020-05-02 16:06:26,299 INFO 9388 [egg-security] use methodnoallow middleware
+2020-05-02 16:06:26,300 INFO 9388 [egg-security] use noopen middleware
+2020-05-02 16:06:26,301 INFO 9388 [egg-security] use nosniff middleware
+2020-05-02 16:06:26,301 INFO 9388 [egg-security] use xssProtection middleware
+2020-05-02 16:06:26,302 INFO 9388 [egg-security] use xframe middleware
+2020-05-02 16:06:26,303 INFO 9388 [egg-security] use dta middleware
+2020-05-02 16:06:26,303 INFO 9388 [egg-security] compose 7 middlewares into one security middleware
+2020-05-02 16:06:27,577 INFO 9388 [egg:core] dump config after load, 8ms
+2020-05-02 16:06:27,593 INFO 9388 [egg-watcher:application] watcher start success
+2020-05-02 16:06:27,603 INFO 9388 [egg:core] dump config after ready, 8ms
+2020-05-02 16:39:49,628 INFO 20084 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-02 16:39:49,728 INFO 20084 [egg-multipart] stream mode enable
+2020-05-02 16:39:50,246 INFO 20084 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-02 16:39:50,261 INFO 20084 [egg-security] use csrf middleware
+2020-05-02 16:39:50,263 INFO 20084 [egg-security] use methodnoallow middleware
+2020-05-02 16:39:50,263 INFO 20084 [egg-security] use noopen middleware
+2020-05-02 16:39:50,266 INFO 20084 [egg-security] use nosniff middleware
+2020-05-02 16:39:50,267 INFO 20084 [egg-security] use xssProtection middleware
+2020-05-02 16:39:50,268 INFO 20084 [egg-security] use xframe middleware
+2020-05-02 16:39:50,269 INFO 20084 [egg-security] use dta middleware
+2020-05-02 16:39:50,270 INFO 20084 [egg-security] compose 7 middlewares into one security middleware
+2020-05-02 16:39:53,657 INFO 20084 [egg:core] dump config after load, 17ms
+2020-05-02 16:39:53,683 INFO 20084 [egg-watcher:application] watcher start success
+2020-05-02 16:39:53,704 INFO 20084 [egg:core] dump config after ready, 15ms
+2020-05-02 16:51:58,725 INFO 14772 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-02 16:51:58,762 INFO 14772 [egg-multipart] stream mode enable
+2020-05-02 16:51:58,839 INFO 14772 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-02 16:51:58,842 INFO 14772 [egg-security] use csrf middleware
+2020-05-02 16:51:58,843 INFO 14772 [egg-security] use methodnoallow middleware
+2020-05-02 16:51:58,844 INFO 14772 [egg-security] use noopen middleware
+2020-05-02 16:51:58,845 INFO 14772 [egg-security] use nosniff middleware
+2020-05-02 16:51:58,849 INFO 14772 [egg-security] use xssProtection middleware
+2020-05-02 16:51:58,849 INFO 14772 [egg-security] use xframe middleware
+2020-05-02 16:51:58,850 INFO 14772 [egg-security] use dta middleware
+2020-05-02 16:51:58,850 INFO 14772 [egg-security] compose 7 middlewares into one security middleware
+2020-05-02 16:52:00,589 INFO 14772 [egg:core] dump config after load, 8ms
+2020-05-02 16:52:00,602 INFO 14772 [egg-watcher:application] watcher start success
+2020-05-02 16:52:00,613 INFO 14772 [egg:core] dump config after ready, 8ms
+2020-05-03 00:12:08,899 INFO 19544 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-03 00:12:08,937 INFO 19544 [egg-multipart] stream mode enable
+2020-05-03 00:12:09,441 INFO 19544 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-03 00:12:09,455 INFO 19544 [egg-security] use csrf middleware
+2020-05-03 00:12:09,456 INFO 19544 [egg-security] use methodnoallow middleware
+2020-05-03 00:12:09,457 INFO 19544 [egg-security] use noopen middleware
+2020-05-03 00:12:09,458 INFO 19544 [egg-security] use nosniff middleware
+2020-05-03 00:12:09,459 INFO 19544 [egg-security] use xssProtection middleware
+2020-05-03 00:12:09,459 INFO 19544 [egg-security] use xframe middleware
+2020-05-03 00:12:09,460 INFO 19544 [egg-security] use dta middleware
+2020-05-03 00:12:09,460 INFO 19544 [egg-security] compose 7 middlewares into one security middleware
+2020-05-03 00:12:09,491 INFO 19544 [egg:core] dump config after load, 8ms
+2020-05-03 00:12:09,521 INFO 19544 [egg-watcher:application] watcher start success
+2020-05-03 00:12:09,535 INFO 19544 [egg:core] dump config after ready, 12ms
+2020-05-03 02:04:31,928 INFO 20736 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-03 02:04:31,966 INFO 20736 [egg-multipart] stream mode enable
+2020-05-03 02:04:32,425 INFO 20736 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-03 02:04:32,440 INFO 20736 [egg-security] use csrf middleware
+2020-05-03 02:04:32,442 INFO 20736 [egg-security] use methodnoallow middleware
+2020-05-03 02:04:32,443 INFO 20736 [egg-security] use noopen middleware
+2020-05-03 02:04:32,444 INFO 20736 [egg-security] use nosniff middleware
+2020-05-03 02:04:32,445 INFO 20736 [egg-security] use xssProtection middleware
+2020-05-03 02:04:32,446 INFO 20736 [egg-security] use xframe middleware
+2020-05-03 02:04:32,446 INFO 20736 [egg-security] use dta middleware
+2020-05-03 02:04:32,446 INFO 20736 [egg-security] compose 7 middlewares into one security middleware
+2020-05-03 02:04:32,462 INFO 20736 [egg:core] dump config after load, 8ms
+2020-05-03 02:04:32,477 INFO 20736 [egg-watcher:application] watcher start success
+2020-05-03 02:04:32,486 INFO 20736 [egg:core] dump config after ready, 7ms
+2020-05-03 02:13:07,491 INFO 17028 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-03 02:13:07,583 INFO 17028 [egg-multipart] stream mode enable
+2020-05-03 02:13:08,043 INFO 17028 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-03 02:13:08,058 INFO 17028 [egg-security] use csrf middleware
+2020-05-03 02:13:08,059 INFO 17028 [egg-security] use methodnoallow middleware
+2020-05-03 02:13:08,060 INFO 17028 [egg-security] use noopen middleware
+2020-05-03 02:13:08,061 INFO 17028 [egg-security] use nosniff middleware
+2020-05-03 02:13:08,062 INFO 17028 [egg-security] use xssProtection middleware
+2020-05-03 02:13:08,063 INFO 17028 [egg-security] use xframe middleware
+2020-05-03 02:13:08,063 INFO 17028 [egg-security] use dta middleware
+2020-05-03 02:13:08,063 INFO 17028 [egg-security] compose 7 middlewares into one security middleware
+2020-05-03 02:13:08,079 INFO 17028 [egg:core] dump config after load, 8ms
+2020-05-03 02:13:08,097 INFO 17028 [egg-watcher:application] watcher start success
+2020-05-03 02:13:08,106 INFO 17028 [egg:core] dump config after ready, 7ms
+2020-05-03 02:13:10,570 INFO 20752 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-03 02:13:10,607 INFO 20752 [egg-multipart] stream mode enable
+2020-05-03 02:13:10,690 INFO 20752 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-03 02:13:10,697 INFO 20752 [egg-security] use csrf middleware
+2020-05-03 02:13:10,699 INFO 20752 [egg-security] use methodnoallow middleware
+2020-05-03 02:13:10,699 INFO 20752 [egg-security] use noopen middleware
+2020-05-03 02:13:10,701 INFO 20752 [egg-security] use nosniff middleware
+2020-05-03 02:13:10,701 INFO 20752 [egg-security] use xssProtection middleware
+2020-05-03 02:13:10,702 INFO 20752 [egg-security] use xframe middleware
+2020-05-03 02:13:10,702 INFO 20752 [egg-security] use dta middleware
+2020-05-03 02:13:10,702 INFO 20752 [egg-security] compose 7 middlewares into one security middleware
+2020-05-03 02:13:10,722 INFO 20752 [egg:core] dump config after load, 10ms
+2020-05-03 02:13:10,735 INFO 20752 [egg-watcher:application] watcher start success
+2020-05-03 02:13:10,745 INFO 20752 [egg:core] dump config after ready, 7ms
+2020-05-03 02:34:15,387 INFO 4516 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-03 02:34:15,424 INFO 4516 [egg-multipart] stream mode enable
+2020-05-03 02:34:15,503 INFO 4516 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-03 02:34:15,507 INFO 4516 [egg-security] use csrf middleware
+2020-05-03 02:34:15,511 INFO 4516 [egg-security] use methodnoallow middleware
+2020-05-03 02:34:15,512 INFO 4516 [egg-security] use noopen middleware
+2020-05-03 02:34:15,513 INFO 4516 [egg-security] use nosniff middleware
+2020-05-03 02:34:15,514 INFO 4516 [egg-security] use xssProtection middleware
+2020-05-03 02:34:15,514 INFO 4516 [egg-security] use xframe middleware
+2020-05-03 02:34:15,515 INFO 4516 [egg-security] use dta middleware
+2020-05-03 02:34:15,515 INFO 4516 [egg-security] compose 7 middlewares into one security middleware
+2020-05-03 02:34:15,529 INFO 4516 [egg:core] dump config after load, 7ms
+2020-05-03 02:34:15,545 INFO 4516 [egg-watcher:application] watcher start success
+2020-05-03 02:34:15,555 INFO 4516 [egg:core] dump config after ready, 8ms
+2020-05-03 03:03:14,616 INFO 16436 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-03 03:03:14,653 INFO 16436 [egg-multipart] stream mode enable
+2020-05-03 03:03:14,734 INFO 16436 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-03 03:03:14,738 INFO 16436 [egg-security] use csrf middleware
+2020-05-03 03:03:14,740 INFO 16436 [egg-security] use methodnoallow middleware
+2020-05-03 03:03:14,741 INFO 16436 [egg-security] use noopen middleware
+2020-05-03 03:03:14,743 INFO 16436 [egg-security] use nosniff middleware
+2020-05-03 03:03:14,744 INFO 16436 [egg-security] use xssProtection middleware
+2020-05-03 03:03:14,744 INFO 16436 [egg-security] use xframe middleware
+2020-05-03 03:03:14,745 INFO 16436 [egg-security] use dta middleware
+2020-05-03 03:03:14,745 INFO 16436 [egg-security] compose 7 middlewares into one security middleware
+2020-05-03 03:03:14,759 INFO 16436 [egg:core] dump config after load, 8ms
+2020-05-03 03:03:14,774 INFO 16436 [egg-watcher:application] watcher start success
+2020-05-03 03:03:14,783 INFO 16436 [egg:core] dump config after ready, 7ms
+2020-05-03 03:13:49,986 INFO 9732 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-03 03:13:50,023 INFO 9732 [egg-multipart] stream mode enable
+2020-05-03 03:13:50,108 INFO 9732 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
+2020-05-03 03:13:50,111 INFO 9732 [egg-security] use csrf middleware
+2020-05-03 03:13:50,112 INFO 9732 [egg-security] use methodnoallow middleware
+2020-05-03 03:13:50,113 INFO 9732 [egg-security] use noopen middleware
+2020-05-03 03:13:50,114 INFO 9732 [egg-security] use nosniff middleware
+2020-05-03 03:13:50,114 INFO 9732 [egg-security] use xssProtection middleware
+2020-05-03 03:13:50,115 INFO 9732 [egg-security] use xframe middleware
+2020-05-03 03:13:50,115 INFO 9732 [egg-security] use dta middleware
+2020-05-03 03:13:50,115 INFO 9732 [egg-security] compose 7 middlewares into one security middleware
+2020-05-03 03:13:50,130 INFO 9732 [egg:core] dump config after load, 8ms
+2020-05-03 03:13:50,145 INFO 9732 [egg-watcher:application] watcher start success
+2020-05-03 03:13:50,154 INFO 9732 [egg:core] dump config after ready, 7ms

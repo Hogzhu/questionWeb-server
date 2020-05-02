@@ -1,11 +1,11 @@
 import { Vue, Component, Prop } from 'vue-property-decorator';
-import LayoutHeader from '../header/header.vue';
 import LayoutContent from '../content/index.vue';
+import LayoutHeader from '../header/index.vue';
 
 @Component({
   components: {
-    LayoutHeader,
-    LayoutContent
+    LayoutContent,
+    LayoutHeader
   }
 })
 export default class Main extends Vue {}
