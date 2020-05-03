@@ -937,3 +937,55 @@ hostname: DESKTOP-O0FB5QR
 pid: 20916
 hostname: DESKTOP-O0FB5QR
 
+2020-05-03 18:28:52,714 ERROR 20916 [admin/home.js] server render bundle error, try client render, the server render error ReferenceError: alert is not defined
+    at VueComponent.Exam.created (webpack:///./app/web/page/admin/home/view/exam/index.vue?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2!./node_modules/vue-loader/lib??vue-loader-options:18:9)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+    at VueComponent.Vue._init (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4989:5)
+    at new Exam (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:5134:12)
+    at createComponentInstanceForVnode (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8184:10)
+    at renderComponentInner (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8408:40)
+    at renderComponent (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8383:5)
+    at RenderContext.renderNode (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8294:5)
+    at RenderContext.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:2598:23)
+2020-05-03 18:28:52,734 ERROR 20916 [-/127.0.0.1/-/174ms GET /admin/exam] nodejs.TypeError: Cannot read property 'matched' of undefined
+    at render (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-router\dist\vue-router.common.js:99:25)
+    at createFunctionalComponent (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3052:30)
+    at createComponent (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3225:12)
+    at _createElement (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3415:15)
+    at createElement (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3347:10)
+    at vm._c (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3484:42)
+    at Proxy.render (webpack:///./app/web/component/layout/admin/content/index.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:12:8)
+    at Vue._render (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3538:22)
+    at resolve (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8656:28)
+    at waitForServerPrefetch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8287:3)
+
+pid: 20916
+hostname: DESKTOP-O0FB5QR
+
+2020-05-03 18:52:50,678 ERROR 20916 [admin/home.js] server render bundle error, try client render, the server render error { Error: Cannot find module 'index.ts?vue&type=script&lang=js&'
+    at webpackMissingModule (webpack:///./app/web/page/admin/home/view/mainPage/index.vue?:3:45)
+    at eval (webpack:///./app/web/page/admin/home/view/mainPage/index.vue?:3:153)
+    at Module../app/web/page/admin/home/view/mainPage/index.vue (__vue_ssr_bundle__:552:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/page/admin/home/router/index.ts?:7:82)
+    at Module../app/web/page/admin/home/router/index.ts (__vue_ssr_bundle__:408:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/page/admin/home/index.ts?:4:71)
+    at Module../app/web/page/admin/home/index.ts (__vue_ssr_bundle__:396:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30) code: 'MODULE_NOT_FOUND' }
+2020-05-03 18:52:50,707 ERROR 20916 [-/127.0.0.1/-/96ms GET /admin/createQuestion] nodejs.TypeError: Cannot read property 'matched' of undefined
+    at render (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-router\dist\vue-router.common.js:99:25)
+    at createFunctionalComponent (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3052:30)
+    at createComponent (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3225:12)
+    at _createElement (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3415:15)
+    at createElement (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3347:10)
+    at vm._c (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3484:42)
+    at Proxy.render (webpack:///./app/web/component/layout/admin/content/index.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:12:8)
+    at Vue._render (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3538:22)
+    at resolve (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8656:28)
+    at waitForServerPrefetch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8287:3)
+
+pid: 20916
+hostname: DESKTOP-O0FB5QR
+

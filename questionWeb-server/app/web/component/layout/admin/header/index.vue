@@ -3,8 +3,8 @@
         <router-link to="/">主页</router-link>
         <router-link to="/exam">考试</router-link>
         <router-link to="/createQuestion">出题</router-link>
-        <router-link to="/rank">排行</router-link>
-        <router-link to="/login">登录</router-link>
+        <router-link to="/information">数据</router-link>
+        <a href="#">登录</a>
     </div>
 </template>
 <script lang="ts" src="./index.ts"></script>
@@ -27,6 +27,10 @@
       font-size: 1.6rem;
       font-weight: bold;
       color: #2c3e50;
+      cursor: pointer;
+      &:active {
+        color: #42b983;
+      }
       &:not(:first-child) {
         margin-left: 5rem;
       }

@@ -70,3 +70,9 @@
 2020-05-03 15:21:44,271 INFO 20916 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-05-03 15:21:44,271 INFO 20916 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-05-03 15:21:44,271 INFO 20916 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-03 19:39:22,219 INFO 8376 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 31837785ms at 2020-05-04 04:30:00.004
+2020-05-03 19:39:22,220 INFO 8376 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 15637781ms at 2020-05-04 00:00:00.000
+2020-05-03 19:39:22,220 INFO 8376 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 15638780ms at 2020-05-04 00:00:01.000
+2020-05-03 19:39:21,666 INFO 5124 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-03 19:39:21,666 INFO 5124 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-03 19:39:21,666 INFO 5124 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

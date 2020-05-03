@@ -1,19 +1,16 @@
 <template>
   <div class="mainPage">
     <question-list></question-list>
-    <personal-rank></personal-rank>
+    <rank-list></rank-list>
   </div>
 </template>
-<style>
-
-</style>
 <script type="ts">
   import QuestionList from '../../component/questionList/questionList.vue'
-  import PersonalRank from '../../component/personalRank/personalRank.vue'
+  import RankList from '../../component/rankList/rankList.vue'
   export default {
     components: {
       QuestionList,
-      PersonalRank
+      RankList
     },
   }
 </script>

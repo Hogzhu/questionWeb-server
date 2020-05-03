@@ -1,6 +1,6 @@
 import { Vue, Component } from 'vue-property-decorator'
 @Component({})
-export default class PersonalRank extends Vue {
+export default class RankList extends Vue {
   private myBarCharts: any = ''
   private myPieCharts: any = ''
   private barCharts: any = {
@@ -85,9 +85,9 @@ export default class PersonalRank extends Vue {
 
   private mounted (): void {
     console.log(112)
-    console.log(document.getElementsByClassName('personalRank-bar')[0])
-    this.myBarCharts = Vue.prototype.echarts.init(document.getElementsByClassName('personalRank-bar')[0])
-    this.myPieCharts = Vue.prototype.echarts.init(document.getElementsByClassName('personalRank-pie')[0])
+    console.log(document.getElementsByClassName('rankList-bar')[0])
+    this.myBarCharts = Vue.prototype.echarts.init(document.getElementsByClassName('rankList-bar')[0])
+    this.myPieCharts = Vue.prototype.echarts.init(document.getElementsByClassName('rankList-pie')[0])
     this.createBarCharts()
     this.createPieCharts()
   }

@@ -1,12 +1,12 @@
 <template>
-  <div class="personalRank">
-    <div class="personalRank-pie"></div>
-    <div class="personalRank-bar"></div>
+  <div class="rankList">
+    <div class="rankList-pie"></div>
+    <div class="rankList-bar"></div>
   </div>
 </template>
-<script lang="ts" src="./personalRank.ts"></script>
+<script lang="ts" src="./rankList.ts"></script>
 <style scoped lang="less">
-  .personalRank {
+  .rankList {
     &-pie {
       width: 30rem;
       height: 30rem;

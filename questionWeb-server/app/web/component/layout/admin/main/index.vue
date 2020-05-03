@@ -4,6 +4,7 @@
      <LayoutContent>
        <div slot="content"><slot name="main"></slot></div>
      </LayoutContent>
+     <LayoutLogin></LayoutLogin>
    </div>
 </template>
 <style>
