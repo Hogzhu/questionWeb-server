@@ -7,4 +7,8 @@ import QuestionList from '../../component/questionList/questionList.vue';
   }
 })
 
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  private created () {
+    console.log('home page')
+  }
+}

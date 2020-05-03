@@ -19,7 +19,7 @@
         <span>答案:</span>
         <textarea class="createQuestion-list-answer-input" rows="3" />
       </div>
-      <button class="createQuestion-list-btn">提交</button>
+      <button class="createQuestion-list-btn" @click="createQuestion()">提交</button>
     </div>
   </div>
 </template>

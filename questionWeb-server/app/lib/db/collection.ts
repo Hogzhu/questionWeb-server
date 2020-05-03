@@ -13,6 +13,10 @@ export default class Collection {
     return this.db.get(this.name);
   }
 
+  public upQuestion (): any {
+    return 'hello world';
+  }
+
   public query(json: any) {
     return this.db.query(this.name, json);
   }

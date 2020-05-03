@@ -84,8 +84,6 @@ export default class RankList extends Vue {
   }
 
   private mounted (): void {
-    console.log(112)
-    console.log(document.getElementsByClassName('rankList-bar')[0])
     this.myBarCharts = Vue.prototype.echarts.init(document.getElementsByClassName('rankList-bar')[0])
     this.myPieCharts = Vue.prototype.echarts.init(document.getElementsByClassName('rankList-pie')[0])
     this.createBarCharts()
@@ -97,7 +95,6 @@ export default class RankList extends Vue {
   }
 
   private createPieCharts () {
-    console.log(this.pieCharts)
     this.myPieCharts.setOption(this.pieCharts)
   }
 }

@@ -26,6 +26,15 @@ export default class ArticeService extends Service {
     return this.colllection.getPager(condition);
   }
 
+  public async upQuestion (data: object) {
+    const article: Article = deserialize(Article, data);
+    if (article.id) {
+      return this.colllection.update({ id: article.id }, article);
+    }
+    this.colllection.add(article);
+    return article;
+  }
+
   public async saveArticle(data: object) {
     const article: Article = deserialize(Article, data);
     if (article.id) {

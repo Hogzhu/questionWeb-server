@@ -45,6 +45,11 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.get(`${rootState.origin}/admin/api/article/${id}`);
       commit(SET_ARTICLE_DETAIL, res.data);
     },
+    async upQuestion ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/article/upQuestion`, data);
+      console.log(res)
+      return res;
+    },
     async saveArticle({ commit, dispatch, state, rootState }, data) {
       // node need auth
       const res = await axios.post(`${rootState.origin}/admin/api/article/add`, data);

@@ -6,7 +6,6 @@ export default class QuestionList extends Vue {
   private question: any[] = []
   private questionNum: any[] = []
   private created () {
-    console.log(1)
   }
   private mounted () {
     this.getQuestionNum()
