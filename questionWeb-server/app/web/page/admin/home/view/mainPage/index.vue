@@ -1,11 +1,26 @@
 <template>
   <div class="mainPage">
     <question-list></question-list>
+    <personal-rank></personal-rank>
   </div>
 </template>
-<style lang="less">
+<style>
+
+</style>
+<script type="ts">
+  import QuestionList from '../../component/questionList/questionList.vue'
+  import PersonalRank from '../../component/personalRank/personalRank.vue'
+  export default {
+    components: {
+      QuestionList,
+      PersonalRank
+    },
+  }
+</script>
+<style lang="less" scoped>
   .mainPage {
-    padding: 2rem 10rem;
+    display: flex;
+    padding: 5rem 10rem;
+    justify-content: space-between;
   }
 </style>
-<script lang="ts" src="./index.ts"></script>

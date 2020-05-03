@@ -15,7 +15,7 @@ export default function createRouter () {
     routes: [
       {
         path: '/',
-        component: Question
+        component: MainPage
       },
     ]
   });

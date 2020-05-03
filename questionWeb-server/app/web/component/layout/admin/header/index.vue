@@ -24,6 +24,7 @@
     background-color: rgba(240,240,240,0.6);
     box-shadow: 10px 5px 5px #eee;
     a {
+      font-size: 1.6rem;
       font-weight: bold;
       color: #2c3e50;
       &:not(:first-child) {

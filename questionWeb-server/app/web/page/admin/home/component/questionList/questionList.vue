@@ -47,25 +47,26 @@ a {
     display: flex;
     align-items: center;
     border-top: 1px solid #ddd;
-    padding-top: 1rem;
+    padding: 2rem 0;
     li {
       display: inline-block;
       margin-right: 2rem;
       padding: 0.1rem 0.8rem;
-      font-size: 0.8rem;
+      font-size: 1.2rem;
       color: #fff;
       background-color: #5cb85c;
       border-radius: 1rem;
     }
     &-search {
       input {
-        padding: 0.2rem 0.8rem;
+        padding: 0 1rem;
         margin: 0;
-        width: 20rem;
-        height: 1.5rem;
+        width: 40rem;
+        height: 3rem;
         border: 1px solid #aaa;
-        border-radius: 1.2rem;
-        font-size: 1rem;
+        border-radius: 8rem;
+        outline: none;
+        font-size: 1.4rem;
         &:hover {
           border-color: #42b983;
         }
@@ -73,15 +74,15 @@ a {
     }
   }
   &-list {
-    margin-top: 1rem;
+    width: 85rem;
     &-nav {
       ul {
-        border-width: 1px 0 1px 0;
         display: flex;
+        padding: 0.8rem 0;
+        border-width: 1px 0 1px 0;
         border-style: solid;
         border-color: #eee #eee #ddd #eee;
         li {
-          padding: 0.4rem 0;
           font-weight: 600;
           flex: 1;
           cursor: pointer;
@@ -99,6 +100,8 @@ a {
     }
     &-item {
       display: flex;
+      height: 4rem;
+      align-items: center;
       &:nth-child(even) {
         background-color: rgb(245,245,245);
       }

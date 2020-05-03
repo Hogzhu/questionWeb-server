@@ -19,7 +19,8 @@ export default class Layout extends Vue {
 
   isNode: boolean = EASY_ENV_IS_NODE;
 
-  created() {
+  created () {
     console.log('>>EASY_ENV_IS_NODE create', EASY_ENV_IS_NODE);
+    Vue.prototype.echarts = require('echarts');
   }
 }

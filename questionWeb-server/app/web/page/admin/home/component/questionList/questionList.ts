@@ -30,7 +30,6 @@ export default class QuestionList extends Vue {
       color: '#d9534f'
     }
     this.questionNum.push(allQuestion, easyQuestion, midQuestion, diffQuestion)
-    console.log(this.questionNum)
   }
   private getQuestion () {
     const question1 = {

@@ -18,8 +18,6 @@
   width: 100%;
 }
 .main .main-container {
-  margin-top: 50px;
-  padding: 10px;
   min-height: calc(100vh - 100px);
 }
 </style>
