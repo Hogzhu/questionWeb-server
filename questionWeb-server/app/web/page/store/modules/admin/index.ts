@@ -10,6 +10,7 @@ import {
 import RootState from '../../state';
 import AdminState from './state';
 import Article from '../../../../../model/article';
+import querystring from 'querystring'
 
 axios.defaults.baseURL = 'http://127.0.0.1:7001';
 axios.defaults.timeout = 15000;
@@ -50,10 +51,16 @@ export default class AdminModule implements Module<AdminState, RootState> {
       console.log(res)
       return res;
     },
-    async checkLogin ({ commit, dispatch, state , rootState}, { data, headers }) {
-      console.log(headers)
+    // 登录并添加token
+    async login ({ commit, dispatch, state , rootState}, data) {
       console.log(data)
-      const res = await axios.post(`${rootState.origin}/admin/api/login`, data, headers);
+      const res = await axios.post(`${rootState.origin}/admin/api/login`, data);
+      console.log(res)
+      return res;
+    },
+    // 确认登陆状态
+    async checkLogin ({ commit, dispatch, state , rootState}, config) {
+      const res = await axios.post(`${rootState.origin}/admin/api/checkLogin`, {}, config);
       console.log(res)
       return res;
     },

@@ -11,7 +11,7 @@
       <span class="login-container-pwd-text">密码</span>
       <input class="login-container-pwd-input" ref="password" type="password" placeholder="请输入密码...">
     </div>
-    <button class="login-container-btn" @click="login()">登录</button>
+    <button class="login-container-btn" @click="handlerLogin()">登录</button>
     <div class="login-container-forgetPwd">忘记密码</div>
   </div>
 </div>

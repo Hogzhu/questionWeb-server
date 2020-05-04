@@ -2,15 +2,48 @@ import { Controller, Context, Application } from 'egg';
 import { deserialize } from '@hubcarl/json-typescript-mapper';
 import Article from '../model/article';
 import Condition from '../lib/condition';
+import { request } from 'http';
 
 export default class UserController extends Controller {
+
+  public async index () {
+    const { ctx , app } = this;
+    console.log(11123)
+    console.log(ctx.state.user);
+    /*
+    * 打印内容为：{ username : 'admin', iat: 1560346903 }
+    * iat 为过期时间，可以单独写中间件验证，这里不做细究
+    * 除了 iat 之后，其余的为当时存储的数据
+    **/
+    ctx.body = {code: 0, msg: '验证成功'};
+  }
+
   // 验证登录并且生成 token
   public async login () {
     const { ctx , app } = this;
     // 获取用户端传递过来的参数
     const data = ctx.request.body;
     // 进行验证 data 数据 登录是否成功
-    // .........
+    let checkNum = 0;
+    const information = await this.app.mysql.query('select * from student', '');
+    const userNum = information.length;
+    information.forEach((item, index) => {
+      checkNum++
+      if (item.number === ctx.request.body.account) {
+        if (item.password === ctx.request.body.password) {
+          checkNum--
+          console.log('login success')
+        } else {
+          checkNum--
+          console.log('密码错误')
+          return false
+        }
+      }
+    })
+    if (checkNum === userNum) {
+      console.log('账号不存在')
+      return false
+    }
     // 成功过后进行一下操作
     // 生成 token 的方式
     const token = app.jwt.sign({
@@ -24,8 +57,9 @@ export default class UserController extends Controller {
   };
 
   // 访问admin数据时进行验证token，并且解析 token 的数据
-  public async index () {
-    const { ctx , app} = this;
+  public async checkLogin () {
+    const { ctx , app } = this;
+    console.log(11123)
     console.log(ctx.state.user);
     /*
     * 打印内容为：{ username : 'admin', iat: 1560346903 }
