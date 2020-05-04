@@ -1,4 +1,4 @@
-import { Vue, Component, Prop } from 'vue-property-decorator';
+import { Vue, Component, Emit } from 'vue-property-decorator';
 @Component({
   components: {
   }
@@ -6,5 +6,10 @@ import { Vue, Component, Prop } from 'vue-property-decorator';
 export default class Header extends Vue {
   private created () {
     console.log('header')
+  }
+
+  @Emit('login')
+  private login () {
+    return null;
   }
 }

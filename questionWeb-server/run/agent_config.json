@@ -178,6 +178,25 @@
       },
       "afterRender": "<Function afterRender>"
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 11>",
+        "database": "student"
+      }
+    },
+    "jwt": {
+      "secret": "<String len: 6>",
+      "enable": false
+    },
     "cors": {},
     "webpack": {
       "port": 9000,
@@ -220,7 +239,9 @@
         "axios": "^0.18.1",
         "echarts": "^4.7.0",
         "egg": "^2.3.0",
-        "egg-cors": "^2.1.1",
+        "egg-cors": "^2.2.3",
+        "egg-jwt": "^3.1.7",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.10.0",
         "egg-view-vue-ssr": "^3.0.5",
         "egg-webpack": "^4.4.7",
@@ -556,14 +577,38 @@
       "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr",
       "version": "3.3.2"
     },
+    "mysql": {
+      "package": "egg-mysql",
+      "enable": true,
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql",
+      "version": "3.0.0"
+    },
+    "jwt": {
+      "package": "egg-jwt",
+      "enable": true,
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
+      "env": [],
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt",
+      "version": "3.1.7"
+    },
     "cors": {
-      "package": "egg-cors",
       "enable": true,
       "name": "cors",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
       "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
+      "package": "egg-cors",
       "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors",
       "version": "2.2.3"
     },

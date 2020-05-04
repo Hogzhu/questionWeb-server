@@ -3,11 +3,11 @@
 
 import 'egg';
 import ExportAdmin from '../../../app/controller/admin';
-import ExportPost from '../../../app/controller/post';
+import ExportUser from '../../../app/controller/user';
 
 declare module 'egg' {
   interface IController {
     admin: ExportAdmin;
-    post: ExportPost;
+    user: ExportUser;
   }
 }

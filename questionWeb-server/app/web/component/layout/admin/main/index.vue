@@ -1,10 +1,10 @@
 <template>
    <div class="main">
-     <LayoutHeader></LayoutHeader>
+     <LayoutHeader @login="login"></LayoutHeader>
      <LayoutContent>
        <div slot="content"><slot name="main"></slot></div>
      </LayoutContent>
-     <LayoutLogin></LayoutLogin>
+     <LayoutLogin v-if="showLogin" @closeLogin="closeLogin"></LayoutLogin>
    </div>
 </template>
 <style>

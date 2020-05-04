@@ -34,6 +34,83 @@
     },
     "afterRender": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
   },
+  "mysql": {
+    "client": {
+      "host": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "port": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "user": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "password": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "database": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
+    },
+    "app": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "agent": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "default": {
+      "database": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "jwt": {
+    "secret": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "ignoreJSON": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "type": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "protocolWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "allowMethods": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
+  },
   "logger": {
     "consoleLevel": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
     "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
@@ -78,60 +155,6 @@
     "key": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
     "httpOnly": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
     "encrypt": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js"
-  },
-  "security": {
-    "domainWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-    "csrf": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "type": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "xframe": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "hsts": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "dta": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "methodnoallow": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "noopen": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "nosniff": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "referrerPolicy": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "xssProtection": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "csp": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
-    "ssrf": {
-      "ipBlackList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
-    }
   },
   "helper": {
     "shtml": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
@@ -195,7 +218,6 @@
     "rotateDuration": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
     "maxDays": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
-  "cors": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors\\config\\config.default.js",
   "webpack": {
     "port": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js",
     "proxy": {
@@ -237,6 +259,8 @@
       "echarts": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-view-vue-ssr": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-webpack": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",

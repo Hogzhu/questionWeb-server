@@ -34,6 +34,21 @@
     },
     "afterRender": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
   },
+  "mysql": {
+    "client": {
+      "host": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "port": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "user": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "password": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "database": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
+    },
+    "app": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "agent": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "default": {
+      "database": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
   "logger": {
     "consoleLevel": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
     "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
@@ -195,6 +210,10 @@
     "rotateDuration": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
     "maxDays": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
+  "jwt": {
+    "secret": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt\\config\\config.default.js",
+    "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
   "cors": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors\\config\\config.default.js",
   "webpack": {
     "port": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js",
@@ -237,6 +256,8 @@
       "echarts": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-view-vue-ssr": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
       "egg-webpack": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",

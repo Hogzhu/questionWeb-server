@@ -15,6 +15,8 @@ import 'egg-static';
 import 'egg-jsonp';
 import 'egg-view';
 import 'egg-view-vue-ssr';
+import 'egg-mysql';
+import 'egg-jwt';
 import 'egg-cors';
 import 'egg-webpack';
 import 'egg-webpack-vue';
@@ -34,6 +36,8 @@ declare module 'egg' {
     jsonp?: EggPluginItem;
     view?: EggPluginItem;
     vuessr?: EggPluginItem;
+    mysql?: EggPluginItem;
+    jwt?: EggPluginItem;
     cors?: EggPluginItem;
     webpack?: EggPluginItem;
     webpackvue?: EggPluginItem;

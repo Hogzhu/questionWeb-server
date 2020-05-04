@@ -4,7 +4,7 @@
         <router-link to="/exam">考试</router-link>
         <router-link to="/createQuestion">出题</router-link>
         <router-link to="/information">数据</router-link>
-        <a href="#">登录</a>
+        <a href="#" @click="login()">登录</a>
     </div>
 </template>
 <script lang="ts" src="./index.ts"></script>

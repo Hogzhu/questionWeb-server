@@ -61,18 +61,6 @@
     ]
   },
   {
-    "name": "createPost",
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/home",
-    "regexp": "/^\\/home(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
     "name": null,
     "methods": [
       "POST"
@@ -93,6 +81,31 @@
     "path": "/admin/api/article/upQuestion",
     "regexp": "/^\\/admin\\/api\\/article\\/upQuestion(?:\\/(?=$))?$/",
     "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/login",
+    "regexp": "/^\\/admin\\/api\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/checkLogin",
+    "regexp": "/^\\/admin\\/api\\/checkLogin(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
       "wrappedController"
     ]
   }

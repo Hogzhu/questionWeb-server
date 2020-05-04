@@ -1,16 +1,17 @@
 <template>
 <div class="login">
+  <div class="login-bg" @click="closeLogin()"></div>
   <div class="login-container">
     <h1 class="login-container-header">请登录后开始做题</h1>
     <div class="login-container-account">
       <span class="login-container-account-text">学号</span>
-      <input class="login-container-account-input" type="text" placeholder="请输入学号...">
+      <input class="login-container-account-input" ref="account" type="text" placeholder="请输入学号...">
     </div>
     <div class="login-container-pwd">
       <span class="login-container-pwd-text">密码</span>
-      <input class="login-container-pwd-input" type="password" placeholder="请输入密码...">
+      <input class="login-container-pwd-input" ref="password" type="password" placeholder="请输入密码...">
     </div>
-    <button class="login-container-btn">登录</button>
+    <button class="login-container-btn" @click="login()">登录</button>
     <div class="login-container-forgetPwd">忘记密码</div>
   </div>
 </div>
@@ -18,11 +19,19 @@
 <script lang="ts" src="./index.ts"></script>
 <style lang="less" scoped>
   .login {
-    display: none;
     position: fixed;
     top: 0;
     width: 100%;
     height: 100%;
+    &-bg {
+      position: fixed;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
     &-container {
       display: flex;
       position: relative;

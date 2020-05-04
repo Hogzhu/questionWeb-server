@@ -1,4 +1,4 @@
-import { Controller, Context } from 'egg';
+import { Controller, Context, Application } from 'egg';
 import { deserialize } from '@hubcarl/json-typescript-mapper';
 import Article from '../model/article';
 import Condition from '../lib/condition';
@@ -19,10 +19,9 @@ export default class AdminController extends Controller {
   }
 
   public async upQuestion (ctx: Context) {
-    console.log(656)
-    console.log(ctx)
     const article = deserialize(Article, ctx.request.body);
-    ctx.body = await this.ctx.service.article.upQuestion(article);
+    // ctx.body = await this.ctx.service.article.upQuestion(article);
+    ctx.body = await this.app.mysql.query('select * from problem', '');
   }
 
   public async list () {

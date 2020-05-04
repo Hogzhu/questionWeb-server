@@ -10,7 +10,13 @@ import LayoutLogin from '../login/index.vue';
   }
 })
 export default class Main extends Vue {
-  private created () {
-    console.log('maincontainer')
+  private showLogin: boolean = false
+
+  private login () {
+    this.showLogin = true
+  }
+
+  private closeLogin () {
+    this.showLogin = false
   }
 }
