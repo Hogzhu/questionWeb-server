@@ -20,9 +20,12 @@ export default class UserController extends Controller {
     const midNum = mid[0]['count(*)']
     const difficultNum = difficult[0]['count(*)']
     const questionNum = easyNum + midNum + difficultNum;
+    // const questionList = await app.mysql.query(
+    //     'select id,title,choose_A,choose_B,choose_C,choose_D,level,class ' +
+    //     'from problem where id >= (select floor(RAND() * (select MAX(id) from problem))) ORDER BY id LIMIT 10', '');
     const questionList = await app.mysql.query(
         'select id,title,choose_A,choose_B,choose_C,choose_D,level,class ' +
-        'from problem where id >= (select floor(RAND() * (select MAX(id) from problem))) ORDER BY id LIMIT 5', '');
+        'from problem ORDER BY rand() LIMIT 10', '');
     const questionData = {
         questionNum,
         easyNum,
@@ -47,12 +50,19 @@ export default class UserController extends Controller {
 
   // 新建题目
   public async newQuestion () {
-    console.log(112)
     const { ctx , app } = this;
     const body = ctx.request.body;
     const questionData = await app.mysql.query(`insert into problem (answer,choose_A,choose_B,choose_C,choose_D,class,important,level,title)` +
     ` values ("${body.answer}","${body.choose_A}","${body.choose_B}","${body.choose_C}","${body.choose_D}","${body.class}",` +
     `"${body.important}","${body.level}","${body.title}")` , '');
+    ctx.body = questionData;
+  }
+
+  // 查找一个题目
+  public async findQuestion () {
+    const { ctx , app } = this;
+    const body = ctx.request.body;
+    const questionData = await app.mysql.query(`select * from problem where id = "${body.questionId}"` , '');
     ctx.body = questionData;
   }
 }

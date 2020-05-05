@@ -20,6 +20,7 @@ export default class RankList extends Vue {
     }, (v, o) => {
       this.getRankInformation()
     })
+    this.getRankInformation()
   }
 
   private async getRankInformation () {

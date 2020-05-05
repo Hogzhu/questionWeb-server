@@ -23,6 +23,7 @@
     top: 0;
     width: 100%;
     height: 100%;
+    font-size: 1.8rem;
     &-bg {
       position: fixed;
       z-index: 0;
@@ -38,52 +39,58 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 35rem;
-      height: 20rem;
+      width: 70rem;
+      height: 35rem;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       border: 1px solid #eee;
-      border-radius: 4px;
+      border-radius: 2rem;
       box-shadow: 5px 5px 10px #ccc;
       background-color: rgba(250,250,250,1);
       &-header {
-        margin-bottom: 2rem;
+        margin-top: 0;
+        margin-bottom: 3rem;
         font-weight: 600;
-        font-size: 1.4rem;
+        font-size: 2.6rem;
       }
       &-account,&-pwd {
         padding-bottom: 1rem;
         &-input {
           margin-left: 1rem;
           padding: 0.2rem 0.5rem;
-          width: 15rem;
-          height: 2rem;
+          width: 25rem;
+          height: 4rem;
           border: 1px solid #aaa;
-          border-radius: 0.2rem;
-          font-size: 1rem;
+          border-radius: 0.6rem;
+          font-size: 1.4rem;
+          outline: none;
           &:hover {
             border-color: #42b983;
           }
         }
       }
       &-btn {
-        margin: 0.5rem 0 1rem;
-        width: 12rem;
-        height: 2.5rem;
-        border-radius: 0.5rem;
+        margin: 2rem 0;
+        width: 20rem;
+        height: 4rem;
+        border-radius: 2.5rem;
         border: none;
-        font-size: 1rem;
+        font-size: 1.8rem;
         color: #fff;
         background-color: #42b983;
+        outline: none;
         cursor: pointer;
         &:hover {
           background-color: #42aa70;
         }
       }
-      &-forgetPwd:hover {
-        color: #42aa70;
-        cursor: pointer;
+      &-forgetPwd {
+        font-size: 1.6rem;
+        &:hover{
+          color: #42aa70;
+          cursor: pointer;
+        }
       }
     }
   }

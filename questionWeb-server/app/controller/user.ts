@@ -80,7 +80,7 @@ export default class UserController extends Controller {
   // 加入错题
   public async joinError () {
     const { ctx , app } = this;
-    const rankData = await app.mysql.query(`update user SET error='${ctx.request.body.errorArr}' WHERE number=${ctx.request.body.account};`, '');
-    ctx.body = rankData
+    const errorData = await app.mysql.query(`update user SET error=CONCAT(error,',${ctx.request.body.errorArr}') WHERE number=${ctx.request.body.account};`, '');
+    ctx.body = errorData
   }
 }

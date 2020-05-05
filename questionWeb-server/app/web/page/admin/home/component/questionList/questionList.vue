@@ -19,7 +19,7 @@
           <li class="questionList-list-nav-type">题型</li>
         </ul>
       </div>
-      <div class="questionList-list-item" v-for="(item,index) in question" :key="index">
+      <div class="questionList-list-item" v-for="(item,index) in question" :key="index" @click="handlerQuestion(item.id)">
         <span>{{item.id}}</span>
         <span>{{item.title}}</span>
         <span>{{item.edit}}</span>

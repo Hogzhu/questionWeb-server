@@ -7,6 +7,7 @@ import MainPage from '../view/mainPage/index.vue';
 import Exam from '../view/exam/index.vue';
 import CreateQuestion from '../view/createQuestion/index.vue';
 import Information from '../view/information/index.vue';
+import Backstage from '../view/backstage/index.vue';
 
 Vue.use(VueRouter);
 
@@ -30,6 +31,10 @@ export default function createRouter () {
       {
         path: '/information',
         component: Information
+      },
+      {
+        path: '/backstage',
+        component: Backstage
       },
     ]
   });

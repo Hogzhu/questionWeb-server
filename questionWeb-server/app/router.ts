@@ -14,4 +14,5 @@ export default (application: Application) => {
   router.post('/admin/api/getQuestionList', controller.question.getQuestionList);
   router.post('/admin/api/getExamList', controller.question.getExamList);
   router.post('/admin/api/newQuestion', controller.question.newQuestion);
+  router.post('/admin/api/findQuestion', controller.question.findQuestion);
 };

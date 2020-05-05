@@ -1,5 +1,5 @@
 'use strict';
-import { Vue, Component } from 'vue-property-decorator';
+import { Vue, Component, Emit } from 'vue-property-decorator';
 import { Action, Getter } from 'vuex-class';
 
 @Component
@@ -46,5 +46,10 @@ export default class QuestionList extends Vue {
       color: '#d9534f'
     }
     this.questionNum.push(allQuestion, easyQuestion, midQuestion, diffQuestion)
+  }
+
+  @Emit('showQuestion')
+  private handlerQuestion (id: number) {
+    return id
   }
 }

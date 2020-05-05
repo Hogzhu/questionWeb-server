@@ -98,6 +98,11 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.post(`${rootState.origin}/admin/api/newQuestion`, data);
       return res;
     },
+    // 查找一个题目
+    async findQuestion ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/findQuestion`, data);
+      return res;
+    },
     async saveArticle ({ commit, dispatch, state, rootState }, data) {
       // node need auth
       const res = await axios.post(`${rootState.origin}/admin/api/article/add`, data);
