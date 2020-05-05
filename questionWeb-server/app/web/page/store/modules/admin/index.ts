@@ -4,7 +4,8 @@ import {
   SET_ARTICLE_LIST,
   SET_ARTICLE_DETAIL,
   SET_SAVE_ARTICLE,
-  DELETE_ARTICLE
+  DELETE_ARTICLE,
+  SET_USER_DELETE
 } from './type';
 
 import RootState from '../../state';
@@ -61,6 +62,13 @@ export default class AdminModule implements Module<AdminState, RootState> {
     // 确认登陆状态
     async checkLogin ({ commit, dispatch, state , rootState}, config) {
       const res = await axios.post(`${rootState.origin}/admin/api/checkLogin`, {}, config);
+      commit(SET_USER_DELETE, res.data);
+      console.log(res.data)
+      return res;
+    },
+    // 获得题目列表
+    async getQuestionList ({ commit, dispatch, state , rootState}) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getQuestionList`, {});
       console.log(res)
       return res;
     },
@@ -94,7 +102,10 @@ export default class AdminModule implements Module<AdminState, RootState> {
       state.articleList = state.articleList.filter((item: any) => {
         return item.id !== id;
       });
-    }
+    },
+    [SET_USER_DELETE](state, data) {
+      state.userSolved = data.solved;
+    },
   };
 
   constructor(initState: AdminState) {
@@ -102,6 +113,7 @@ export default class AdminModule implements Module<AdminState, RootState> {
       articleTotal: 0,
       articleList: [],
       article: undefined,
+      userSolved: 0,
       ...initState
     };
   }

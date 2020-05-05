@@ -4,4 +4,5 @@ export default interface AdminState {
   articleTotal: number;
   articleList: Article[];
   article?: Article;
+  userSolved?: number;
 }

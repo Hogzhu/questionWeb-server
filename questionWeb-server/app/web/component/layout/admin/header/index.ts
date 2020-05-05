@@ -7,8 +7,13 @@ import Axios from 'axios';
 })
 export default class Header extends Vue {
   @Action('checkLogin') checkLogin;
+
+  private isLogin: boolean = false
+  private userName: string = '游客'
+  private userIdentity: string = 'student'
+
   private created () {
-    this.checkLoginStatus()
+      this.checkLoginStatus()
   }
 
   private async checkLoginStatus () {
@@ -23,13 +28,25 @@ export default class Header extends Vue {
       data,
       headers
     }
-    console.log(config)
     const loginStatus = await this.checkLogin(config)
     console.log(loginStatus)
+    if (loginStatus.data.code === 0) {
+      this.isLogin = true
+      this.userName = loginStatus.data.userName
+      this.userIdentity = loginStatus.data.userIdentity
+      Vue.prototype.userIdentity = loginStatus.data.userIdentity
+      console.log(Vue.prototype.userIdentity)
+      console.log(this.userIdentity)
+    }
   }
 
   @Emit('login')
   private login () {
     return null;
+  }
+
+  private logout () {
+    window.localStorage.setItem('token', '')
+    window.location.reload()
   }
 }

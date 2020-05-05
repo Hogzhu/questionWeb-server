@@ -1,17 +1,34 @@
 'use strict';
 import { Vue, Component } from 'vue-property-decorator';
+import { Action } from 'vuex-class';
 
 @Component
 export default class QuestionList extends Vue {
+  @Action('getQuestionList') getQuestionList;
   private question: any[] = []
   private questionNum: any[] = []
+  private questionData: any = {}
+
   private created () {
+    this.getList()
   }
+
+  private async getList () {
+    const res = await this.getQuestionList()
+    this.questionData = res.data
+  }
+
   private mounted () {
     this.getQuestionNum()
     this.getQuestion()
   }
+
   private getQuestionNum () {
+    const questionNum = this.questionData.questionNum
+    const easyNum = this.questionData.easyNum
+    const midNum = this.questionData.midNum
+    const difficultNum = this.questionData.difficultNum
+    console.log(Vue.prototype.userIdentity)
     const allQuestion = {
       text: '已解决 ' + 300 + '/' + 789,
       color: '#337ab7'
@@ -30,6 +47,7 @@ export default class QuestionList extends Vue {
     }
     this.questionNum.push(allQuestion, easyQuestion, midQuestion, diffQuestion)
   }
+
   private getQuestion () {
     const question1 = {
       id: 1,

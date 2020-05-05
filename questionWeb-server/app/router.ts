@@ -10,4 +10,5 @@ export default (application: Application) => {
   router.post('/admin/api/article/upQuestion', controller.admin.upQuestion);
   router.post('/admin/api/login', controller.user.login);
   router.post('/admin/api/checkLogin', jwt, controller.user.checkLogin);
+  router.post('/admin/api/getQuestionList', controller.question.getQuestionList);
 };

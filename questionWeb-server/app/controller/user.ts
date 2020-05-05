@@ -25,7 +25,7 @@ export default class UserController extends Controller {
     const data = ctx.request.body;
     // 进行验证 data 数据 登录是否成功
     let checkNum = 0;
-    const information = await this.app.mysql.query('select * from student', '');
+    const information = await this.app.mysql.query('select * from user', '');
     const userNum = information.length;
     information.forEach((item, index) => {
       checkNum++
@@ -48,7 +48,7 @@ export default class UserController extends Controller {
     // 生成 token 的方式
     const token = app.jwt.sign({
      account: data.account, // 需要存储的 token 数据
-     password: data.password
+     password: data.password,
      // ......
     }, app.config.jwt.secret);
     // 生成的token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28iOiJiYXIiLCJpYXQiOjE1NjAzNDY5MDN9.B95GqH-fdRpyZIE5g_T0l8RgzNyWOyXepkLiynWqrJg
@@ -61,11 +61,18 @@ export default class UserController extends Controller {
     const { ctx , app } = this;
     console.log(11123)
     console.log(ctx.state.user);
+    const userData = await this.app.mysql.query(`select name,identity,solved from user where number = '${ctx.state.user.account}'`, '');
     /*
     * 打印内容为：{ username : 'admin', iat: 1560346903 }
     * iat 为过期时间，可以单独写中间件验证，这里不做细究
     * 除了 iat 之后，其余的为当时存储的数据
     **/
-    ctx.body = {code: 0, msg: '验证成功'};
+    ctx.body = {
+      code: 0,
+      msg: '验证成功',
+      userName: userData[0].name,
+      userIdentity: userData[0].identity,
+      solved: userData[0].solved
+    };
   }
 }

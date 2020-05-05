@@ -29,7 +29,7 @@ export default class Login extends Vue {
     console.log(loginStatus)
     if (loginStatus.status === 200) {
       window.localStorage.setItem('token', loginStatus.data)
-      // window.location.reload()
+      window.location.reload()
     }
   }
 
