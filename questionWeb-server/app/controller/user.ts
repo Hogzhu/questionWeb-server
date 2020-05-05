@@ -76,4 +76,11 @@ export default class UserController extends Controller {
     const rankData = await app.mysql.query(`select name,solved from user order by solved Desc limit 5`, '');
     ctx.body = rankData
   }
+
+  // 加入错题
+  public async joinError () {
+    const { ctx , app } = this;
+    const rankData = await app.mysql.query(`update user SET error='${ctx.request.body.errorArr}' WHERE number=${ctx.request.body.account};`, '');
+    ctx.body = rankData
+  }
 }

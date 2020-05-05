@@ -35,9 +35,24 @@ export default class UserController extends Controller {
 
   public async getExamList () {
     const { ctx , app } = this;
-    // 选取各难度题目数以及随机50条题目数据
-    const easy = await app.mysql.query('select count(*) from problem where level = "简单"', '');
-    console.log(ctx.request.body)
-    ctx.body = easy
+    // 随机选择10个选择题和5个问答题
+    const choose = await app.mysql.query('select * from problem where class = "选择题" limit 10', '');
+    const essay = await app.mysql.query('select * from problem where class = "问答题" limit 5', '');
+    const questionData = {
+        choose,
+        essay
+    }
+    ctx.body = questionData
+  }
+
+  // 新建题目
+  public async newQuestion () {
+    console.log(112)
+    const { ctx , app } = this;
+    const body = ctx.request.body;
+    const questionData = await app.mysql.query(`insert into problem (answer,choose_A,choose_B,choose_C,choose_D,class,important,level,title)` +
+    ` values ("${body.answer}","${body.choose_A}","${body.choose_B}","${body.choose_C}","${body.choose_D}","${body.class}",` +
+    `"${body.important}","${body.level}","${body.title}")` , '');
+    ctx.body = questionData;
   }
 }

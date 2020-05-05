@@ -4,22 +4,47 @@
     <div class="createQuestion-list">
       <div class="createQuestion-list-title">
         <span>题目:</span>
-        <textarea class="createQuestion-list-title-input" rows="2" />
+        <textarea class="createQuestion-list-title-input" ref="title" rows="2" />
       </div>
       <div class="createQuestion-list-difficulty">
         <span>难度:</span>
-        <textarea class="createQuestion-list-difficulty-input" rows="1" />
+        <input type="radio" name="question-level" value="level-easy" @change="changeLevel('简单')" checked />简单
+        <input type="radio" name="question-level" value="level-mid" @change="changeLevel('中等')" />中等
+        <input type="radio" name="question-level" value="level-difficult" @change="changeLevel('困难')" />困难
       </div>
       <div class="createQuestion-list-type">
         <span>类型:</span>
-        <input type="radio" name="question-type" value="type-choose" />选择题
-        <input type="radio" name="question-type" value="type-singal" />简答题
+        <input type="radio" name="question-type" value="type-choose" @change="changeClass('选择题')" checked />选择题
+        <input type="radio" name="question-type" value="type-singal" @change="changeClass('简答题')" />简答题
+      </div>
+      <div class="createQuestion-list-choose" v-if="isChoose">
+        <div class="createQuestion-list-choose-A">
+          <span>选项A:</span>
+          <textarea class="createQuestion-list-choose-input" ref="choose_A" rows="1" />
+        </div>
+        <div class="createQuestion-list-choose-B">
+          <span>选项B:</span>
+          <textarea class="createQuestion-list-choose-input" ref="choose_B" rows="1" />
+        </div>
+        <div class="createQuestion-list-choose-C">
+          <span>选项C:</span>
+          <textarea class="createQuestion-list-choose-input" ref="choose_C" rows="1" />
+        </div>
+        <div class="createQuestion-list-choose-D">
+          <span>选项D:</span>
+          <textarea class="createQuestion-list-choose-input" ref="choose_D" rows="1" />
+        </div>
       </div>
       <div class="createQuestion-list-answer">
         <span>答案:</span>
-        <textarea class="createQuestion-list-answer-input" rows="3" />
+        <textarea class="createQuestion-list-answer-input" ref="answer" rows="3" />
       </div>
-      <button class="createQuestion-list-btn" @click="createQuestion()">提交</button>
+      <div class="createQuestion-list-important">
+        <span>重点:</span>
+        <input type="radio" name="question-important" value="important-yes" @change="changeImportant(true)" />是
+        <input type="radio" name="question-important" value="important-no" @change="changeImportant(false)" checked />否
+      </div>
+      <button class="createQuestion-list-btn" @click="submitQuestion()">提交</button>
     </div>
   </div>
 </template>
@@ -29,9 +54,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-size: 1.6rem;
   &-exam {
     margin-top: 5rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
   }
   &-list {
@@ -40,7 +66,7 @@
     div {
       margin-top: 3rem;
       span {
-        padding-right: 1rem;
+        padding-right: 2rem;
       }
       textarea {
         width: 50rem;
@@ -51,6 +77,14 @@
         &:hover {
           border-color: #42b983;
         }
+      }
+    }
+    &-choose {
+      div &-A {
+        margin-top: 0;
+      }
+      div span {
+        padding-right: 1rem;
       }
     }
     &-btn {

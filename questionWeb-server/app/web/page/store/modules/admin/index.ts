@@ -60,10 +60,6 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.get(`${rootState.origin}/admin/api/article/${id}`);
       commit(SET_ARTICLE_DETAIL, res.data);
     },
-    async upQuestion ({ commit, dispatch, state , rootState}, data) {
-      const res = await axios.post(`${rootState.origin}/admin/api/article/upQuestion`, data);
-      return res;
-    },
     // 登录并添加token
     async login ({ commit, dispatch, state , rootState}, data) {
       const res = await axios.post(`${rootState.origin}/admin/api/login`, data);
@@ -90,6 +86,16 @@ export default class AdminModule implements Module<AdminState, RootState> {
     // 获得考试题目
     async getExamList ({ commit, dispatch, state , rootState}, data) {
       const res = await axios.post(`${rootState.origin}/admin/api/getExamList`, data);
+      return res;
+    },
+    // 加入错题
+    async joinError ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/joinError`, data);
+      return res;
+    },
+    // 新建题目
+    async newQuestion ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/newQuestion`, data);
       return res;
     },
     async saveArticle ({ commit, dispatch, state, rootState }, data) {

@@ -78,18 +78,6 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/admin/api/article/upQuestion",
-    "regexp": "/^\\/admin\\/api\\/article\\/upQuestion(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
     "path": "/admin/api/login",
     "regexp": "/^\\/admin\\/api\\/login(?:\\/(?=$))?$/",
     "stack": [
@@ -127,6 +115,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/joinError",
+    "regexp": "/^\\/admin\\/api\\/joinError(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/getQuestionList",
     "regexp": "/^\\/admin\\/api\\/getQuestionList(?:\\/(?=$))?$/",
     "stack": [
@@ -141,6 +141,18 @@
     "paramNames": [],
     "path": "/admin/api/getExamList",
     "regexp": "/^\\/admin\\/api\\/getExamList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/newQuestion",
+    "regexp": "/^\\/admin\\/api\\/newQuestion(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
