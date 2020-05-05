@@ -29,14 +29,11 @@ export default class Header extends Vue {
       headers
     }
     const loginStatus = await this.checkLogin(config)
-    console.log(loginStatus)
     if (loginStatus.data.code === 0) {
       this.isLogin = true
       this.userName = loginStatus.data.userName
       this.userIdentity = loginStatus.data.userIdentity
       Vue.prototype.userIdentity = loginStatus.data.userIdentity
-      console.log(Vue.prototype.userIdentity)
-      console.log(this.userIdentity)
     }
   }
 

@@ -7,9 +7,6 @@ import { Getter, Action } from 'vuex-class';
 export default class CreateQuestion extends Vue {
   @Action('upQuestion') upQuestion;
   @Action('saveArticle') saveArticle;
-  private created () {
-      console.log('createquestion page')
-  }
 
   private async createQuestion () {
     const data = {}

@@ -26,7 +26,6 @@ export default class Login extends Vue {
       password
     }
     const loginStatus = await this.login(data)
-    console.log(loginStatus)
     if (loginStatus.status === 200) {
       window.localStorage.setItem('token', loginStatus.data)
       window.location.reload()

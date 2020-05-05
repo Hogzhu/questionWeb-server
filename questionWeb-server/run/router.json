@@ -115,8 +115,32 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/getUserRank",
+    "regexp": "/^\\/admin\\/api\\/getUserRank(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/getQuestionList",
     "regexp": "/^\\/admin\\/api\\/getQuestionList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/getExamList",
+    "regexp": "/^\\/admin\\/api\\/getExamList(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

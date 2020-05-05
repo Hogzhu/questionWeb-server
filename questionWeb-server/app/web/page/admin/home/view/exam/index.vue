@@ -1,9 +1,11 @@
 <template>
   <div class="exam">
-    <div class="exam-topText">自动出题或者自己定制!</div>
-    <div class="exam-card">
-      <auto-exam></auto-exam>
-      <customExam></customExam>
+    <div class="exam-container">
+      <div class="exam-container-title"></div>
+      <div class="exam-container-answer">
+        <span>选项:</span>
+        <input type="radio" name="question-type" />选择题
+      </div>
     </div>
   </div>
 </template>

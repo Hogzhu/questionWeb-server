@@ -25,7 +25,6 @@ export default class AdminController extends Controller {
   }
 
   public async list () {
-    console.log(1111)
     const dataList = {
       list: [
         { id: 1, title: 'this is news 1', url: '/news/1' },
@@ -41,12 +40,9 @@ export default class AdminController extends Controller {
   }
 
   public async add (ctx: Context) {
-    console.log(124)
-    console.log(ctx.request.body)
     const article = deserialize(Article, ctx.request.body);
     ctx.body = await ctx.service.article.saveArticle(article);
     ctx.body.hog = '123123123'
-    console.log(ctx.body)
   }
 
   public async del (ctx: Context) {

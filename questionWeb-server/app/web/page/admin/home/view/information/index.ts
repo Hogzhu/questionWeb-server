@@ -7,7 +7,4 @@ import RankList from '../../component/rankList/rankList.vue'
   }
 })
 export default class Information extends Vue {
-    private created () {
-        console.log('information page')
-    }
 }

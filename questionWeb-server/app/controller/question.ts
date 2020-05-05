@@ -8,14 +8,6 @@ export default class UserController extends Controller {
 
   public async index () {
     const { ctx , app } = this;
-    console.log(11123)
-    console.log(ctx.state.user);
-    /*
-    * 打印内容为：{ username : 'admin', iat: 1560346903 }
-    * iat 为过期时间，可以单独写中间件验证，这里不做细究
-    * 除了 iat 之后，其余的为当时存储的数据
-    **/
-    ctx.body = {code: 0, msg: '验证成功'};
   }
 
   public async getQuestionList () {
@@ -29,7 +21,8 @@ export default class UserController extends Controller {
     const difficultNum = difficult[0]['count(*)']
     const questionNum = easyNum + midNum + difficultNum;
     const questionList = await app.mysql.query(
-        'select * from problem where id >= (select floor(RAND() * (select MAX(id) from problem))) ORDER BY id LIMIT 5', '');
+        'select id,title,choose_A,choose_B,choose_C,choose_D,level,class ' +
+        'from problem where id >= (select floor(RAND() * (select MAX(id) from problem))) ORDER BY id LIMIT 5', '');
     const questionData = {
         questionNum,
         easyNum,
@@ -38,5 +31,13 @@ export default class UserController extends Controller {
         questionList
     }
     ctx.body = questionData;
+  }
+
+  public async getExamList () {
+    const { ctx , app } = this;
+    // 选取各难度题目数以及随机50条题目数据
+    const easy = await app.mysql.query('select count(*) from problem where level = "简单"', '');
+    console.log(ctx.request.body)
+    ctx.body = easy
   }
 }

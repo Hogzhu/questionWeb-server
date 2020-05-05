@@ -24,8 +24,8 @@
         <span>{{item.title}}</span>
         <span>{{item.edit}}</span>
         <span>{{item.accept}}</span>
-        <span>{{item.difficult}}</span>
-        <span>{{item.type}}</span>
+        <span>{{item.level}}</span>
+        <span>{{item.class}}</span>
       </div>
     </div>
   </div>
@@ -112,6 +112,9 @@ a {
       span {
         padding: 0.4rem 0;
         flex: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
         &:first-child {
           padding-left: 1rem;
         }

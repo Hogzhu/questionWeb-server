@@ -8,13 +8,6 @@ export default class UserController extends Controller {
 
   public async index () {
     const { ctx , app } = this;
-    console.log(11123)
-    console.log(ctx.state.user);
-    /*
-    * 打印内容为：{ username : 'admin', iat: 1560346903 }
-    * iat 为过期时间，可以单独写中间件验证，这里不做细究
-    * 除了 iat 之后，其余的为当时存储的数据
-    **/
     ctx.body = {code: 0, msg: '验证成功'};
   }
 
@@ -25,7 +18,7 @@ export default class UserController extends Controller {
     const data = ctx.request.body;
     // 进行验证 data 数据 登录是否成功
     let checkNum = 0;
-    const information = await this.app.mysql.query('select * from user', '');
+    const information = await app.mysql.query('select * from user', '');
     const userNum = information.length;
     information.forEach((item, index) => {
       checkNum++
@@ -61,7 +54,7 @@ export default class UserController extends Controller {
     const { ctx , app } = this;
     console.log(11123)
     console.log(ctx.state.user);
-    const userData = await this.app.mysql.query(`select name,identity,solved from user where number = '${ctx.state.user.account}'`, '');
+    const userData = await app.mysql.query(`select name,identity,solved from user where number = '${ctx.state.user.account}'`, '');
     /*
     * 打印内容为：{ username : 'admin', iat: 1560346903 }
     * iat 为过期时间，可以单独写中间件验证，这里不做细究
@@ -70,9 +63,17 @@ export default class UserController extends Controller {
     ctx.body = {
       code: 0,
       msg: '验证成功',
+      account: ctx.state.user.account,
       userName: userData[0].name,
       userIdentity: userData[0].identity,
       solved: userData[0].solved
     };
+  }
+
+  // 获得排行前五学生的数据
+  public async getUserRank () {
+    const { ctx , app } = this;
+    const rankData = await app.mysql.query(`select name,solved from user order by solved Desc limit 5`, '');
+    ctx.body = rankData
   }
 }

@@ -1,14 +1,20 @@
 import { Vue, Component } from 'vue-property-decorator'
-import AutoExam from '../../component/autoExam/autoExam.vue'
-import CustomExam from '../../component/customExam/customExam.vue'
-@Component({
-  components: {
-    AutoExam,
-    CustomExam
-  }
-})
+import { Action, Getter } from 'vuex-class';
+@Component({})
 export default class Exam extends Vue {
+  @Action('getExamList') getExamList;
+  @Getter('account') account;
+  @Getter('userSolved') userSolved;
+
   private created () {
-    console.log('exam page')
+    this.getExamInfo()
+  }
+
+  private async getExamInfo () {
+    const data = {
+      account: this.account
+    }
+    console.log(this.userSolved)
+    const res = await this.getExamList(data)
   }
 }
