@@ -22,5 +22,6 @@ export default class Layout extends Vue {
   created () {
     console.log('>>EASY_ENV_IS_NODE create', EASY_ENV_IS_NODE);
     Vue.prototype.echarts = require('echarts');
+    Vue.prototype.xlsx = require('xlsx')
   }
 }

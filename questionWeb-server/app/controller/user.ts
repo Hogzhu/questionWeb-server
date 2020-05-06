@@ -74,13 +74,21 @@ export default class UserController extends Controller {
   public async getUserRank () {
     const { ctx , app } = this;
     const rankData = await app.mysql.query(`select name,solved from user order by solved Desc limit 5`, '');
-    ctx.body = rankData
+    ctx.body = rankData;
   }
 
   // 加入错题
   public async joinError () {
     const { ctx , app } = this;
     const errorData = await app.mysql.query(`update user SET error=CONCAT(error,',${ctx.request.body.errorArr}') WHERE number=${ctx.request.body.account};`, '');
-    ctx.body = errorData
+    ctx.body = errorData;
+  }
+
+  // 导入学生信息
+  public async importStudent () {
+    const { ctx , app } = this;
+    const body = ctx.request.body;
+    const errorData = await app.mysql.query(`insert user into (number,name,class) values (${body.numberStr},${body.nameStr},${body.classStr});`, '');
+    ctx.body = errorData;
   }
 }

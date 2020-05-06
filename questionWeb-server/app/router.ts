@@ -11,6 +11,7 @@ export default (application: Application) => {
   router.post('/admin/api/checkLogin', jwt, controller.user.checkLogin);
   router.post('/admin/api/getUserRank', controller.user.getUserRank);
   router.post('/admin/api/joinError', controller.user.joinError);
+  router.post('/admin/api/importStudent', controller.user.importStudent);
   router.post('/admin/api/getQuestionList', controller.question.getQuestionList);
   router.post('/admin/api/getExamList', controller.question.getExamList);
   router.post('/admin/api/newQuestion', controller.question.newQuestion);

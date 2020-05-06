@@ -1,402 +1,396 @@
 {
   "siteFile": {
-    "/favicon.ico": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
+    "/favicon.ico": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
   },
   "view": {
-    "cache": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.local.js",
-    "root": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultExtension": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.local.js",
+    "root": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": {
-      ".js": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+      ".js": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
     }
   },
   "vuessr": {
-    "layout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "layout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
     "renderOptions": {
-      "basedir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-      "runInNewContext": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+      "basedir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "runInNewContext": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
     },
-    "injectCss": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts",
-    "doctype": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "manifest": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "injectHeadRegex": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "injectBodyRegex": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "injectJs": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "injectRes": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "crossorigin": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "mergeLocals": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "fallbackToClient": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-    "viewEngine": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectCss": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts",
+    "doctype": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "manifest": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectHeadRegex": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectBodyRegex": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectJs": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectRes": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "crossorigin": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "mergeLocals": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "fallbackToClient": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "viewEngine": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
     "cache": {
-      "max": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
-      "maxAge": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+      "max": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+      "maxAge": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
     },
-    "afterRender": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
-  },
-  "mysql": {
-    "client": {
-      "host": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-      "port": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-      "user": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-      "password": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-      "database": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
-    },
-    "app": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "agent": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "default": {
-      "database": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js"
-    }
+    "afterRender": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
   },
   "jwt": {
-    "secret": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt\\config\\config.default.js"
+    "secret": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt\\config\\config.default.js"
   },
   "security": {
     "csrf": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-      "ignoreJSON": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-      "type": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "ignoreJSON": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+      "type": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "protocolWhiteList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "protocolWhiteList": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "cors": {
-    "origin": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "allowMethods": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
+    "origin": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "allowMethods": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
   },
   "logger": {
-    "consoleLevel": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "encoding": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "env": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "level": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "dir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "encoding": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
   },
   "static": {
-    "prefix": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-    "maxAge": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts",
-    "dynamic": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "dir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "maxAge": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts",
+    "dynamic": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "keys": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
-  "middleware": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+  "keys": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+  "middleware": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
   "development": {
-    "ignoreDirs": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts",
-    "watchDirs": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js"
+    "ignoreDirs": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts",
+    "watchDirs": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logview": {
-    "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts"
+    "dir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.local.ts"
   },
   "session": {
-    "maxAge": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "mysql": {
+    "default": {
+      "database": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js"
+    },
+    "app": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js",
+    "agent": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\config.default.js"
   },
   "webpack": {
-    "port": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js",
+    "port": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js",
     "proxy": {
-      "host": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js",
-      "match": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js"
+      "host": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js",
+      "match": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js"
     },
-    "webpackConfigList": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js"
+    "webpackConfigList": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\config.default.js"
   },
-  "env": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "name": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "env": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "version": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "description": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "name": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "start": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "backend": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "dev": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "debug": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "build": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "tsc": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "clean": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "kill": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "lint": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "fix": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "ii": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "changelog": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "start": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "backend": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "debug": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "build": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "tsc": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "clean": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "kill": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "lint": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "fix": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "ii": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "changelog": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
-      "@hubcarl/json-typescript-mapper": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "axios": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "echarts": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-cors": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-jwt": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-vue-ssr": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-webpack": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-webpack-vue": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "element-ui": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "extend": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "font-awesome": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "lodash": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "lodash-id": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "lowdb": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "mockjs": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "moment": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "shortid": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "showdown": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "simplemde": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "vue": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "vue-property-decorator": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "vue-router": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "vuex": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "vuex-class": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "vuex-router-sync": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "@hubcarl/json-typescript-mapper": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "axios": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "echarts": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-vue": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "element-ui": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "extend": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "font-awesome": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "lodash-id": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "lowdb": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "moment": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "shortid": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "showdown": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "simplemde": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "vue": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "vue-property-decorator": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "vue-router": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "vuex": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "vuex-class": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "vuex-router-sync": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "xlsx": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "@types/lodash": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "@types/lowdb": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "@types/node": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "@types/shortid": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "cz-conventional-changelog": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "easywebpack-cli": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "easywebpack-vue": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-ts-helper": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "node-tool-utils": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "ts-loader": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "ts-node": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "tslint": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "tslint-loader": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "typescript": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "less": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "less-loader": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "@types/lodash": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "@types/lowdb": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "@types/node": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "@types/shortid": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "cz-conventional-changelog": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-cli": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-vue": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-ts-helper": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "less": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "less-loader": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "node-tool-utils": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "ts-loader": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "ts-node": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "tslint": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "tslint-loader": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "typescript": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "egg": {
-      "typescript": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "typescript": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "node": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "version": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "url": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "type": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "url": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "license": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "homepage": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "author": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
     "config": {
       "commitizen": {
-        "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+        "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
       }
     },
     "webpack": {
       "loaders": {
-        "less": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+        "less": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
       }
     }
   },
-  "baseDir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "strict": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "depth": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
-    "onerror": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "logging": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+    "enable": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "port": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\config.default.js"
 }
