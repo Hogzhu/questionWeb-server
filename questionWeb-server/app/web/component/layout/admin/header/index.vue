@@ -32,7 +32,6 @@
     box-shadow: 10px 5px 5px #eee;
     a {
       font-size: 1.6rem;
-      font-weight: bold;
       color: #2c3e50;
       cursor: pointer;
       &:hover, &:link {
