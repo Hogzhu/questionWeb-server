@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2020-05-12 00:52:02,255 INFO 14840 [-/127.0.0.1/-/113ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 158 http://127.0.0.1:7001/admin/ 92 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
 2020-05-12 00:52:02,300 INFO 14840 [-/127.0.0.1/-/231ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 1679 http://127.0.0.1:7001/admin/ 196 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
 2020-05-12 00:52:35,446 INFO 14840 [-/127.0.0.1/-/76ms GET /public/8ba51a9ef2e673c2ad9e.hot-update.json] [access] 127.0.0.1: - GET /public/8ba51a9ef2e673c2ad9e.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 60 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
@@ -81,3 +82,506 @@
 2020-05-12 01:11:16,313 INFO 14840 [-/127.0.0.1/-/5ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
 2020-05-12 01:11:16,353 INFO 14840 [-/127.0.0.1/-/44ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7236051 http://127.0.0.1:7001/admin/backstage 42 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
 2020-05-12 01:11:17,271 INFO 14840 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+=======
+2020-05-08 10:11:16,108 INFO 4552 [-/127.0.0.1/-/2937ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240764 - 2926 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:11:16,233 ERROR 4552 [-/127.0.0.1/-/27ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:11:16,356 INFO 4552 [-/127.0.0.1/-/167ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/ 114 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:11:16,361 INFO 4552 [-/127.0.0.1/-/109ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 25 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:11:16,438 INFO 4552 [-/127.0.0.1/-/99ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8806244 http://127.0.0.1:7001/ 97 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:11:17,796 WARN 4552 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: jwt malformed
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\jsonwebtoken\verify.js:63:12)
+    at Promise (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:114:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:11:17,802 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:11:17,819 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:19:24,042 INFO 4552 [-/127.0.0.1/-/10ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/ 9 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:19:28,924 INFO 4552 [-/127.0.0.1/-/1359ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240764 - 1357 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:19:28,955 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:19:29,104 INFO 4552 [-/127.0.0.1/-/10ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/ 7 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:19:29,107 INFO 4552 [-/127.0.0.1/-/12ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 10 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:19:29,187 INFO 4552 [-/127.0.0.1/-/78ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8806244 http://127.0.0.1:7001/ 77 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:19:31,980 WARN 4552 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: jwt malformed
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\jsonwebtoken\verify.js:63:12)
+    at Promise (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:114:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:19:32,095 ERROR 4552 [-/127.0.0.1/-/6ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:19:32,194 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:21:19,318 INFO 4552 [-/127.0.0.1/-/9ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/ 7 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:21:22,135 ERROR 4552 [-/127.0.0.1/-/94ms POST /admin/api/getExamList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getExamList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:42:36)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:21:25,274 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:21:25,285 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:21:33,084 INFO 4552 [-/127.0.0.1/-/1079ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240764 - 1078 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:21:33,209 ERROR 4552 [-/127.0.0.1/-/3ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:21:33,281 INFO 4552 [-/127.0.0.1/-/80ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/admin/ 70 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:21:33,284 INFO 4552 [-/127.0.0.1/-/11ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 8 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:21:33,364 INFO 4552 [-/127.0.0.1/-/77ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8806244 http://127.0.0.1:7001/admin/ 73 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:21:36,312 WARN 4552 [-/127.0.0.1/-/2ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: jwt malformed
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\jsonwebtoken\verify.js:63:12)
+    at Promise (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:114:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:21:36,326 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:21:36,371 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:22:03,827 INFO 4552 [-/127.0.0.1/-/9ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/admin/ 8 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:22:21,333 ERROR 4552 [-/127.0.0.1/-/3ms POST /admin/api/login] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.login (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:21:41)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:22:21,693 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/login] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.login (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:21:41)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:22:22,764 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/login] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.login (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:21:41)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 10:36:18,899 INFO 4552 [-/127.0.0.1/-/8ms GET /public/54814341393b8fb85df8.hot-update.json] [access] 127.0.0.1: - GET /public/54814341393b8fb85df8.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:36:18,988 INFO 4552 [-/127.0.0.1/-/7ms GET /public/admin/home.54814341393b8fb85df8.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.54814341393b8fb85df8.hot-update.js HTTP/200 5048 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 10:36:19,197 WARN 4552 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: jwt malformed
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\jsonwebtoken\verify.js:63:12)
+    at Promise (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:114:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:15:24,337 INFO 4552 [-/127.0.0.1/-/1272ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240764 - 1270 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:15:24,444 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:15:24,485 INFO 4552 [-/127.0.0.1/-/63ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/admin/ 40 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:15:24,491 INFO 4552 [-/127.0.0.1/-/11ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 10 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:15:24,604 INFO 4552 [-/127.0.0.1/-/91ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8806096 http://127.0.0.1:7001/admin/ 88 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:15:26,372 WARN 4552 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: jwt malformed
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\jsonwebtoken\verify.js:63:12)
+    at Promise (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:114:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:15:26,391 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:15:26,442 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:23,871 INFO 4552 [-/127.0.0.1/-/2369ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240764 - 2367 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:24,186 ERROR 4552 [-/127.0.0.1/-/5ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:24,934 INFO 4552 [-/127.0.0.1/-/33ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:25,601 INFO 4552 [-/127.0.0.1/-/13ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 13 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:25,760 INFO 4552 [-/127.0.0.1/-/152ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8806096 http://127.0.0.1:7001/admin/ 146 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:29,051 WARN 4552 [-/127.0.0.1/-/2ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: jwt malformed
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\jsonwebtoken\verify.js:63:12)
+    at Promise (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:114:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:29,246 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:29,260 ERROR 4552 [-/127.0.0.1/-/1ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:51,468 INFO 4552 [-/127.0.0.1/-/1855ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240764 - 1854 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:51,912 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:52,045 INFO 4552 [-/127.0.0.1/-/156ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122544 http://127.0.0.1:7001/admin/ 131 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:52,066 INFO 4552 [-/127.0.0.1/-/27ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:52,225 INFO 4552 [-/127.0.0.1/-/182ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8806096 http://127.0.0.1:7001/admin/ 165 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-08 11:20:54,587 WARN 4552 [-/127.0.0.1/-/2ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: jwt malformed
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:117:18
+    at Object.module.exports [as verify] (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\jsonwebtoken\verify.js:63:12)
+    at Promise (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:114:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:54,595 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+2020-05-08 11:20:54,743 ERROR 4552 [-/127.0.0.1/-/2ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4552
+hostname: web-10-4-156
+
+>>>>>>> 7e727f195ea32488a289a35f8caffb4bf27ab119

@@ -20,24 +20,24 @@ export default (appInfo: EggAppConfig) => {
     },
   };
 
-  config.mysql = {
-    client: {
-      // host
-      host: 'localhost',
-      // 端口号
-      port: '3306',
-      // 用户名
-      user: 'root',
-      // 密码
-      password: '13265494868',
-      // 数据库名
-      database: 'student',
-    },
-    // 是否加载到 app 上，默认开启
-    app: true,
-    // 是否加载到 agent 上，默认关闭
-    agent: false,
-  }
+  // config.mysql = {
+  //   client: {
+  //     // host
+  //     host: 'localhost',
+  //     // 端口号
+  //     port: '3306',
+  //     // 用户名
+  //     user: 'root',
+  //     // 密码
+  //     password: '13265494868',
+  //     // 数据库名
+  //     database: 'student',
+  //   },
+  //   // 是否加载到 app 上，默认开启
+  //   app: true,
+  //   // 是否加载到 agent 上，默认关闭
+  //   agent: false,
+  // }
 
   config.jwt = {
     secret: '123456' // 自定义 token 的加密条件字符串

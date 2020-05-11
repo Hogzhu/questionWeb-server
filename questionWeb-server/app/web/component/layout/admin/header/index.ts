@@ -1,6 +1,5 @@
 import { Vue, Component, Emit } from 'vue-property-decorator';
 import { Action } from 'vuex-class';
-import Axios from 'axios';
 @Component({
   components: {
   }
@@ -33,7 +32,6 @@ export default class Header extends Vue {
       this.isLogin = true
       this.userName = loginStatus.data.userName
       this.userIdentity = loginStatus.data.userIdentity
-      Vue.prototype.userIdentity = loginStatus.data.userIdentity
     }
   }
 
