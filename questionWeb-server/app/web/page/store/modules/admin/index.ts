@@ -105,6 +105,7 @@ export default class AdminModule implements Module<AdminState, RootState> {
     },
     // 导入学生数据
     async importStudent ({ commit, dispatch, state , rootState}, data) {
+      console.log(typeof data)
       const res = await axios.post(`${rootState.origin}/admin/api/importStudent`, data);
       return res;
     },

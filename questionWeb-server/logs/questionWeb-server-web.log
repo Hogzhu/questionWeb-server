@@ -1,88 +1,3 @@
-<<<<<<< HEAD
-2020-05-12 00:52:02,255 INFO 14840 [-/127.0.0.1/-/113ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 158 http://127.0.0.1:7001/admin/ 92 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:02,300 INFO 14840 [-/127.0.0.1/-/231ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 1679 http://127.0.0.1:7001/admin/ 196 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:35,446 INFO 14840 [-/127.0.0.1/-/76ms GET /public/8ba51a9ef2e673c2ad9e.hot-update.json] [access] 127.0.0.1: - GET /public/8ba51a9ef2e673c2ad9e.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 60 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:35,458 INFO 14840 [-/127.0.0.1/-/6ms GET /public/admin/home.8ba51a9ef2e673c2ad9e.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.8ba51a9ef2e673c2ad9e.hot-update.js HTTP/200 6765 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:37,075 INFO 14840 [-/127.0.0.1/-/623ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240522 - 622 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:37,159 INFO 14840 [-/127.0.0.1/-/28ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:37,166 INFO 14840 [-/127.0.0.1/-/15ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:37,172 INFO 14840 [-/127.0.0.1/-/22ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 1627 - 21 - axios/0.18.1
-2020-05-12 00:52:37,213 INFO 14840 [-/127.0.0.1/-/57ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7232336 http://127.0.0.1:7001/admin/ 57 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:38,097 INFO 14840 [-/127.0.0.1/-/54ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/ 54 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:38,116 INFO 14840 [-/127.0.0.1/-/22ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 158 http://127.0.0.1:7001/admin/ 22 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:38,121 INFO 14840 [-/127.0.0.1/-/30ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 1685 http://127.0.0.1:7001/admin/ 29 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 00:52:38,353 INFO 14840 [-/127.0.0.1/-/1ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 158 http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:01:55,688 INFO 14840 [-/127.0.0.1/-/3ms GET /public/f54d762e53c8269ffdc6.hot-update.json] [access] 127.0.0.1: - GET /public/f54d762e53c8269ffdc6.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:01:55,702 INFO 14840 [-/127.0.0.1/-/4ms GET /public/admin/home.f54d762e53c8269ffdc6.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.f54d762e53c8269ffdc6.hot-update.js HTTP/200 8166 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:01:57,731 INFO 14840 [-/127.0.0.1/-/118ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237790 - 118 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:01:57,761 INFO 14840 [-/127.0.0.1/-/5ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:01:57,795 INFO 14840 [-/127.0.0.1/-/6ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:01:57,846 INFO 14840 [-/127.0.0.1/-/57ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7235317 http://127.0.0.1:7001/admin/backstage 53 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:01:58,585 INFO 14840 [-/127.0.0.1/-/6ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:25,856 INFO 14840 [-/127.0.0.1/-/3ms GET /public/f50f38c1ab98a194a8d0.hot-update.json] [access] 127.0.0.1: - GET /public/f50f38c1ab98a194a8d0.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:25,864 INFO 14840 [-/127.0.0.1/-/2ms GET /public/admin/home.f50f38c1ab98a194a8d0.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.f50f38c1ab98a194a8d0.hot-update.js HTTP/200 5620 http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:27,560 INFO 14840 [-/127.0.0.1/-/127ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237792 - 127 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:27,593 INFO 14840 [-/127.0.0.1/-/9ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:27,641 INFO 14840 [-/127.0.0.1/-/5ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:27,684 INFO 14840 [-/127.0.0.1/-/46ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7235323 http://127.0.0.1:7001/admin/backstage 45 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:28,401 INFO 14840 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:42,910 INFO 14840 [-/127.0.0.1/-/27ms GET /public/236420711b98dc27a725.hot-update.json] [access] 127.0.0.1: - GET /public/236420711b98dc27a725.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 25 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:02:42,929 INFO 14840 [-/127.0.0.1/-/9ms GET /public/admin/home.236420711b98dc27a725.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.236420711b98dc27a725.hot-update.js HTTP/200 5614 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:03:21,276 INFO 14840 [-/127.0.0.1/-/3ms GET /public/ac8005903f2582199e82.hot-update.json] [access] 127.0.0.1: - GET /public/ac8005903f2582199e82.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:03:21,284 INFO 14840 [-/127.0.0.1/-/2ms GET /public/admin/home.ac8005903f2582199e82.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.ac8005903f2582199e82.hot-update.js HTTP/200 2643 http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:03:44,427 INFO 14840 [-/127.0.0.1/-/3ms GET /public/97eb1a0c4ccbd1ecddb4.hot-update.json] [access] 127.0.0.1: - GET /public/97eb1a0c4ccbd1ecddb4.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:03:44,436 INFO 14840 [-/127.0.0.1/-/3ms GET /public/admin/home.97eb1a0c4ccbd1ecddb4.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.97eb1a0c4ccbd1ecddb4.hot-update.js HTTP/200 2689 http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:04:24,678 INFO 14840 [-/127.0.0.1/-/10ms GET /public/99a08fa2bd46e2e7037b.hot-update.json] [access] 127.0.0.1: - GET /public/99a08fa2bd46e2e7037b.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:04:24,698 INFO 14840 [-/127.0.0.1/-/3ms GET /public/admin/home.99a08fa2bd46e2e7037b.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.99a08fa2bd46e2e7037b.hot-update.js HTTP/200 2720 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:39,933 INFO 14840 [-/127.0.0.1/-/12ms GET /public/ae6a928f6dfec849d498.hot-update.json] [access] 127.0.0.1: - GET /public/ae6a928f6dfec849d498.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:39,953 INFO 14840 [-/127.0.0.1/-/2ms GET /public/admin/home.ae6a928f6dfec849d498.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.ae6a928f6dfec849d498.hot-update.js HTTP/200 2807 http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:49,817 INFO 14840 [-/127.0.0.1/-/7ms GET /public/4f150589fd8515e83927.hot-update.json] [access] 127.0.0.1: - GET /public/4f150589fd8515e83927.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:49,833 INFO 14840 [-/127.0.0.1/-/7ms GET /public/admin/home.4f150589fd8515e83927.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.4f150589fd8515e83927.hot-update.js HTTP/200 2729 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:51,816 INFO 14840 [-/127.0.0.1/-/181ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237790 - 179 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:51,946 INFO 14840 [-/127.0.0.1/-/12ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:51,967 INFO 14840 [-/127.0.0.1/-/33ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 32 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:52,000 INFO 14840 [-/127.0.0.1/-/65ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7235967 http://127.0.0.1:7001/admin/backstage 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:05:52,790 INFO 14840 [-/127.0.0.1/-/7ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:06:25,934 INFO 14840 [-/127.0.0.1/-/100ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237790 - 100 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:06:26,008 INFO 14840 [-/127.0.0.1/-/18ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 18 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:06:26,021 INFO 14840 [-/127.0.0.1/-/19ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 18 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:06:26,060 INFO 14840 [-/127.0.0.1/-/57ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7235967 http://127.0.0.1:7001/admin/backstage 56 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:06:27,075 INFO 14840 [-/127.0.0.1/-/5ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:21,114 INFO 14840 [-/127.0.0.1/-/9ms GET /public/a943cf828f797d8d3e74.hot-update.json] [access] 127.0.0.1: - GET /public/a943cf828f797d8d3e74.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:21,129 INFO 14840 [-/127.0.0.1/-/4ms GET /public/admin/home.a943cf828f797d8d3e74.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.a943cf828f797d8d3e74.hot-update.js HTTP/200 2827 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:23,529 INFO 14840 [-/127.0.0.1/-/120ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237790 - 120 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:23,555 INFO 14840 [-/127.0.0.1/-/5ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:23,591 INFO 14840 [-/127.0.0.1/-/8ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:23,624 INFO 14840 [-/127.0.0.1/-/41ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7236065 http://127.0.0.1:7001/admin/backstage 40 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:24,366 INFO 14840 [-/127.0.0.1/-/7ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:50,283 INFO 14840 [-/127.0.0.1/-/5ms GET /public/31af7a3a3a29fcb762d3.hot-update.json] [access] 127.0.0.1: - GET /public/31af7a3a3a29fcb762d3.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:50,298 INFO 14840 [-/127.0.0.1/-/5ms GET /public/admin/home.31af7a3a3a29fcb762d3.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.31af7a3a3a29fcb762d3.hot-update.js HTTP/200 2720 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:54,046 INFO 14840 [-/127.0.0.1/-/107ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237790 - 107 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:54,109 INFO 14840 [-/127.0.0.1/-/7ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:54,124 INFO 14840 [-/127.0.0.1/-/6ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:54,158 INFO 14840 [-/127.0.0.1/-/38ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7235978 http://127.0.0.1:7001/admin/backstage 36 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:07:54,847 INFO 14840 [-/127.0.0.1/-/5ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:08:42,696 INFO 14840 [-/127.0.0.1/-/13ms GET /public/f3998cea037d607f6818.hot-update.json] [access] 127.0.0.1: - GET /public/f3998cea037d607f6818.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:08:42,707 INFO 14840 [-/127.0.0.1/-/5ms GET /public/admin/home.f3998cea037d607f6818.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.f3998cea037d607f6818.hot-update.js HTTP/200 2840 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:09:10,064 INFO 14840 [-/127.0.0.1/-/4ms GET /public/f0ec0288996c2fec95a6.hot-update.json] [access] 127.0.0.1: - GET /public/f0ec0288996c2fec95a6.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:09:10,078 INFO 14840 [-/127.0.0.1/-/2ms GET /public/admin/home.f0ec0288996c2fec95a6.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.f0ec0288996c2fec95a6.hot-update.js HTTP/200 2722 http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:05,543 INFO 14840 [-/127.0.0.1/-/3ms GET /public/20f9b19dccc31cacd680.hot-update.json] [access] 127.0.0.1: - GET /public/20f9b19dccc31cacd680.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:05,551 INFO 14840 [-/127.0.0.1/-/3ms GET /public/admin/home.20f9b19dccc31cacd680.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.20f9b19dccc31cacd680.hot-update.js HTTP/200 2923 http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:22,987 INFO 14840 [-/127.0.0.1/-/5ms GET /public/76c1b31a3ea5974941ff.hot-update.json] [access] 127.0.0.1: - GET /public/76c1b31a3ea5974941ff.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:23,003 INFO 14840 [-/127.0.0.1/-/5ms GET /public/admin/home.76c1b31a3ea5974941ff.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.76c1b31a3ea5974941ff.hot-update.js HTTP/200 2691 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:59,719 INFO 14840 [-/127.0.0.1/-/117ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237782 - 117 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:59,751 INFO 14840 [-/127.0.0.1/-/7ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:59,784 INFO 14840 [-/127.0.0.1/-/10ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:10:59,823 INFO 14840 [-/127.0.0.1/-/48ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7236045 http://127.0.0.1:7001/admin/backstage 44 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:00,571 INFO 14840 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:14,127 INFO 14840 [-/127.0.0.1/-/4ms GET /public/9e854d781e554f7b41b6.hot-update.json] [access] 127.0.0.1: - GET /public/9e854d781e554f7b41b6.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:14,144 INFO 14840 [-/127.0.0.1/-/5ms GET /public/admin/home.9e854d781e554f7b41b6.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.9e854d781e554f7b41b6.hot-update.js HTTP/200 2697 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:16,237 INFO 14840 [-/127.0.0.1/-/126ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 237790 - 125 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:16,263 INFO 14840 [-/127.0.0.1/-/7ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:16,313 INFO 14840 [-/127.0.0.1/-/5ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:16,353 INFO 14840 [-/127.0.0.1/-/44ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 7236051 http://127.0.0.1:7001/admin/backstage 42 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-2020-05-12 01:11:17,271 INFO 14840 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
-=======
 2020-05-08 10:11:16,108 INFO 4552 [-/127.0.0.1/-/2937ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240764 - 2926 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
 2020-05-08 10:11:16,233 ERROR 4552 [-/127.0.0.1/-/27ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
     at UserController.getQuestionList (C:\Users\viruser.v-desktop\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
@@ -584,4 +499,575 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 4552
 hostname: web-10-4-156
 
->>>>>>> 7e727f195ea32488a289a35f8caffb4bf27ab119
+2020-05-12 10:35:30,618 INFO 16140 [-/127.0.0.1/-/2487ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240558 - 2477 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:35:31,184 ERROR 16140 [-/127.0.0.1/-/163ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:35:31,697 INFO 16140 [-/127.0.0.1/-/806ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 453 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:35:31,708 INFO 16140 [-/127.0.0.1/-/814ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 451 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:35:31,744 INFO 16140 [-/127.0.0.1/-/475ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8804574 http://127.0.0.1:7001/ 64 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:35:32,577 ERROR 16140 [-/127.0.0.1/-/12ms POST /admin/api/checkLogin] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.checkLogin (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:57:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:145:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:35:32,607 ERROR 16140 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:35:32,612 ERROR 16140 [-/127.0.0.1/-/0ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:36:14,621 INFO 16140 [-/127.0.0.1/-/5ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:36:34,143 INFO 16140 [-/127.0.0.1/-/539ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240558 - 537 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:36:34,300 ERROR 16140 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:36:34,574 INFO 16140 [-/127.0.0.1/-/334ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 268 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:36:34,579 INFO 16140 [-/127.0.0.1/-/338ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 273 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:36:34,658 INFO 16140 [-/127.0.0.1/-/342ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8804574 http://127.0.0.1:7001/ 92 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:36:35,658 ERROR 16140 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.checkLogin (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:57:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:145:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:36:35,665 ERROR 16140 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:36:35,758 ERROR 16140 [-/127.0.0.1/-/1ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:37:11,310 INFO 16140 [-/127.0.0.1/-/4ms GET /public/b3e287426d069b7c8d81.hot-update.json] [access] 127.0.0.1: - GET /public/b3e287426d069b7c8d81.hot-update.json HTTP/200 52 http://127.0.0.1:7001/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:37:11,337 INFO 16140 [-/127.0.0.1/-/3ms GET /public/admin/home.b3e287426d069b7c8d81.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.b3e287426d069b7c8d81.hot-update.js HTTP/200 5601 http://127.0.0.1:7001/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:37:11,373 ERROR 16140 [-/127.0.0.1/-/9ms POST /admin/api/checkLogin] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.checkLogin (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:57:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:145:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:37:11,401 ERROR 16140 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:37:11,406 ERROR 16140 [-/127.0.0.1/-/2ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:37:12,619 INFO 16140 [-/127.0.0.1/-/886ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240558 - 885 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:37:12,741 ERROR 16140 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:37:12,948 INFO 16140 [-/127.0.0.1/-/236ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 206 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:37:12,955 INFO 16140 [-/127.0.0.1/-/243ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 213 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:37:12,988 INFO 16140 [-/127.0.0.1/-/275ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8804670 http://127.0.0.1:7001/ 245 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:37:13,958 ERROR 16140 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.checkLogin (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:57:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:145:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:37:14,020 ERROR 16140 [-/127.0.0.1/-/2ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:37:14,053 ERROR 16140 [-/127.0.0.1/-/11ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:38:14,803 INFO 16140 [-/127.0.0.1/-/775ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240558 - 774 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:38:14,857 ERROR 16140 [-/127.0.0.1/-/3ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:38:15,131 INFO 16140 [-/127.0.0.1/-/269ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 13 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:38:15,136 INFO 16140 [-/127.0.0.1/-/18ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:38:15,195 INFO 16140 [-/127.0.0.1/-/71ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8804670 http://127.0.0.1:7001/ 70 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:38:16,113 ERROR 16140 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.checkLogin (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:57:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:145:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:38:16,133 ERROR 16140 [-/127.0.0.1/-/1ms POST /admin/api/getQuestionList] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getQuestionList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:16:34)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:38:16,179 ERROR 16140 [-/127.0.0.1/-/1ms POST /admin/api/getUserRank] nodejs.TypeError: app.mysql.query is not a function
+    at UserController.getUserRank (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\user.ts:76:38)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16140
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 10:39:02,302 INFO 4584 [-/127.0.0.1/-/1475ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240558 - 1468 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:02,395 INFO 4584 [-/127.0.0.1/-/45ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:02,402 INFO 4584 [-/127.0.0.1/-/17ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:02,454 INFO 4584 [-/127.0.0.1/-/68ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8804670 http://127.0.0.1:7001/ 67 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:02,476 INFO 4584 [-/127.0.0.1/-/125ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 1679 - 101 - axios/0.18.1
+2020-05-12 10:39:03,444 INFO 4584 [-/127.0.0.1/-/13ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/ 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:03,457 INFO 4584 [-/127.0.0.1/-/16ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 158 http://127.0.0.1:7001/ 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:03,479 INFO 4584 [-/127.0.0.1/-/40ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 1658 http://127.0.0.1:7001/ 40 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:03,722 INFO 4584 [-/127.0.0.1/-/6ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 158 http://127.0.0.1:7001/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:25,565 INFO 4584 [-/127.0.0.1/-/6ms GET /public/f3ffcf7da6176ad34a81.hot-update.json] [access] 127.0.0.1: - GET /public/f3ffcf7da6176ad34a81.hot-update.json HTTP/200 52 http://127.0.0.1:7001/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:25,583 INFO 4584 [-/127.0.0.1/-/5ms GET /public/admin/home.f3ffcf7da6176ad34a81.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.f3ffcf7da6176ad34a81.hot-update.js HTTP/200 5505 http://127.0.0.1:7001/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:25,626 INFO 4584 [-/127.0.0.1/-/10ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:25,650 INFO 4584 [-/127.0.0.1/-/4ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 158 http://127.0.0.1:7001/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:39:25,658 INFO 4584 [-/127.0.0.1/-/35ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 1658 http://127.0.0.1:7001/ 33 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:25,812 INFO 4584 [-/127.0.0.1/-/8ms GET /public/6d28591170675049701e.hot-update.json] [access] 127.0.0.1: - GET /public/6d28591170675049701e.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:25,826 INFO 4584 [-/127.0.0.1/-/5ms GET /public/admin/home.6d28591170675049701e.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.6d28591170675049701e.hot-update.js HTTP/200 9178 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:28,060 INFO 4584 [-/127.0.0.1/-/3ms GET /public/af88c4d8bc5bb67fd9bf.hot-update.json] [access] 127.0.0.1: - GET /public/af88c4d8bc5bb67fd9bf.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:28,069 INFO 4584 [-/127.0.0.1/-/3ms GET /public/admin/home.af88c4d8bc5bb67fd9bf.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.af88c4d8bc5bb67fd9bf.hot-update.js HTTP/200 5446 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:35,511 INFO 4584 [-/127.0.0.1/-/522ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238185 - 521 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:35,574 INFO 4584 [-/127.0.0.1/-/19ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:35,624 INFO 4584 [-/127.0.0.1/-/20ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:35,674 INFO 4584 [-/127.0.0.1/-/55ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8804354 http://127.0.0.1:7001/admin/backstage 53 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:45:36,555 INFO 4584 [-/127.0.0.1/-/6ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:02,319 INFO 4584 [-/127.0.0.1/-/8ms GET /public/51a10c44d73bbcd2cd86.hot-update.json] [access] 127.0.0.1: - GET /public/51a10c44d73bbcd2cd86.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:02,334 INFO 4584 [-/127.0.0.1/-/3ms GET /public/admin/home.51a10c44d73bbcd2cd86.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.51a10c44d73bbcd2cd86.hot-update.js HTTP/200 8642 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:45,047 INFO 4584 [-/127.0.0.1/-/4ms GET /public/6c131fd468d53f804889.hot-update.json] [access] 127.0.0.1: - GET /public/6c131fd468d53f804889.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:45,056 INFO 4584 [-/127.0.0.1/-/5ms GET /public/admin/home.6c131fd468d53f804889.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.6c131fd468d53f804889.hot-update.js HTTP/200 5481 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:47,693 INFO 4584 [-/127.0.0.1/-/557ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 555 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:47,724 INFO 4584 [-/127.0.0.1/-/10ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:47,762 INFO 4584 [-/127.0.0.1/-/13ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:47,812 INFO 4584 [-/127.0.0.1/-/63ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803853 http://127.0.0.1:7001/admin/backstage 60 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:47:48,683 INFO 4584 [-/127.0.0.1/-/5ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:48:24,062 INFO 4584 [-/127.0.0.1/-/453ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 453 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:48:24,120 INFO 4584 [-/127.0.0.1/-/10ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:48:24,151 INFO 4584 [-/127.0.0.1/-/9ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:48:24,217 INFO 4584 [-/127.0.0.1/-/69ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803853 http://127.0.0.1:7001/admin/backstage 67 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:48:25,117 INFO 4584 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:24,130 INFO 4584 [-/127.0.0.1/-/6ms GET /public/a1980e20a5026e9d939f.hot-update.json] [access] 127.0.0.1: - GET /public/a1980e20a5026e9d939f.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:24,141 INFO 4584 [-/127.0.0.1/-/5ms GET /public/admin/home.a1980e20a5026e9d939f.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.a1980e20a5026e9d939f.hot-update.js HTTP/200 5446 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:56,821 INFO 4584 [-/127.0.0.1/-/5ms GET /public/b1b238bfe7b846aa42c6.hot-update.json] [access] 127.0.0.1: - GET /public/b1b238bfe7b846aa42c6.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:56,830 INFO 4584 [-/127.0.0.1/-/3ms GET /public/admin/home.b1b238bfe7b846aa42c6.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.b1b238bfe7b846aa42c6.hot-update.js HTTP/200 5447 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:58,401 INFO 4584 [-/127.0.0.1/-/565ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 565 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:58,430 INFO 4584 [-/127.0.0.1/-/9ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:58,496 INFO 4584 [-/127.0.0.1/-/10ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:58,532 INFO 4584 [-/127.0.0.1/-/45ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803819 http://127.0.0.1:7001/admin/backstage 42 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:52:59,425 INFO 4584 [-/127.0.0.1/-/6ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:53:54,795 INFO 4584 [-/127.0.0.1/-/514ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 512 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:53:54,873 INFO 4584 [-/127.0.0.1/-/28ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 27 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:53:54,904 INFO 4584 [-/127.0.0.1/-/21ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 17 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:53:54,957 INFO 4584 [-/127.0.0.1/-/71ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803819 http://127.0.0.1:7001/admin/backstage 57 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:53:55,852 INFO 4584 [-/127.0.0.1/-/5ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:55:14,241 INFO 4584 [-/127.0.0.1/-/537ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 537 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:55:14,272 INFO 4584 [-/127.0.0.1/-/11ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:55:14,309 INFO 4584 [-/127.0.0.1/-/14ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:55:14,356 INFO 4584 [-/127.0.0.1/-/61ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803819 http://127.0.0.1:7001/admin/backstage 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 10:55:15,243 INFO 4584 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:13:54,626 INFO 4584 [-/127.0.0.1/-/9ms GET /public/15901d730f1a501fb3ba.hot-update.json] [access] 127.0.0.1: - GET /public/15901d730f1a501fb3ba.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:13:54,638 INFO 4584 [-/127.0.0.1/-/4ms GET /public/admin/home.15901d730f1a501fb3ba.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.15901d730f1a501fb3ba.hot-update.js HTTP/200 4955 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:13:57,573 INFO 4584 [-/127.0.0.1/-/559ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 558 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:13:57,671 INFO 4584 [-/127.0.0.1/-/23ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 19 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:13:57,682 INFO 4584 [-/127.0.0.1/-/32ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 29 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:13:57,759 INFO 4584 [-/127.0.0.1/-/96ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803327 http://127.0.0.1:7001/admin/backstage 93 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:13:58,598 INFO 4584 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:14:21,493 INFO 4584 [-/127.0.0.1/-/548ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 548 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:14:21,559 INFO 4584 [-/127.0.0.1/-/16ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:14:21,574 INFO 4584 [-/127.0.0.1/-/11ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:14:21,630 INFO 4584 [-/127.0.0.1/-/63ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803327 http://127.0.0.1:7001/admin/backstage 60 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:14:22,537 INFO 4584 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:14:30,531 ERROR 4584 [-/127.0.0.1/-/75ms POST /admin/api/importStudent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into (number,name,class) values (undefined,undefined,undefined)' at line 1
+    at Query.Sequence._packetToError (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\co\index.js:65:19)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\co\index.js:54:5
+    sql: insert user into (number,name,class) values (undefined,undefined,undefined);
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into (number,name,class) values (undefined,undefined,undefined)' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert user into (number,name,class) values (undefined,undefined,undefined);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 4584
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 11:15:45,544 INFO 9892 [-/127.0.0.1/-/44ms GET /public/65caa1ca41ec696ed836.hot-update.json] [access] 127.0.0.1: - GET /public/65caa1ca41ec696ed836.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 29 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:15:45,560 INFO 9892 [-/127.0.0.1/-/7ms GET /public/admin/home.65caa1ca41ec696ed836.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.65caa1ca41ec696ed836.hot-update.js HTTP/200 4990 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:15:50,605 INFO 9892 [-/127.0.0.1/-/3827ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 3827 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:15:50,675 INFO 9892 [-/127.0.0.1/-/18ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:15:50,691 INFO 9892 [-/127.0.0.1/-/9ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:15:50,736 INFO 9892 [-/127.0.0.1/-/53ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803362 http://127.0.0.1:7001/admin/backstage 50 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:15:51,689 INFO 9892 [-/127.0.0.1/-/83ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:15:55,263 INFO 9892 [-/127.0.0.1/-/2ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 0 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:11,293 INFO 9892 [-/127.0.0.1/-/13ms GET /public/cfdc00d5e025d0c29e96.hot-update.json] [access] 127.0.0.1: - GET /public/cfdc00d5e025d0c29e96.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:11,314 INFO 9892 [-/127.0.0.1/-/4ms GET /public/admin/home.cfdc00d5e025d0c29e96.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.cfdc00d5e025d0c29e96.hot-update.js HTTP/200 4993 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:24,399 INFO 9892 [-/127.0.0.1/-/1ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 0 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:51,278 INFO 5940 [-/127.0.0.1/-/1281ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 1278 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:51,378 INFO 5940 [-/127.0.0.1/-/50ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 38 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:51,386 INFO 5940 [-/127.0.0.1/-/17ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:51,422 INFO 5940 [-/127.0.0.1/-/52ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803365 http://127.0.0.1:7001/admin/backstage 49 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:17:52,236 INFO 5940 [-/127.0.0.1/-/26ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:20:26,894 INFO 5940 [-/127.0.0.1/-/11ms GET /public/a1856723b80a20e27141.hot-update.json] [access] 127.0.0.1: - GET /public/a1856723b80a20e27141.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:20:26,912 INFO 5940 [-/127.0.0.1/-/7ms GET /public/admin/home.a1856723b80a20e27141.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.a1856723b80a20e27141.hot-update.js HTTP/200 4999 http://127.0.0.1:7001/admin/backstage 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:20:29,643 INFO 5940 [-/127.0.0.1/-/548ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 547 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:20:29,671 INFO 5940 [-/127.0.0.1/-/9ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:20:29,703 INFO 5940 [-/127.0.0.1/-/9ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:20:29,755 INFO 5940 [-/127.0.0.1/-/61ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803371 http://127.0.0.1:7001/admin/backstage 60 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:20:30,560 INFO 5940 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:01,042 INFO 5940 [-/127.0.0.1/-/2ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:35,250 INFO 5308 [-/127.0.0.1/-/1261ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 1256 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:35,300 INFO 5308 [-/127.0.0.1/-/25ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 21 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:35,330 INFO 5308 [-/127.0.0.1/-/15ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:35,375 INFO 5308 [-/127.0.0.1/-/56ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803371 http://127.0.0.1:7001/admin/backstage 53 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:36,295 INFO 5308 [-/127.0.0.1/-/36ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 18 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:39,375 INFO 5308 [-/127.0.0.1/-/3ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:21:55,535 INFO 5308 [-/127.0.0.1/-/2ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:22:01,012 INFO 10948 [-/127.0.0.1/-/1269ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 1256 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:22:01,063 INFO 10948 [-/127.0.0.1/-/26ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 23 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:22:01,080 INFO 10948 [-/127.0.0.1/-/7ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:22:01,124 INFO 10948 [-/127.0.0.1/-/47ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803371 http://127.0.0.1:7001/admin/backstage 46 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:22:02,036 INFO 10948 [-/127.0.0.1/-/33ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 17 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 11:22:05,046 INFO 10948 [-/127.0.0.1/-/2ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:28,594 INFO 10948 [-/127.0.0.1/-/7ms GET /public/8d26a552bbb49dfb503b.hot-update.json] [access] 127.0.0.1: - GET /public/8d26a552bbb49dfb503b.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:28,610 INFO 10948 [-/127.0.0.1/-/6ms GET /public/admin/home.8d26a552bbb49dfb503b.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.8d26a552bbb49dfb503b.hot-update.js HTTP/200 4943 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:31,393 INFO 10948 [-/127.0.0.1/-/563ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 563 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:31,452 INFO 10948 [-/127.0.0.1/-/33ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:31,485 INFO 10948 [-/127.0.0.1/-/24ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 22 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:31,544 INFO 10948 [-/127.0.0.1/-/81ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803315 http://127.0.0.1:7001/admin/backstage 74 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:32,393 INFO 10948 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:38:44,799 INFO 10948 [-/127.0.0.1/-/3ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:39:23,670 INFO 10948 [-/127.0.0.1/-/17ms GET /public/2991adab0903de8d3e51.hot-update.json] [access] 127.0.0.1: - GET /public/2991adab0903de8d3e51.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:39:23,687 INFO 10948 [-/127.0.0.1/-/4ms GET /public/admin/home.2991adab0903de8d3e51.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.2991adab0903de8d3e51.hot-update.js HTTP/200 4990 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:40:20,145 INFO 10948 [-/127.0.0.1/-/591ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 591 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:40:20,223 INFO 10948 [-/127.0.0.1/-/21ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:40:20,266 INFO 10948 [-/127.0.0.1/-/33ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 22 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:40:20,330 INFO 10948 [-/127.0.0.1/-/87ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803362 http://127.0.0.1:7001/admin/backstage 80 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:40:21,339 INFO 10948 [-/127.0.0.1/-/7ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:40:23,620 INFO 10948 [-/127.0.0.1/-/2ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:21,183 INFO 10948 [-/127.0.0.1/-/517ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 517 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:21,272 INFO 10948 [-/127.0.0.1/-/12ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:21,279 INFO 10948 [-/127.0.0.1/-/18ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:21,350 INFO 10948 [-/127.0.0.1/-/84ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803362 http://127.0.0.1:7001/admin/backstage 83 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:22,508 INFO 10948 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:49,965 INFO 16424 [-/127.0.0.1/-/4028ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 4023 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:50,101 INFO 16424 [-/127.0.0.1/-/58ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 51 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:50,130 INFO 16424 [-/127.0.0.1/-/67ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:50,229 INFO 16424 [-/127.0.0.1/-/159ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803362 http://127.0.0.1:7001/admin/backstage 155 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:50,953 INFO 16424 [-/127.0.0.1/-/617ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 616 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:51,562 INFO 16424 [-/127.0.0.1/-/141ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 53 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:51,566 INFO 16424 [-/127.0.0.1/-/15ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:51,580 INFO 16424 [-/127.0.0.1/-/28ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 23 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:51,619 INFO 16424 [-/127.0.0.1/-/63ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803362 http://127.0.0.1:7001/admin/backstage 55 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:52,555 INFO 16424 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:41:55,854 INFO 16424 [-/127.0.0.1/-/3ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:42:36,271 INFO 16424 [-/127.0.0.1/-/10ms GET /public/929cdaad4592442d6118.hot-update.json] [access] 127.0.0.1: - GET /public/929cdaad4592442d6118.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:42:36,289 INFO 16424 [-/127.0.0.1/-/5ms GET /public/admin/home.929cdaad4592442d6118.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.929cdaad4592442d6118.hot-update.js HTTP/200 4997 http://127.0.0.1:7001/admin/backstage 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:12,376 INFO 16424 [-/127.0.0.1/-/3ms GET /public/fddf1684a5eca9f8463e.hot-update.json] [access] 127.0.0.1: - GET /public/fddf1684a5eca9f8463e.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:12,384 INFO 16424 [-/127.0.0.1/-/3ms GET /public/admin/home.fddf1684a5eca9f8463e.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.fddf1684a5eca9f8463e.hot-update.js HTTP/200 16756 http://127.0.0.1:7001/admin/backstage 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:14,182 INFO 16424 [-/127.0.0.1/-/544ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 544 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:14,211 INFO 16424 [-/127.0.0.1/-/8ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:14,266 INFO 16424 [-/127.0.0.1/-/5ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:14,307 INFO 16424 [-/127.0.0.1/-/46ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803465 http://127.0.0.1:7001/admin/backstage 44 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:15,136 INFO 16424 [-/127.0.0.1/-/6ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:43:18,754 INFO 16424 [-/127.0.0.1/-/48ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 46 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:41,122 INFO 16424 [-/127.0.0.1/-/8ms GET /public/49128bf554bd88d41e89.hot-update.json] [access] 127.0.0.1: - GET /public/49128bf554bd88d41e89.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/backstage 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:41,145 INFO 16424 [-/127.0.0.1/-/3ms GET /public/admin/home.49128bf554bd88d41e89.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.49128bf554bd88d41e89.hot-update.js HTTP/200 5164 http://127.0.0.1:7001/admin/backstage 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:43,082 INFO 16424 [-/127.0.0.1/-/566ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 566 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:43,112 INFO 16424 [-/127.0.0.1/-/6ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:43,148 INFO 16424 [-/127.0.0.1/-/14ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:43,195 INFO 16424 [-/127.0.0.1/-/59ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803632 http://127.0.0.1:7001/admin/backstage 51 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:44,060 INFO 16424 [-/127.0.0.1/-/5ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:45:50,060 INFO 16424 [-/127.0.0.1/-/2ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:46:19,777 INFO 16424 [-/127.0.0.1/-/674ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 673 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:46:19,824 INFO 16424 [-/127.0.0.1/-/11ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:46:19,862 INFO 16424 [-/127.0.0.1/-/16ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:46:19,918 INFO 16424 [-/127.0.0.1/-/60ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803632 http://127.0.0.1:7001/admin/backstage 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:46:21,099 INFO 16424 [-/127.0.0.1/-/7ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 12:46:24,950 INFO 20748 [-/127.0.0.1/-/26ms POST /admin/api/importStudent] [access] 127.0.0.1: - POST /admin/api/importStudent HTTP/404 - http://127.0.0.1:7001/admin/backstage 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:46:35,872 INFO 21124 [-/127.0.0.1/-/7344ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 7335 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:46:36,042 INFO 21124 [-/127.0.0.1/-/63ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 56 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:46:36,150 INFO 21124 [-/127.0.0.1/-/102ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803632 http://127.0.0.1:7001/admin/backstage 100 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:46:36,160 INFO 21124 [-/127.0.0.1/-/114ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 112 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:46:37,390 INFO 21124 [-/127.0.0.1/-/131ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 17 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:46:51,223 ERROR 21124 [-/127.0.0.1/-/15ms POST /admin/api/importStudent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into (number,name,class) values (1605010613,侯志锋,计科六班),(1605010620,' at line 1
+    at Query.Sequence._packetToError (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\co\index.js:65:19)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\co\index.js:54:5
+    sql: insert user into (number,name,class) values (1605010613,侯志锋,计科六班),(1605010620,胡禄邦,计科六班),(1605010310,张三,物联网三班) on duplicate key update number=values(number),name=values(name),class=values(class);
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into (number,name,class) values (1605010613,侯志锋,计科六班),(1605010620,' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert user into (number,name,class) values (1605010613,侯志锋,计科六班),(1605010620,胡禄邦,计科六班),(1605010310,张三,物联网三班) on duplicate key update number=values(number),name=values(name),class=values(class);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 21124
+hostname: DESKTOP-O0FB5QR
+
+2020-05-12 17:47:42,636 INFO 18964 [-/127.0.0.1/-/1339ms GET /admin/backstage] [access] 127.0.0.1: - GET /admin/backstage HTTP/200 238010 - 1331 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:47:42,742 INFO 18964 [-/127.0.0.1/-/62ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/backstage 47 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:47:42,778 INFO 18964 [-/127.0.0.1/-/23ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/backstage 18 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:47:42,880 INFO 18964 [-/127.0.0.1/-/110ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8803632 http://127.0.0.1:7001/admin/backstage 108 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:47:43,881 INFO 18964 [-/127.0.0.1/-/35ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 118 http://127.0.0.1:7001/admin/backstage 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-12 17:47:48,078 ERROR 18964 [-/127.0.0.1/-/8ms POST /admin/api/importStudent] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into (number,name,class) values ((1605010613,侯志锋,计科六班),(1605010620' at line 1
+    at Query.Sequence._packetToError (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\co\index.js:65:19)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\co\index.js:54:5
+    sql: insert user into (number,name,class) values ((1605010613,侯志锋,计科六班),(1605010620,胡禄邦,计科六班),(1605010310,张三,物联网三班)) on duplicate key update number=values(number),name=values(name),class=values(class);
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into (number,name,class) values ((1605010613,侯志锋,计科六班),(1605010620' at line 1"
+sqlState: "42000"
+index: 0
+sql: "insert user into (number,name,class) values ((1605010613,侯志锋,计科六班),(1605010620,胡禄邦,计科六班),(1605010310,张三,物联网三班)) on duplicate key update number=values(number),name=values(name),class=values(class);"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 18964
+hostname: DESKTOP-O0FB5QR
+

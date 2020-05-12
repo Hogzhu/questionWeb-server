@@ -89,31 +89,31 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack-vue\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\locales",
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\locales"
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack-vue\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\locales",
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -124,8 +124,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -148,7 +148,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\VIRUSE\\x7e1.V-D\\AppData\\Local\\Temp\\egg-multipart-tmp\\questionWeb-server",
+      "tmpdir": "C:\\Users\\Shinelon\\AppData\\Local\\Temp\\egg-multipart-tmp\\questionWeb-server",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -175,7 +175,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\public",
+      "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -184,7 +184,7 @@
     },
     "view": {
       "root": [
-        "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view"
+        "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -195,8 +195,8 @@
     },
     "vuessr": {
       "doctype": "<!doctype html>",
-      "layout": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\web\\view\\layout.html",
-      "manifest": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\manifest.json",
+      "layout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\web\\view\\layout.html",
+      "manifest": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": false,
@@ -212,7 +212,7 @@
       },
       "renderOptions": {
         "runInNewContext": "once",
-        "basedir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view"
+        "basedir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view"
       },
       "afterRender": "<Function afterRender>"
     },
@@ -222,7 +222,14 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 11>",
+        "database": "student"
+      }
     },
     "jwt": {
       "secret": "<String len: 6>",
@@ -346,9 +353,9 @@
         }
       }
     },
-    "baseDir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server",
-    "HOME": "C:\\Users\\viruser.v-desktop",
-    "rundir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\run",
+    "baseDir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server",
+    "HOME": "C:\\Users\\Shinelon",
+    "rundir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -380,7 +387,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs",
+      "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -455,7 +462,7 @@
       "global"
     ],
     "logview": {
-      "dir": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs"
+      "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs"
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -481,8 +488,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -494,8 +501,8 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security",
       "version": "2.8.0"
     },
     "jsonp": {
@@ -507,8 +514,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -520,8 +527,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -531,8 +538,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -542,8 +549,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -553,8 +560,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -566,8 +573,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart",
       "version": "2.10.2"
     },
     "development": {
@@ -581,8 +588,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -594,8 +601,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -605,8 +612,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -616,8 +623,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "vuessr": {
@@ -627,8 +634,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr",
       "version": "3.3.2"
     },
     "mysql": {
@@ -638,8 +645,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
     "jwt": {
@@ -651,8 +658,8 @@
         "onerror"
       ],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt",
       "version": "3.1.7"
     },
     "cors": {
@@ -661,9 +668,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
       "package": "egg-cors",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors",
       "version": "2.2.3"
     },
     "webpack": {
@@ -675,8 +682,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack",
       "version": "4.5.3"
     },
     "webpackvue": {
@@ -688,8 +695,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
-      "path": "C:\\Users\\viruser.v-desktop\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack-vue",
+      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
+      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack-vue",
       "version": "2.0.2"
     }
   }

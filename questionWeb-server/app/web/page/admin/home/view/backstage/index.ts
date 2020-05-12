@@ -5,13 +5,9 @@ import { Action } from 'vuex-class';
   }
 })
 export default class Backstage extends Vue {
-  @Action('importStudent') importStudent;
+  @Action('importStudent') importStudent
   private fileName: string = '导入学生信息'
-  private studentInfo: any = {
-    numberStr: '',
-    nameStr: '',
-    classStr: ''
-  }
+  private studentInfo: string = ''
 
   // 点击选择文件触发隐藏的input按钮选择文件(用于修改input的样式)
   private clickInput () {
@@ -21,39 +17,32 @@ export default class Backstage extends Vue {
   // 导入学生信息
   private importInfo (e: any) {
     this.fileName = e.target.value
-    let reader = new FileReader()
-    reader.onload = (e: any) => {
-      let files = e.target.result;
-      let workbook = Vue.prototype.xlsx.read(files, {type: 'binary'});
-      console.log(workbook)
-      let sheet = workbook.Sheets.Sheet1
-      let sheetJSON = Vue.prototype.xlsx.utils.sheet_to_json(sheet)
-      let numberStr: string = ''
-      let nameStr: string = ''
-      let classStr: string = ''
+    const reader = new FileReader()
+    reader.onload = (res: any) => {
+      const files = res.target.result
+      const workbook = Vue.prototype.xlsx.read(files, {type: 'binary'})
+      const sheet = workbook.Sheets.Sheet1
+      const sheetJSON = Vue.prototype.xlsx.utils.sheet_to_json(sheet)
+      let pwd: string = ''
+      console.log(sheetJSON)
       sheetJSON.forEach((item: any, index: number) => {
+        pwd = String(item['学号']).substr(-6)
         if (index === sheetJSON.length - 1) {
-          numberStr +=  item['学号'] + ''
-          nameStr += item['姓名'] + ''
-          classStr += item['班级'] + ''
+          this.studentInfo += `(${item['学号']},'${item['姓名']}',${pwd},'${item['班级']}')`
         } else {
-          numberStr +=  item['学号'] + ','
-          nameStr += item['姓名'] + ','
-          classStr += item['班级'] + ','
+          this.studentInfo += `(${item['学号']},'${item['姓名']}',${pwd},'${item['班级']}'),`
         }
-      });
-      this.studentInfo = {
-        numberStr,
-        nameStr,
-        classStr
-      }
+      })
       console.log(this.studentInfo)
     }
     const f: any = reader.readAsBinaryString(e.target.files[0]);
   }
 
   // 将学生信息通过接口插入数据库
-  private async handlerImport() {
-    await this.importStudent(this.studentInfo)
+  private async handlerImport () {
+    const data = {
+      studentInfo: this.studentInfo
+    }
+    await this.importStudent(data)
   }
 }
