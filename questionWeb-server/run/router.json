@@ -151,6 +151,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/searchProblem",
+    "regexp": "/^\\/admin\\/api\\/searchProblem(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/getExamList",
     "regexp": "/^\\/admin\\/api\\/getExamList(?:\\/(?=$))?$/",
     "stack": [

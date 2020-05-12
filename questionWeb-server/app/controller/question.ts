@@ -24,7 +24,7 @@ export default class UserController extends Controller {
     //     'select id,title,choose_A,choose_B,choose_C,choose_D,level,class ' +
     //     'from problem where id >= (select floor(RAND() * (select MAX(id) from problem))) ORDER BY id LIMIT 10', '');
     const questionList = await app.mysql.query(
-        'select id,title,choose_A,choose_B,choose_C,choose_D,level,class ' +
+        'select id,title,choose_A,choose_B,choose_C,choose_D,level,class,edit,accept ' +
         'from problem ORDER BY rand() LIMIT 10', '');
     const questionData = {
         questionNum,
@@ -33,6 +33,14 @@ export default class UserController extends Controller {
         difficultNum,
         questionList
     }
+    ctx.body = questionData;
+  }
+
+  // 点击搜索框后找到所有关键字的题目
+  public async searchProblem () {
+    const { ctx , app } = this;
+    const body = ctx.request.body;
+    const questionData = await app.mysql.query(`select * from problem where title regexp '${body.search}'` , '');
     ctx.body = questionData;
   }
 
@@ -58,7 +66,7 @@ export default class UserController extends Controller {
     ctx.body = questionData;
   }
 
-  // 查找一个题目
+  // 点击单个题目后从数据库找到题目
   public async findQuestion () {
     const { ctx , app } = this;
     const body = ctx.request.body;

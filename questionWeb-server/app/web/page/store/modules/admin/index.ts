@@ -83,6 +83,11 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.post(`${rootState.origin}/admin/api/getUserRank`, {});
       return res;
     },
+    // 搜索题目
+    async searchProblem ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/searchProblem`, data);
+      return res;
+    },
     // 获得考试题目
     async getExamList ({ commit, dispatch, state , rootState}, data) {
       const res = await axios.post(`${rootState.origin}/admin/api/getExamList`, data);

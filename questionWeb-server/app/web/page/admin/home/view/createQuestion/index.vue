@@ -93,7 +93,7 @@
         margin: 2rem auto;
         border-radius: 0.5rem;
         border: none;
-        font-size: 1rem;
+        font-size: 1.6rem;
         color: #fff;
         background-color: #42b983;
         cursor: pointer;

@@ -5,7 +5,7 @@
         <li :style="[{backgroundColor:item.color}]">{{item.text}}</li>
       </ul>
       <div class="questionList-top-search">
-        <input type="text" placeholder="请输入搜索关键字" />
+        <input type="text" @keyup.enter="searchKeyWords" placeholder="请输入搜索关键字" />
       </div>
     </div>
     <div class="questionList-list">
@@ -13,7 +13,6 @@
         <ul>
           <li class="questionList-list-nav-id">题号#</li>
           <li class="questionList-list-nav-title">题名</li>
-          <li class="questionList-list-nav-edit">解题率</li>
           <li class="questionList-list-nav-accept">通过率</li>
           <li class="questionList-list-nav-difficult">难度</li>
           <li class="questionList-list-nav-type">题型</li>
@@ -22,8 +21,7 @@
       <div class="questionList-list-item" v-for="(item,index) in question" :key="index" @click="handlerQuestion(item.id)">
         <span>{{item.id}}</span>
         <span>{{item.title}}</span>
-        <span>{{item.edit}}</span>
-        <span>{{item.accept}}</span>
+        <span>{{(item.accept/item.edit).toFixed(3)*100}}%</span>
         <span>{{item.level}}</span>
         <span>{{item.class}}</span>
       </div>

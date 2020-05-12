@@ -4,11 +4,17 @@ import { Action, Getter } from 'vuex-class';
 
 @Component
 export default class QuestionList extends Vue {
-  @Action('getQuestionList') getQuestionList;
-  @Getter('userSolved') userSolved: any;
+  @Action('getQuestionList') getQuestionList
+  @Action('searchProblem') searchProblem
+  @Getter('userSolved') userSolved: any
   private question: any = ''
   private questionNum: any[] = []
   private questionData: any = {}
+
+  @Emit('showQuestion')
+  private handlerQuestion (id: number) {
+    return id
+  }
 
   private created () {
     this.getList()
@@ -48,8 +54,19 @@ export default class QuestionList extends Vue {
     this.questionNum.push(allQuestion, easyQuestion, midQuestion, diffQuestion)
   }
 
-  @Emit('showQuestion')
-  private handlerQuestion (id: number) {
-    return id
+  private async searchKeyWords (e: any) {
+    const searchStr = e.target.value
+    let res: any = ''
+    if (searchStr === '') {
+      res = await this.getQuestionList()
+      this.question = res.data.questionList
+      return false
+    }
+    const data = {
+      search: searchStr
+    }
+    res = await this.searchProblem(data)
+    this.question = res.data
   }
+
 }

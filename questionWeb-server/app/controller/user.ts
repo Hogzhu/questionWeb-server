@@ -75,10 +75,36 @@ export default class UserController extends Controller {
     ctx.body = rankData
   }
 
-  // 加入错题
+  // 加入错题并把做对的题从错题删去
   public async joinError () {
     const { ctx , app } = this
-    const errorData = await app.mysql.query(`update user SET error=CONCAT(error,',${ctx.request.body.errorArr}') WHERE number=${ctx.request.body.account};`, '')
+    const body = ctx.request.body
+    const trueStr = body.trueArr.join(',')
+    const allStr = (body.trueArr.concat(body.errorArr)).join(',')
+    // const errorData = await app.mysql.query(`update user SET error=CONCAT(error,',${ctx.request.body.errorArr}') WHERE number=${ctx.request.body.account};`, '')
+    let oldData = await app.mysql.query(`select error from user WHERE number=${body.account};`, '')
+    const userId = await app.mysql.query(`select id from user WHERE number=${body.account};`, '')
+    oldData = oldData[0].error.split(',')
+    if (oldData.includes('')) {
+      const index = oldData.indexOf('')
+      oldData.splice(index, 1)
+    }
+    let newData = body.errorArr
+    newData = newData.join(',').split(',')
+    body.trueArr.forEach((item) => {
+      item = String(item)
+      if (oldData.includes(item)) {
+        const index = oldData.indexOf(item)
+        oldData.splice(index, 1)
+      }
+    })
+    if (oldData.length > 0) {
+      newData = newData.concat(oldData)
+    }
+    newData = Array.from(new Set(newData))
+    const errorData = await app.mysql.query(`update user SET error='${newData}' WHERE number=${body.account};`, '')
+    const acceptData = await app.mysql.query(`update problem SET accept= CASE id WHEN id THEN accept+1 END WHERE id IN (${trueStr});`, '')
+    const editData = await app.mysql.query(`update problem SET edit= CASE id WHEN id THEN edit+1 END WHERE id IN (${allStr});`, '')
     ctx.body = errorData
   }
 
