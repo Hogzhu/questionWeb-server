@@ -18,6 +18,9 @@ export default class Backstage extends Vue {
   private importInfo (e: any) {
     this.fileName = e.target.value
     const reader = new FileReader()
+    if (!(/xls/).test(this.fileName) && !(/xlsx/).test(this.fileName)) {
+      this.$message({type: 'error', message: '上传格式需要为xls或xlsx格式'})
+    }
     reader.onload = (res: any) => {
       const files = res.target.result
       const workbook = Vue.prototype.xlsx.read(files, {type: 'binary'})

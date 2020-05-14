@@ -6,6 +6,7 @@ export default interface AdminState {
   article?: Article;
   account: number;
   identity: string;
+  userDone: number;
   userSolved: number;
   questionNum: number;
 }

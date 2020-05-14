@@ -115,8 +115,20 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/admin/api/joinError",
-    "regexp": "/^\\/admin\\/api\\/joinError(?:\\/(?=$))?$/",
+    "path": "/admin/api/submitExam",
+    "regexp": "/^\\/admin\\/api\\/submitExam(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/submitQuestion",
+    "regexp": "/^\\/admin\\/api\\/submitQuestion(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

@@ -21,7 +21,7 @@
       <div class="questionList-list-item" v-for="(item,index) in question" :key="index" @click="handlerQuestion(item.id)">
         <span>{{item.id}}</span>
         <span>{{item.title}}</span>
-        <span>{{(item.accept/item.edit).toFixed(3)*100}}%</span>
+        <span>{{item.edit === 0 ? 0 :(item.accept/item.edit).toFixed(3)*100}}%</span>
         <span>{{item.level}}</span>
         <span>{{item.class}}</span>
       </div>

@@ -3,7 +3,7 @@
     <div class="backstage-import">
       <h2 ref="header">{{fileName}}</h2>
       <div class="backstage-import-file">
-        <input type="file" class="backstage-import-file-input" ref="file" @change="importInfo" />
+        <input type="file" class="backstage-import-file-input" accept="application/vnd.ms-excel" ref="file" @change="importInfo" />
         <button class="backstage-import-file-btn" ref="btn" @click="clickInput">选择文件</button>
       </div>
       <button class="backstage-import-btn" @click="handlerImport">确定导入</button>

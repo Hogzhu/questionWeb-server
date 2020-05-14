@@ -3,7 +3,7 @@ import { Action, Getter } from 'vuex-class';
 @Component({})
 export default class Exam extends Vue {
   @Action('getExamList') getExamList;
-  @Action('joinError') joinError;
+  @Action('submitExam') submitExam;
   @Getter('account') account;
   @Getter('userSolved') userSolved;
 
@@ -28,7 +28,7 @@ export default class Exam extends Vue {
   }
 
   // 提交答案，回答错误的题目加入用户的错题
-  private async submitExam () {
+  private async submit () {
     if (this.btnLocked === false) {
       this.$message('请勿频繁提交')
       return false
@@ -54,7 +54,7 @@ export default class Exam extends Vue {
       errorArr,
       trueArr
     }
-    await this.joinError(data)
+    await this.submitExam(data)
   }
 
   private selectRadio (index: number, choose: string) {

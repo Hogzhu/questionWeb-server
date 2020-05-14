@@ -4,8 +4,8 @@
         <router-link to="/exam">考试</router-link>
         <router-link to="/createQuestion">出题</router-link>
         <!-- <router-link to="/information">数据</router-link> -->
-        <!-- <router-link to="/backstage" v-if="userIdentity==='administrator' || userIdentity==='teacher'">后台管理</router-link> -->
-        <router-link to="/backstage">后台管理</router-link>
+        <router-link to="/backstage" v-if="userIdentity==='administrator' || userIdentity==='teacher'">后台管理</router-link>
+        <!-- <router-link to="/backstage">后台管理</router-link> -->
         <a @click="login()" v-if="!isLogin">登录</a>
         <a class="nav-user" v-if="isLogin">你好，{{userName}}
           <div class="nav-user-container">

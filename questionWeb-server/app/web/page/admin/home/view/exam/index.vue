@@ -24,7 +24,7 @@
         <div class="exam-choose-container-answer" v-if="isSubmit">参考答案：{{item.answer}}</div>
       </div>
     </div>
-    <button class="exam-submit" @click="submitExam()">提交</button>
+    <button class="exam-submit" @click="submit()">提交</button>
   </div>
 </template>
 <script lang="ts" src="./index.ts"></script>

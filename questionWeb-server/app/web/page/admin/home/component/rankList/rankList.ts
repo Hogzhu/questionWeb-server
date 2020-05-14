@@ -97,6 +97,24 @@ export default class RankList extends Vue {
     const solvedArr: number[] = []
     const notSolvedArr: number[] = []
     this.rankInfo.forEach((item: any) => {
+      item.solved = item.solved.split(',')
+      if (item.solved.includes('')) {
+        const index = item.solved.indexOf('')
+        item.solved.splice(index, 1)
+      }
+      item.solved = item.solved.length
+    })
+    this.rankInfo.sort((a, b) => {
+      if (a.solved > b.solved) {
+        return -1
+      } else if (a.solved === b.solved) {
+        return 0
+      } else {
+        return 1
+      }
+    })
+    console.log(this.rankInfo)
+    this.rankInfo.forEach((item: any) => {
       nameArr.push(item.name)
       solvedArr.push(item.solved)
       notSolvedArr.push(this.$store.getters.questionNum - item.solved)

@@ -1,9 +1,10 @@
 import { Vue, Component, Emit, Prop } from 'vue-property-decorator';
-import { Action } from 'vuex-class';
+import { Action, Getter } from 'vuex-class';
 @Component({})
 export default class AutoExam extends Vue {
-    @Action('joinError') joinError;
+    @Action('submitQuestion') submitQuestion;
     @Action('findQuestion') findQuestion;
+    @Getter('account') account;
     @Prop({ type: Number, default: 0 }) questionId;
     private questionData: any = {}
     private isChoose: boolean = false
@@ -39,14 +40,22 @@ export default class AutoExam extends Vue {
     private async submit () {
         this.showAnswer = true
         if (this.isChoose) {
+            let isSolved: boolean = true
             if (this.questionData.answer === this.radioSelect) {
                 this.result = '回答正确'
                 this.$message('回答正确')
+                isSolved = true
             } else {
                 this.result = '回答错误，该题目已记入错题'
                 this.$message('回答错误')
-                await this.joinError(this.questionId)
+                isSolved = false
             }
+            const data = {
+                account: this.account,
+                id: this.questionId,
+                isSolved
+            }
+            await this.submitQuestion(data)
         }
     }
 }

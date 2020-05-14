@@ -52,7 +52,7 @@ export default class UserController extends Controller {
   // 访问admin数据时进行验证token，并且解析 token 的数据
   public async checkLogin () {
     const { ctx , app } = this
-    const userData = await app.mysql.query(`select name,identity,solved from user where number = '${ctx.state.user.account}'`, '')
+    const userData = await app.mysql.query(`select name,identity,done,solved from user where number = '${ctx.state.user.account}'`, '')
     /*
     * 打印内容为：{ username : 'admin', iat: 1560346903 }
     * iat 为过期时间，可以单独写中间件验证，这里不做细究
@@ -64,6 +64,7 @@ export default class UserController extends Controller {
       account: ctx.state.user.account,
       userName: userData[0].name,
       userIdentity: userData[0].identity,
+      done: userData[0].done,
       solved: userData[0].solved
     };
   }
@@ -75,37 +76,110 @@ export default class UserController extends Controller {
     ctx.body = rankData
   }
 
-  // 加入错题并把做对的题从错题删去
-  public async joinError () {
+  // 考试后修改用户的做题数据
+  public async submitExam () {
     const { ctx , app } = this
     const body = ctx.request.body
     const trueStr = body.trueArr.join(',')
     const allStr = (body.trueArr.concat(body.errorArr)).join(',')
     // const errorData = await app.mysql.query(`update user SET error=CONCAT(error,',${ctx.request.body.errorArr}') WHERE number=${ctx.request.body.account};`, '')
-    let oldData = await app.mysql.query(`select error from user WHERE number=${body.account};`, '')
-    const userId = await app.mysql.query(`select id from user WHERE number=${body.account};`, '')
-    oldData = oldData[0].error.split(',')
-    if (oldData.includes('')) {
-      const index = oldData.indexOf('')
-      oldData.splice(index, 1)
+    const oldData = await app.mysql.query(`select id,done,solved,error from user WHERE number=${body.account};`, '')
+    console.log(12334)
+    console.log(oldData[0].done)
+    const oldDoneData = oldData[0].done.split(',')
+    const oldSolvedData = oldData[0].solved.split(',')
+    const oldErrorData = oldData[0].error.split(',')
+    if (oldDoneData.includes('')) {
+      const index = oldDoneData.indexOf('')
+      oldDoneData.splice(index, 1)
     }
-    let newData = body.errorArr
-    newData = newData.join(',').split(',')
+    if (oldSolvedData.includes('')) {
+      const index = oldSolvedData.indexOf('')
+      oldSolvedData.splice(index, 1)
+    }
+    if (oldErrorData.includes('')) {
+      const index = oldErrorData.indexOf('')
+      oldErrorData.splice(index, 1)
+    }
+    let newDoneData = body.errorArr.concat(body.trueArr)
+    let newSolvedData = body.trueArr
+    let newErrorData = body.errorArr
+    newDoneData = newDoneData.join(',').split(',')
+    newSolvedData = newSolvedData.join(',').split(',')
+    newErrorData = newErrorData.join(',').split(',')
     body.trueArr.forEach((item) => {
       item = String(item)
-      if (oldData.includes(item)) {
-        const index = oldData.indexOf(item)
-        oldData.splice(index, 1)
+      if (oldErrorData.includes(item)) {
+        const index = oldErrorData.indexOf(item)
+        oldErrorData.splice(index, 1)
       }
     })
-    if (oldData.length > 0) {
-      newData = newData.concat(oldData)
+    if (oldDoneData.length > 0) {
+      newDoneData = newDoneData.concat(oldDoneData)
     }
-    newData = Array.from(new Set(newData))
-    const errorData = await app.mysql.query(`update user SET error='${newData}' WHERE number=${body.account};`, '')
+    if (oldSolvedData.length > 0) {
+      newSolvedData = newSolvedData.concat(oldSolvedData)
+    }
+    if (oldErrorData.length > 0) {
+      newErrorData = newErrorData.concat(oldErrorData)
+    }
+    newDoneData = Array.from(new Set(newDoneData))
+    newSolvedData = Array.from(new Set(newSolvedData))
+    newErrorData = Array.from(new Set(newErrorData))
+    const resData = await app.mysql.query(`update user SET done='${newDoneData}',solved='${newSolvedData}',error='${newErrorData}' ` +
+    `WHERE number=${body.account};`, '')
     const acceptData = await app.mysql.query(`update problem SET accept= CASE id WHEN id THEN accept+1 END WHERE id IN (${trueStr});`, '')
     const editData = await app.mysql.query(`update problem SET edit= CASE id WHEN id THEN edit+1 END WHERE id IN (${allStr});`, '')
-    ctx.body = errorData
+    ctx.body = resData
+  }
+
+  // 做题后修改学生的做题数据
+  public async submitQuestion () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    const oldData = await app.mysql.query(`select id,done,solved,error from user WHERE number=${body.account};`, '')
+    const oldDoneData = oldData[0].done.split(',')
+    const oldSolvedData = oldData[0].solved.split(',')
+    const oldErrorData = oldData[0].error.split(',')
+    body.id = String(body.id)
+    if (oldDoneData.includes('')) {
+      const index = oldDoneData.indexOf('')
+      oldDoneData.splice(index, 1)
+    }
+    if (oldSolvedData.includes('')) {
+      const index = oldSolvedData.indexOf('')
+      oldSolvedData.splice(index, 1)
+    }
+    if (oldErrorData.includes('')) {
+      const index = oldErrorData.indexOf('')
+      oldErrorData.splice(index, 1)
+    }
+    const resData = ''
+    if (body.isSolved === true) {
+      if (!oldDoneData.includes(body.id)) {
+        oldDoneData.push(body.id)
+      }
+      if (!oldSolvedData.includes(body.id)) {
+        oldSolvedData.push(body.id)
+      }
+      if (oldErrorData.includes(body.id)) {
+        const index = oldErrorData.indexOf(body.id)
+        oldErrorData.splice(index, 1)
+      }
+      await app.mysql.query(`update user SET done='${oldDoneData}',solved='${oldSolvedData}',error='${oldErrorData}' ` +
+      `WHERE number=${body.account};`, '')
+      await app.mysql.query(`update problem SET edit=edit+1,accept=accept+1 WHERE id=${body.id};`, '')
+    } else {
+      if (!oldDoneData.includes(body.id)) {
+        oldDoneData.push(body.id)
+      }
+      if (!oldErrorData.includes(body.id)) {
+        oldErrorData.push(body.id)
+      }
+      await app.mysql.query(`update user SET done='${oldDoneData}',error='${oldErrorData}' WHERE number=${body.account};`, '')
+      await app.mysql.query(`update problem SET edit=edit+1 WHERE id=${body.id};`, '')
+    }
+    ctx.body = resData
   }
 
   // 导入学生信息

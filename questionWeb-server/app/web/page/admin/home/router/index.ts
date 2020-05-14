@@ -22,11 +22,17 @@ export default function createRouter () {
       },
       {
         path: '/exam',
-        component: Exam
+        component: Exam,
+        meta: {
+          requireAuth: true,
+        }
       },
       {
         path: '/createQuestion',
-        component: CreateQuestion
+        component: CreateQuestion,
+        meta: {
+          requireAuth: true,
+        }
       },
       {
         path: '/information',
@@ -34,7 +40,10 @@ export default function createRouter () {
       },
       {
         path: '/backstage',
-        component: Backstage
+        component: Backstage,
+        meta: {
+          requireAuth: true,
+        }
       },
     ]
   });

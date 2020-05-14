@@ -38,6 +38,9 @@ export default class AdminModule implements Module<AdminState, RootState> {
     identity (state): string {
       return state.identity;
     },
+    userDone (state): number {
+      return state.userDone;
+    },
     userSolved (state): number {
       return state.userSolved;
     },
@@ -93,9 +96,14 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.post(`${rootState.origin}/admin/api/getExamList`, data);
       return res;
     },
-    // 加入错题
-    async joinError ({ commit, dispatch, state , rootState}, data) {
-      const res = await axios.post(`${rootState.origin}/admin/api/joinError`, data);
+    // 提交考试数据修改学生做题数据
+    async submitExam ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/submitExam`, data);
+      return res;
+    },
+    // 首页做题后修改学生做题数据
+    async submitQuestion ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/submitQuestion`, data);
       return res;
     },
     // 新建题目
@@ -146,7 +154,8 @@ export default class AdminModule implements Module<AdminState, RootState> {
       });
     },
     [SET_USER_DELETE] (state, data) {
-      state.userSolved = data.solved;
+      state.userDone = data.done.split(',').length;
+      state.userSolved = data.solved.split(',').length;
       state.account = data.account;
       state.identity = data.userIdentity;
       console.log(data)
@@ -163,6 +172,7 @@ export default class AdminModule implements Module<AdminState, RootState> {
       articleList: [],
       article: undefined,
       account: 0,
+      userDone: 0,
       userSolved: 0,
       questionNum: 0,
       ...initState
