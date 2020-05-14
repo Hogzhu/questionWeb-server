@@ -14,13 +14,16 @@ export default class RankList extends Vue {
 
   private mounted () {
     // 监听总体数的变化确认获取题目列表的接口是否已返回值
-    this.$watch(function () {
-      // return this.$store.state.admin.questionNum
-      return this.$store.getters.questionNum
-    }, (v, o) => {
+    if (this.$store.getters.questionNum === 0) {
+      this.$watch(function () {
+        // return this.$store.state.admin.questionNum
+        return this.$store.getters.questionNum
+      }, (v, o) => {
+        this.getRankInformation()
+      })
+    } else {
       this.getRankInformation()
-    })
-    this.getRankInformation()
+    }
   }
 
   private async getRankInformation () {

@@ -59,10 +59,6 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.post(`${rootState.origin}/admin/api/article/list`, condition, { headers });
       commit(SET_ARTICLE_LIST, res.data);
     },
-    async getArticle ({ commit, dispatch, state , rootState}, { id }) {
-      const res = await axios.get(`${rootState.origin}/admin/api/article/${id}`);
-      commit(SET_ARTICLE_DETAIL, res.data);
-    },
     // 登录并添加token
     async login ({ commit, dispatch, state , rootState}, data) {
       const res = await axios.post(`${rootState.origin}/admin/api/login`, data);
@@ -72,13 +68,12 @@ export default class AdminModule implements Module<AdminState, RootState> {
     async checkLogin ({ commit, dispatch, state , rootState}, config) {
       const res = await axios.post(`${rootState.origin}/admin/api/checkLogin`, {}, config);
       commit(SET_USER_DELETE, res.data);
+      commit(SET_QUESTION_DELETE, res.data);
       return res;
     },
     // 获得题目列表
     async getQuestionList ({ commit, dispatch, state , rootState}) {
       const res = await axios.post(`${rootState.origin}/admin/api/getQuestionList`, {});
-      commit(SET_QUESTION_DELETE, res.data);
-      console.log('返回了')
       return res;
     },
     // 获得做题和排行数据
@@ -122,17 +117,12 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.post(`${rootState.origin}/admin/api/importStudent`, data);
       return res;
     },
-    async saveArticle ({ commit, dispatch, state, rootState }, data) {
-      // node need auth
-      const res = await axios.post(`${rootState.origin}/admin/api/article/add`, data);
-      commit(SET_ARTICLE_LIST, res.data);
+    // 获得个人做题数据
+    async getPersonalInfo ({ commit, dispatch, state , rootState}, data) {
+      console.log(typeof data)
+      const res = await axios.post(`${rootState.origin}/admin/api/getPersonalInfo`, data);
       return res;
     },
-    async deleteArticle ({ commit, dispatch, state, rootState }, { id }) {
-      // node need auth
-      await axios.post(`${rootState.origin}/admin/api/article/del`, { id });
-      commit(DELETE_ARTICLE, { id });
-    }
   };
 
   mutations: MutationTree<AdminState> = {
@@ -158,8 +148,6 @@ export default class AdminModule implements Module<AdminState, RootState> {
       state.userSolved = data.solved.split(',').length;
       state.account = data.account;
       state.identity = data.userIdentity;
-      console.log(data)
-      console.log(state)
     },
     [SET_QUESTION_DELETE] (state, data) {
       state.questionNum = data.questionNum;

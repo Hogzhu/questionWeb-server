@@ -334,7 +334,11 @@
       "pageUrl": ""
     },
     "siteFile": {
-      "/favicon.ico": "<Buffer len: 4286>"
+      "/favicon.ico": "<Buffer len: 4286>",
+      "/edit.png": "<Buffer len: 29132>",
+      "/accept.png": "<Buffer len: 19730>",
+      "/exam.png": "<Buffer len: 31301>",
+      "/unfinish.png": "<Buffer len: 77157>"
     },
     "bodyParser": {
       "enable": true,

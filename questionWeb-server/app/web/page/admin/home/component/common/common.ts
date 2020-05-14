@@ -8,7 +8,6 @@ export default class Common extends Vue {
     @Action('checkLogin') checkLogin
 
     private async checkLoginStatus () {
-        console.log('checkLogin')
         const token = window.localStorage.token
         const headers = {
           // 切记 token 不要直接发送，要在前面加上 Bearer 字符串和一个空格

@@ -25,7 +25,7 @@ export default class UserController extends Controller {
     //     'from problem where id >= (select floor(RAND() * (select MAX(id) from problem))) ORDER BY id LIMIT 10', '');
     const questionList = await app.mysql.query(
         'select id,title,choose_A,choose_B,choose_C,choose_D,level,class,edit,accept ' +
-        'from problem ORDER BY rand() LIMIT 10', '');
+        'from problem ORDER BY rand() LIMIT 20', '');
     const questionData = {
         questionNum,
         easyNum,
@@ -44,14 +44,42 @@ export default class UserController extends Controller {
     ctx.body = questionData;
   }
 
+  // 获取考试题
   public async getExamList () {
     const { ctx , app } = this;
+    let choose: any = ''
+    let index: number = 0
+    let errorChoose: any = [] // 带引号的错题id数组
+    let noQuote: any = [] // 无引号的错题id数组
+    let questionData: any = {}
     // 随机选择10个选择题和5个问答题
-    const choose = await app.mysql.query('select * from problem where class = "选择题" limit 10', '');
-    const essay = await app.mysql.query('select * from problem where class = "问答题" limit 5', '');
-    const questionData = {
+    const essay = await app.mysql.query('select * from problem where class = "简答题" limit 5', '');
+    let errorList = await app.mysql.query(`select error from user where number = ${ctx.request.body.account}`, '');
+    errorList = errorList[0].error.split(',')
+    if (errorList.length < 3) {
+      choose = await app.mysql.query('select * from problem where class = "选择题" limit 10', '');
+      questionData = {
         choose,
         essay
+      }
+    } else {
+      // 多选择几个以免错题被删除的情况
+      for (let i = 0 ; i < 3 ; i++) {
+        index = Math.floor(Math.random() * errorList.length)
+        errorChoose.push('"' + errorList[index] + '"')
+        noQuote.push(errorList[index])
+        errorList.splice(index, 1)
+      }
+      errorChoose = errorChoose.join(',')
+      noQuote = noQuote.join(',')
+      console.log(noQuote)
+      const errorArr = await app.mysql.query(`select * from problem where id in (${errorChoose}) limit 3`, '');
+      choose = await app.mysql.query(`select * from problem where class="选择题" and id not in (${noQuote}) limit 7`, '');
+      questionData = {
+        errorArr,
+        choose,
+        essay
+      }
     }
     ctx.body = questionData
   }

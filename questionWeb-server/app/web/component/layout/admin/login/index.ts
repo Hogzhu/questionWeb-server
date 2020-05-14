@@ -8,6 +8,7 @@ import { Action } from 'vuex-class';
 })
 export default class Login extends Vue {
   @Action('login') login;
+  private isForget: boolean = false
 
   @Emit('closeLogin')
   private closeLogin () {
@@ -32,4 +33,11 @@ export default class Login extends Vue {
     }
   }
 
+  private forgetPwd () {
+    this.isForget = true
+  }
+
+  private backLogin () {
+    this.isForget = false
+  }
 }

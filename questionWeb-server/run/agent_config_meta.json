@@ -1,6 +1,10 @@
 {
   "siteFile": {
-    "/favicon.ico": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
+    "/favicon.ico": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "/edit.png": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "/accept.png": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "/exam.png": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts",
+    "/unfinish.png": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\config.default.ts"
   },
   "view": {
     "cache": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view\\config\\config.local.js",

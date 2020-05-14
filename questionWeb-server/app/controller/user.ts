@@ -52,12 +52,14 @@ export default class UserController extends Controller {
   // 访问admin数据时进行验证token，并且解析 token 的数据
   public async checkLogin () {
     const { ctx , app } = this
+    const question = await app.mysql.query('select count(*) from problem', '');
     const userData = await app.mysql.query(`select name,identity,done,solved from user where number = '${ctx.state.user.account}'`, '')
     /*
     * 打印内容为：{ username : 'admin', iat: 1560346903 }
     * iat 为过期时间，可以单独写中间件验证，这里不做细究
     * 除了 iat 之后，其余的为当时存储的数据
     **/
+    const questionNum = question[0]['count(*)']
     ctx.body = {
       code: 0,
       msg: '验证成功',
@@ -65,7 +67,8 @@ export default class UserController extends Controller {
       userName: userData[0].name,
       userIdentity: userData[0].identity,
       done: userData[0].done,
-      solved: userData[0].solved
+      solved: userData[0].solved,
+      questionNum
     };
   }
 
@@ -126,7 +129,7 @@ export default class UserController extends Controller {
     newDoneData = Array.from(new Set(newDoneData))
     newSolvedData = Array.from(new Set(newSolvedData))
     newErrorData = Array.from(new Set(newErrorData))
-    const resData = await app.mysql.query(`update user SET done='${newDoneData}',solved='${newSolvedData}',error='${newErrorData}' ` +
+    const resData = await app.mysql.query(`update user SET exam=exam+1,done='${newDoneData}',solved='${newSolvedData}',error='${newErrorData}' ` +
     `WHERE number=${body.account};`, '')
     const acceptData = await app.mysql.query(`update problem SET accept= CASE id WHEN id THEN accept+1 END WHERE id IN (${trueStr});`, '')
     const editData = await app.mysql.query(`update problem SET edit= CASE id WHEN id THEN edit+1 END WHERE id IN (${allStr});`, '')
@@ -187,7 +190,16 @@ export default class UserController extends Controller {
     const { ctx , app } = this
     const body = ctx.request.body
     console.log(body.studentInfo)
-    const studentData = await app.mysql.query(`insert into user (number,name,password,class) values ${body.studentInfo} on duplicate key update number=values(number),name=values(name),password=values(password),class=values(class);`, '')
+    const studentData = await app.mysql.query(`insert into user (number,name,password,class) values ${body.studentInfo} ` +
+    `on duplicate key update number=values(number),name=values(name),password=values(password),class=values(class);`, '')
     ctx.body = studentData
+  }
+
+  // 获得学生的做题数据
+  public async getPersonalInfo () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    const personalData = await app.mysql.query(`select exam,done,solved,error from user where number='${body.account}';`, '')
+    ctx.body = personalData
   }
 }

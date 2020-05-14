@@ -26,6 +26,19 @@ export default class CreateQuestion extends Vue {
     this.questionImportant = important
   }
 
+  // 通过url直接进入页面的用户未登录则提示登录并退回首页
+  private beforeMount () {
+    if (!window.localStorage.getItem('token')) {
+      this.$message({
+        type: 'error',
+        message: '请先登录'
+      })
+      setTimeout(() => {
+        window.location.href = window.location.origin + '/'
+      }, 1000)
+    }
+  }
+
   // 提交题目内容
   private async submitQuestion () {
     const refs: any = this.$refs

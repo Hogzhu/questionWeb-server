@@ -1,5 +1,5 @@
 import { Vue, Component } from 'vue-property-decorator'
-import { Action, Getter } from 'vuex-class';
+import { Action, Getter } from 'vuex-class'
 @Component({})
 export default class Exam extends Vue {
   @Action('getExamList') getExamList;
@@ -13,8 +13,28 @@ export default class Exam extends Vue {
   private isSubmit: boolean = false
   private btnLocked: boolean = true
 
-  private created () {
-    this.getExamInfo()
+  // 通过url直接进入页面的用户未登录则提示登录并退回首页
+  private beforeMount () {
+    if (!window.localStorage.getItem('token')) {
+      this.$message({
+        type: 'error',
+        message: '请先登录'
+      })
+      setTimeout(() => {
+        window.location.href = window.location.origin + '/'
+      }, 1000)
+    } else {
+      // 监听总体数的变化确认获取题目列表的接口是否已返回值
+      if (this.$store.getters.account === 0) {
+        this.$watch(function () {
+          return this.$store.getters.account
+        }, (v, o) => {
+          this.getExamInfo()
+        })
+      } else {
+        this.getExamInfo()
+      }
+    }
   }
 
   private async getExamInfo () {
@@ -22,9 +42,10 @@ export default class Exam extends Vue {
       account: this.account
     }
     const res = await this.getExamList(data)
-    this.chooseQuestion = res.data.choose
-    this.essayQuestion = res.data.essay
+    this.chooseQuestion = res.data.choose.concat(res.data.errorArr)
     console.log(this.chooseQuestion)
+    console.log(res.data.errorArr)
+    this.essayQuestion = res.data.essay
   }
 
   // 提交答案，回答错误的题目加入用户的错题

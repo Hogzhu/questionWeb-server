@@ -6,7 +6,11 @@ export default (appInfo: EggAppConfig) => {
   const config: any = {};
 
   config.siteFile = {
-    '/favicon.ico': fs.readFileSync(path.join(appInfo.baseDir, 'app/web/asset/images/favicon.ico'))
+    '/favicon.ico': fs.readFileSync(path.join(appInfo.baseDir, 'app/web/asset/images/favicon.ico')),
+    '/edit.png': fs.readFileSync(path.join(appInfo.baseDir, 'app/web/asset/images/edit.png')),
+    '/accept.png': fs.readFileSync(path.join(appInfo.baseDir, 'app/web/asset/images/accept.png')),
+    '/exam.png': fs.readFileSync(path.join(appInfo.baseDir, 'app/web/asset/images/exam.png')),
+    '/unfinish.png': fs.readFileSync(path.join(appInfo.baseDir, 'app/web/asset/images/unfinish.png'))
   };
 
   config.view = {

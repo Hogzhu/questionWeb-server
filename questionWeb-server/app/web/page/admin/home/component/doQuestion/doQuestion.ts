@@ -37,6 +37,17 @@ export default class AutoExam extends Vue {
         this.radioSelect = choose
     }
 
+    private beforeSubmit () {
+        if (!window.localStorage.getItem('token')) {
+            this.$message({
+                type: 'error',
+                message: '提交失败，请先登录'
+            })
+        } else {
+            this.submit()
+        }
+    }
+
     private async submit () {
         this.showAnswer = true
         if (this.isChoose) {

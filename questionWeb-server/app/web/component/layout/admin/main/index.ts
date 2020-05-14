@@ -16,12 +16,13 @@ export default class Main extends Vue {
   // 用户切换路由进入其他页面时先检测是否已登录
   private loginStatusCheck () {
     this.$router.beforeEach ((to, from, next) => {
-      console.log(to)
       if (to.path !== '/' && !window.localStorage.getItem('token')) {
         this.$message({ type: 'error',
          message: '请先登录'
         })
       } else if (to.path === '/') {
+        next()
+      } else {
         next()
       }
     })

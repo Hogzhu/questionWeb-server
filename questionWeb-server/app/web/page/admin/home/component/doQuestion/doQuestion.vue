@@ -19,8 +19,8 @@
     </div>
     <div class="doQuestion-container-result">{{result}}</div>
     <div class="doQuestion-container-answer" v-if="showAnswer">参考答案：{{questionData.answer}}</div>
-    <button class="doQuestion-container-btn" @click="submit()" v-if="isChoose">提交</button>
-    <button class="doQuestion-container-btn" @click="submit()" v-if="!isChoose">查看解析</button>
+    <button class="doQuestion-container-btn" @click="beforeSubmit" v-if="isChoose">提交</button>
+    <button class="doQuestion-container-btn" @click="beforeSubmit" v-if="!isChoose">查看解析</button>
   </div>
 </div>
 </template>
@@ -51,7 +51,7 @@
       height: 50rem;
       border: 1px solid #eee;
       border-radius: 4px;
-      box-shadow: 5px 5px 10px #ccc;
+      box-shadow: 0 0 10px #fff;
       background-color: rgba(250,250,250,1);
       &-title {
         margin-bottom: 6rem;
