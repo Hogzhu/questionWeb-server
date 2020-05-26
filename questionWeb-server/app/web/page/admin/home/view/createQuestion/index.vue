@@ -39,6 +39,14 @@
         <span>答案:</span>
         <textarea class="createQuestion-list-answer-input" ref="answer" rows="3" />
       </div>
+      <div class="createQuestion-list-point">
+        <span>知识点:</span>
+        <select>
+          <option>web前端</option>
+          <option>嵌入式设计</option>
+          <option>Java</option>
+        </select>
+      </div>
       <div class="createQuestion-list-important">
         <span>重点:</span>
         <input type="radio" name="question-important" value="important-yes" @change="changeImportant(true)" />是
@@ -85,6 +93,11 @@
       }
       div span {
         padding-right: 1rem;
+      }
+    }
+    &-point {
+      span {
+        padding-right: 0.5rem;
       }
     }
     &-btn {

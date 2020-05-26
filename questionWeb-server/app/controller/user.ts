@@ -18,6 +18,8 @@ export default class UserController extends Controller {
     const data = ctx.request.body
     // 进行验证 data 数据 登录是否成功
     let checkNum = 0
+    let loginStatus = false
+    let loginText = '登录出错'
     const information = await app.mysql.query('select * from user', '')
     const userNum = information.length
     information.forEach((item, index) => {
@@ -25,28 +27,36 @@ export default class UserController extends Controller {
       if (item.number === ctx.request.body.account) {
         if (item.password === ctx.request.body.password) {
           checkNum--
+          loginStatus = true
           console.log('login success')
         } else {
           checkNum--
-          console.log('密码错误')
+          loginText = '密码错误'
           return false
         }
       }
     })
     if (checkNum === userNum) {
-      console.log('账号不存在')
-      return false
+      console.log(64564545)
+      loginText = '账号不存在'
     }
     // 成功过后进行一下操作
     // 生成 token 的方式
     const token = app.jwt.sign({
      account: data.account, // 需要存储的 token 数据
-     password: data.password,
+     password: data.password
      // ......
     }, app.config.jwt.secret)
     // 生成的token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmb28iOiJiYXIiLCJpYXQiOjE1NjAzNDY5MDN9.B95GqH-fdRpyZIE5g_T0l8RgzNyWOyXepkLiynWqrJg
     // 返回 token 到前端
-    ctx.body = token
+    if (loginStatus !== false) {
+      ctx.body = token
+    } else {
+      const res = {
+        loginText
+      }
+      ctx.body = res
+    }
   };
 
   // 访问admin数据时进行验证token，并且解析 token 的数据
@@ -201,5 +211,12 @@ export default class UserController extends Controller {
     const body = ctx.request.body
     const personalData = await app.mysql.query(`select exam,done,solved,error from user where number='${body.account}';`, '')
     ctx.body = personalData
+  }
+
+  // 获得学生基本信息
+  public async getStudentInfo () {
+    const { ctx , app } = this
+    const studentData = await app.mysql.query(`select name,number,class from user;`, '')
+    ctx.body = studentData
   }
 }

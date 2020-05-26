@@ -1,5 +1,6 @@
 import { Vue, Component, Emit } from 'vue-property-decorator';
 import { Action } from 'vuex-class';
+import { type } from 'os';
 // import { resolve } from 'dns';
 // import { rejects } from 'assert';
 @Component({
@@ -19,7 +20,7 @@ export default class Login extends Vue {
     const account = (this.$refs.account as any).value
     const password = (this.$refs.password as any).value
     if (!account || !password) {
-      console.log('学号或密码不可为空!')
+      this.$message({type: 'error', message: '学号或密码不可为空!'})
       return false
     }
     const data = {
@@ -28,6 +29,10 @@ export default class Login extends Vue {
     }
     const loginStatus = await this.login(data)
     if (loginStatus.status === 200) {
+      if (loginStatus.data.loginText) {
+        this.$message({type: 'error', message: loginStatus.data.loginText})
+        return false
+      }
       window.localStorage.setItem('token', loginStatus.data)
       window.location.reload()
     }

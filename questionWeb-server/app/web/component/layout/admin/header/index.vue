@@ -9,7 +9,7 @@
         <a @click="login()" v-if="!isLogin">登录</a>
         <a class="nav-user" v-if="isLogin">你好，{{userName}}
           <div class="nav-user-container">
-            <div class="nav-user-container-space">个人中心</div>
+            <!-- <div class="nav-user-container-space">个人中心</div> -->
             <div class="nav-user-container-out" @click="logout()">退出系统</div>
           </div>
         </a>

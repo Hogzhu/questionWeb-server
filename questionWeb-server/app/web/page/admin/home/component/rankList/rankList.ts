@@ -44,7 +44,7 @@ export default class RankList extends Vue {
     this.myPieCharts.setOption(this.pieCharts)
   }
 
-  // 组装柱状图数据
+  // 组装饼状图数据
   private handlerPieCharts () {
     this.pieCharts = {
       title: {

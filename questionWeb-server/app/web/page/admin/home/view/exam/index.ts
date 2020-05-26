@@ -7,7 +7,7 @@ export default class Exam extends Vue {
   @Getter('account') account;
   @Getter('userSolved') userSolved;
 
-  private chooseQuestion: any[] = []
+  private chooseQuestion: any = []
   private essayQuestion: any[] = []
   private chooseArr: number[] = [0, 0, 0, 0, 0, 0, 0]
   private isSubmit: boolean = false

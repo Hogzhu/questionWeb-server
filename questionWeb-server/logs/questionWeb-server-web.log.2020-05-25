@@ -1,0 +1,797 @@
+2020-05-24 14:21:41,355 INFO 12016 [-/127.0.0.1/-/1825ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240505 - 1820 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:41,749 INFO 12016 [-/127.0.0.1/-/215ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 76 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:41,808 INFO 12016 [-/127.0.0.1/-/271ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 126 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:41,912 INFO 12016 [-/127.0.0.1/-/215ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/ 192 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:41,964 INFO 12016 [-/127.0.0.1/-/426ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3647 - 294 - axios/0.18.1
+2020-05-24 14:21:42,604 INFO 12016 [-/127.0.0.1/-/12ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3628 http://127.0.0.1:7001/ 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:42,609 INFO 12016 [-/127.0.0.1/-/29ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 146 http://127.0.0.1:7001/ 27 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:42,690 INFO 12016 [-/127.0.0.1/-/5ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 200 http://127.0.0.1:7001/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:47,058 INFO 12016 [-/127.0.0.1/-/4ms POST /admin/api/getPersonalInfo] [access] 127.0.0.1: - POST /admin/api/getPersonalInfo HTTP/200 45 http://127.0.0.1:7001/admin/information 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:48,092 INFO 12016 [-/127.0.0.1/-/2ms POST /admin/api/getPersonalInfo] [access] 127.0.0.1: - POST /admin/api/getPersonalInfo HTTP/200 45 http://127.0.0.1:7001/admin/information 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:51,742 INFO 12016 [-/127.0.0.1/-/10ms POST /admin/api/getExamList] [access] 127.0.0.1: - POST /admin/api/getExamList HTTP/200 3528 http://127.0.0.1:7001/admin/exam 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:56,876 INFO 12016 [-/127.0.0.1/-/3ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 200 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-24 14:21:56,882 INFO 12016 [-/127.0.0.1/-/10ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3635 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:45,007 INFO 13184 [-/127.0.0.1/-/2246ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240505 - 2237 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:45,295 INFO 13184 [-/127.0.0.1/-/222ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3660 - 34 - axios/0.18.1
+2020-05-25 21:56:45,308 INFO 13184 [-/127.0.0.1/-/239ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 41 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:45,320 INFO 13184 [-/127.0.0.1/-/45ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 44 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:45,391 INFO 13184 [-/127.0.0.1/-/115ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/ 113 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:46,426 INFO 13184 [-/127.0.0.1/-/49ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 146 http://127.0.0.1:7001/ 42 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:46,434 INFO 13184 [-/127.0.0.1/-/27ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3604 http://127.0.0.1:7001/ 27 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:46,464 INFO 13184 [-/127.0.0.1/-/9ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 200 http://127.0.0.1:7001/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:51,337 INFO 13184 [-/127.0.0.1/-/498ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240505 http://127.0.0.1:7001/ 497 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:51,479 INFO 13184 [-/127.0.0.1/-/17ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:51,489 INFO 13184 [-/127.0.0.1/-/27ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 25 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:51,553 INFO 13184 [-/127.0.0.1/-/80ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/ 76 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:51,586 INFO 13184 [-/127.0.0.1/-/124ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3611 - 124 - axios/0.18.1
+2020-05-25 21:56:52,289 WARN 13184 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13184
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 21:56:52,375 INFO 13184 [-/127.0.0.1/-/5ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3633 http://127.0.0.1:7001/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:56:59,368 INFO 13184 [-/127.0.0.1/-/5ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:01,415 INFO 13184 [-/127.0.0.1/-/424ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240505 http://127.0.0.1:7001/ 424 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:01,561 INFO 13184 [-/127.0.0.1/-/8ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:01,563 INFO 13184 [-/127.0.0.1/-/10ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:01,621 INFO 13184 [-/127.0.0.1/-/64ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/ 62 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:01,654 INFO 13184 [-/127.0.0.1/-/100ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3653 - 99 - axios/0.18.1
+2020-05-25 21:57:02,633 WARN 13184 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13184
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 21:57:02,669 INFO 13184 [-/127.0.0.1/-/9ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3657 http://127.0.0.1:7001/ 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:19,723 INFO 13184 [-/127.0.0.1/-/5ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 161 http://127.0.0.1:7001/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:20,288 INFO 13184 [-/127.0.0.1/-/542ms GET /] [access] 127.0.0.1: - GET / HTTP/200 240505 http://127.0.0.1:7001/ 542 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:20,399 INFO 13184 [-/127.0.0.1/-/27ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/ 23 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:20,405 INFO 13184 [-/127.0.0.1/-/34ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/ 29 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:20,470 INFO 13184 [-/127.0.0.1/-/87ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/ 82 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:20,518 INFO 13184 [-/127.0.0.1/-/146ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3606 - 145 - axios/0.18.1
+2020-05-25 21:57:21,175 INFO 13184 [-/127.0.0.1/-/12ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 179 http://127.0.0.1:7001/ 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:21,182 INFO 13184 [-/127.0.0.1/-/14ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3665 http://127.0.0.1:7001/ 13 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:21,208 INFO 13184 [-/127.0.0.1/-/4ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 200 http://127.0.0.1:7001/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:44,847 INFO 13184 [-/127.0.0.1/-/19ms POST /admin/api/getExamList] [access] 127.0.0.1: - POST /admin/api/getExamList HTTP/200 3541 http://127.0.0.1:7001/admin/exam 18 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:47,327 INFO 13184 [-/127.0.0.1/-/8ms POST /admin/api/getExamList] [access] 127.0.0.1: - POST /admin/api/getExamList HTTP/200 3541 http://127.0.0.1:7001/admin/exam 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:53,869 INFO 13184 [-/127.0.0.1/-/2ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 200 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:53,875 INFO 13184 [-/127.0.0.1/-/10ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3659 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:54,928 INFO 13184 [-/127.0.0.1/-/4ms POST /admin/api/getPersonalInfo] [access] 127.0.0.1: - POST /admin/api/getPersonalInfo HTTP/200 95 http://127.0.0.1:7001/admin/information 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:56,682 INFO 13184 [-/127.0.0.1/-/1ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 200 http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 21:57:56,689 INFO 13184 [-/127.0.0.1/-/10ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3639 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:29,355 INFO 13184 [-/127.0.0.1/-/712ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 712 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:29,449 INFO 13184 [-/127.0.0.1/-/31ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 28 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:29,460 INFO 13184 [-/127.0.0.1/-/18ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 17 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:29,474 INFO 13184 [-/127.0.0.1/-/56ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3603 - 55 - axios/0.18.1
+2020-05-25 22:06:29,558 INFO 13184 [-/127.0.0.1/-/112ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/admin/ 103 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:30,235 WARN 13184 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13184
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:06:30,302 INFO 13184 [-/127.0.0.1/-/12ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3656 http://127.0.0.1:7001/admin/ 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:31,999 INFO 13184 [-/127.0.0.1/-/5ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:38,100 INFO 13184 [-/127.0.0.1/-/5ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 159 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:38,690 INFO 13184 [-/127.0.0.1/-/554ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 552 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:38,858 INFO 13184 [-/127.0.0.1/-/27ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 23 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:38,868 INFO 13184 [-/127.0.0.1/-/35ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 27 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:38,960 INFO 13184 [-/127.0.0.1/-/115ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/admin/ 113 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:38,978 INFO 13184 [-/127.0.0.1/-/146ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3617 - 144 - axios/0.18.1
+2020-05-25 22:06:40,296 INFO 13184 [-/127.0.0.1/-/11ms POST /admin/api/checkLogin] [access] 127.0.0.1: - POST /admin/api/checkLogin HTTP/200 179 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:40,298 INFO 13184 [-/127.0.0.1/-/6ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3638 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:06:40,432 INFO 13184 [-/127.0.0.1/-/4ms POST /admin/api/getUserRank] [access] 127.0.0.1: - POST /admin/api/getUserRank HTTP/200 200 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:18,851 INFO 13184 [-/127.0.0.1/-/459ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 459 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:18,897 INFO 13184 [-/127.0.0.1/-/16ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:18,919 INFO 13184 [-/127.0.0.1/-/12ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:18,985 INFO 13184 [-/127.0.0.1/-/77ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/admin/ 75 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:18,997 INFO 13184 [-/127.0.0.1/-/112ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3612 - 108 - axios/0.18.1
+2020-05-25 22:08:19,651 WARN 13184 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13184
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:08:19,753 INFO 13184 [-/127.0.0.1/-/6ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3675 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:42,321 INFO 13184 [-/127.0.0.1/-/404ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 404 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:42,430 INFO 13184 [-/127.0.0.1/-/44ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 38 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:42,437 INFO 13184 [-/127.0.0.1/-/31ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 27 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:42,508 INFO 13184 [-/127.0.0.1/-/98ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/admin/ 94 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:42,522 INFO 13184 [-/127.0.0.1/-/148ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3651 - 146 - axios/0.18.1
+2020-05-25 22:08:43,448 WARN 13184 [-/127.0.0.1/-/2ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13184
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:08:43,554 INFO 13184 [-/127.0.0.1/-/11ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3617 http://127.0.0.1:7001/admin/ 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:45,312 INFO 13184 [-/127.0.0.1/-/418ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 418 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:45,393 INFO 13184 [-/127.0.0.1/-/50ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 33 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:45,407 INFO 13184 [-/127.0.0.1/-/33ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 18 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:45,470 INFO 13184 [-/127.0.0.1/-/86ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828812 http://127.0.0.1:7001/admin/ 79 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:08:45,482 INFO 13184 [-/127.0.0.1/-/138ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3653 - 137 - axios/0.18.1
+2020-05-25 22:08:45,887 WARN 13184 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13184
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:08:45,981 INFO 13184 [-/127.0.0.1/-/8ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3637 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:22:26,143 INFO 13184 [-/127.0.0.1/-/5ms GET /public/16114a7725c878704911.hot-update.json] [access] 127.0.0.1: - GET /public/16114a7725c878704911.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:22:26,156 INFO 13184 [-/127.0.0.1/-/7ms GET /public/admin/home.16114a7725c878704911.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.16114a7725c878704911.hot-update.js HTTP/200 4940 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:26:13,758 INFO 13184 [-/127.0.0.1/-/6ms GET /public/font/element-icons.woff] [access] 127.0.0.1: - GET /public/font/element-icons.woff HTTP/200 28200 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:28:45,372 INFO 13184 [-/127.0.0.1/-/6ms GET /public/96201ae7a5d188272379.hot-update.json] [access] 127.0.0.1: - GET /public/96201ae7a5d188272379.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:28:45,384 INFO 13184 [-/127.0.0.1/-/4ms GET /public/admin/home.96201ae7a5d188272379.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.96201ae7a5d188272379.hot-update.js HTTP/200 4706 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:28:50,903 INFO 13184 [-/127.0.0.1/-/9ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:28:55,930 INFO 13184 [-/127.0.0.1/-/16ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 160 http://127.0.0.1:7001/admin/ 13 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:31:38,030 INFO 13184 [-/127.0.0.1/-/641ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 640 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:31:38,157 INFO 13184 [-/127.0.0.1/-/30ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 25 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:31:38,178 INFO 13184 [-/127.0.0.1/-/49ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 43 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:31:38,296 INFO 13184 [-/127.0.0.1/-/141ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828354 http://127.0.0.1:7001/admin/ 79 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:31:38,318 INFO 13184 [-/127.0.0.1/-/187ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3636 - 185 - axios/0.18.1
+2020-05-25 22:31:39,315 WARN 13184 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13184
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:31:39,404 INFO 13184 [-/127.0.0.1/-/11ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3625 http://127.0.0.1:7001/admin/ 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:31:43,722 INFO 13184 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 159 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:32:58,747 INFO 9884 [-/127.0.0.1/-/146ms GET /public/7cf4e656f060d86662dc.hot-update.json] [access] 127.0.0.1: - GET /public/7cf4e656f060d86662dc.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 107 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:32:58,761 INFO 9884 [-/127.0.0.1/-/6ms GET /public/admin/home.7cf4e656f060d86662dc.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.7cf4e656f060d86662dc.hot-update.js HTTP/200 4985 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:33:04,535 INFO 9884 [-/127.0.0.1/-/4141ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 4141 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:33:04,728 INFO 9884 [-/127.0.0.1/-/94ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:33:04,732 INFO 9884 [-/127.0.0.1/-/97ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:33:04,819 INFO 9884 [-/127.0.0.1/-/97ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828633 http://127.0.0.1:7001/admin/ 95 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:33:04,838 INFO 9884 [-/127.0.0.1/-/203ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3666 - 122 - axios/0.18.1
+2020-05-25 22:33:05,787 WARN 9884 [-/127.0.0.1/-/4ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9884
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:33:05,850 INFO 9884 [-/127.0.0.1/-/9ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3643 http://127.0.0.1:7001/admin/ 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:33:12,012 INFO 9884 [-/127.0.0.1/-/4ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 185 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:36:15,600 INFO 9884 [-/127.0.0.1/-/606ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 605 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:36:15,719 INFO 9884 [-/127.0.0.1/-/79ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 27 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:36:15,821 INFO 9884 [-/127.0.0.1/-/76ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 49 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:36:15,830 INFO 9884 [-/127.0.0.1/-/188ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3647 - 185 - axios/0.18.1
+2020-05-25 22:36:15,897 INFO 9884 [-/127.0.0.1/-/105ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828633 http://127.0.0.1:7001/admin/ 101 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:36:16,975 WARN 9884 [-/127.0.0.1/-/2ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9884
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:36:17,105 INFO 9884 [-/127.0.0.1/-/21ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3620 http://127.0.0.1:7001/admin/ 19 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:36:22,903 INFO 10656 [-/127.0.0.1/-/30ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 161 http://127.0.0.1:7001/admin/ 13 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:38:42,609 INFO 10656 [-/127.0.0.1/-/1752ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1750 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:38:44,068 WARN 12548 [-/127.0.0.1/-/37ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 12548
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:38:44,183 INFO 12548 [-/127.0.0.1/-/20ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3588 http://127.0.0.1:7001/admin/ 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:38:48,599 INFO 12548 [-/127.0.0.1/-/17ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 162 http://127.0.0.1:7001/admin/ 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:42:29,641 INFO 12548 [-/127.0.0.1/-/1779ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1778 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:42:31,159 WARN 21180 [-/127.0.0.1/-/31ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21180
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:42:31,233 INFO 21180 [-/127.0.0.1/-/21ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3610 http://127.0.0.1:7001/admin/ 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:42:35,478 INFO 21180 [-/127.0.0.1/-/24ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 162 http://127.0.0.1:7001/admin/ 23 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:43:52,140 INFO 21180 [-/127.0.0.1/-/1642ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1641 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:43:52,225 INFO 21180 [-/127.0.0.1/-/31ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 24 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:43:52,230 INFO 21180 [-/127.0.0.1/-/62ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3628 - 60 - axios/0.18.1
+2020-05-25 22:43:52,256 INFO 21180 [-/127.0.0.1/-/22ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:43:52,318 INFO 21180 [-/127.0.0.1/-/81ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828633 http://127.0.0.1:7001/admin/ 75 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:43:53,494 WARN 21180 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21180
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:43:53,533 INFO 21180 [-/127.0.0.1/-/7ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3639 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:43:58,071 INFO 17164 [-/127.0.0.1/-/55ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 163 http://127.0.0.1:7001/admin/ 38 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:44:27,346 INFO 17164 [-/127.0.0.1/-/1726ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1726 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:44:28,632 WARN 20640 [-/127.0.0.1/-/40ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20640
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:44:28,711 INFO 20640 [-/127.0.0.1/-/18ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3659 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:44:32,616 INFO 20640 [-/127.0.0.1/-/10ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 166 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:46:21,165 INFO 5108 [-/127.0.0.1/-/1301ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1295 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:46:21,351 INFO 5108 [-/127.0.0.1/-/86ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 23 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:46:21,403 INFO 5108 [-/127.0.0.1/-/129ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3609 - 76 - axios/0.18.1
+2020-05-25 22:46:21,447 INFO 5108 [-/127.0.0.1/-/107ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828633 http://127.0.0.1:7001/admin/ 102 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:46:21,461 INFO 5108 [-/127.0.0.1/-/118ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 115 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:46:22,409 WARN 5108 [-/127.0.0.1/-/7ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5108
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:46:22,485 INFO 5108 [-/127.0.0.1/-/18ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3636 http://127.0.0.1:7001/admin/ 18 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:46:27,555 INFO 5108 [-/127.0.0.1/-/11ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 166 http://127.0.0.1:7001/admin/ 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:51:05,330 INFO 21404 [-/127.0.0.1/-/1405ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1397 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:51:05,425 INFO 21404 [-/127.0.0.1/-/62ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:51:05,433 INFO 21404 [-/127.0.0.1/-/15ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:51:05,486 INFO 21404 [-/127.0.0.1/-/67ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828633 http://127.0.0.1:7001/admin/ 66 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:51:05,500 INFO 21404 [-/127.0.0.1/-/132ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3675 - 91 - axios/0.18.1
+2020-05-25 22:51:06,414 WARN 21404 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21404
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:51:06,489 INFO 21404 [-/127.0.0.1/-/15ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3629 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:51:11,131 INFO 21404 [-/127.0.0.1/-/4ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:53:19,260 INFO 21404 [-/127.0.0.1/-/738ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 738 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:53:19,304 INFO 21404 [-/127.0.0.1/-/10ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:53:19,318 INFO 21404 [-/127.0.0.1/-/28ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3635 - 26 - axios/0.18.1
+2020-05-25 22:53:19,346 INFO 21404 [-/127.0.0.1/-/13ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 12 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:53:19,415 INFO 21404 [-/127.0.0.1/-/64ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828633 http://127.0.0.1:7001/admin/ 64 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:53:20,513 WARN 20984 [-/127.0.0.1/-/35ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20984
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:53:20,618 INFO 20984 [-/127.0.0.1/-/13ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3657 http://127.0.0.1:7001/admin/ 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:53:25,212 INFO 20984 [-/127.0.0.1/-/4ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/401 28 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:47,002 INFO 20984 [-/127.0.0.1/-/31ms GET /public/1cab2886ff530b5420df.hot-update.json] [access] 127.0.0.1: - GET /public/1cab2886ff530b5420df.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 29 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:47,026 INFO 20984 [-/127.0.0.1/-/10ms GET /public/admin/home.1cab2886ff530b5420df.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.1cab2886ff530b5420df.hot-update.js HTTP/200 5569 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:51,064 INFO 20984 [-/127.0.0.1/-/10ms GET /public/dd07076263654e48d6ae.hot-update.json] [access] 127.0.0.1: - GET /public/dd07076263654e48d6ae.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:51,080 INFO 20984 [-/127.0.0.1/-/4ms GET /public/admin/home.dd07076263654e48d6ae.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.dd07076263654e48d6ae.hot-update.js HTTP/200 5290 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:54,176 INFO 20984 [-/127.0.0.1/-/1444ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1444 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:54,274 INFO 20984 [-/127.0.0.1/-/36ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 26 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:54,282 INFO 20984 [-/127.0.0.1/-/43ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3661 - 40 - axios/0.18.1
+2020-05-25 22:54:54,313 INFO 20984 [-/127.0.0.1/-/12ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:54,368 INFO 20984 [-/127.0.0.1/-/67ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828938 http://127.0.0.1:7001/admin/ 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:55,313 WARN 20984 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20984
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:54:55,371 INFO 20984 [-/127.0.0.1/-/8ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3625 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:54:59,473 INFO 20984 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/401 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:19,339 INFO 20984 [-/127.0.0.1/-/18ms GET /public/1ead44297a9dbe3bd50f.hot-update.json] [access] 127.0.0.1: - GET /public/1ead44297a9dbe3bd50f.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 17 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:19,356 INFO 20984 [-/127.0.0.1/-/3ms GET /public/admin/home.1ead44297a9dbe3bd50f.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.1ead44297a9dbe3bd50f.hot-update.js HTTP/200 5577 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:21,726 INFO 20984 [-/127.0.0.1/-/598ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 596 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:21,777 INFO 20984 [-/127.0.0.1/-/25ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 21 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:21,794 INFO 20984 [-/127.0.0.1/-/44ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3669 - 43 - axios/0.18.1
+2020-05-25 22:55:21,818 INFO 20984 [-/127.0.0.1/-/10ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:21,868 INFO 20984 [-/127.0.0.1/-/60ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8829225 http://127.0.0.1:7001/admin/ 57 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:22,828 WARN 20984 [-/127.0.0.1/-/2ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20984
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:55:22,854 INFO 20984 [-/127.0.0.1/-/7ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3591 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:55:27,155 INFO 20984 [-/127.0.0.1/-/4ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/401 28 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:56:08,348 INFO 20984 [-/127.0.0.1/-/14ms GET /public/904828274e8b6dffcc67.hot-update.json] [access] 127.0.0.1: - GET /public/904828274e8b6dffcc67.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 13 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:56:08,366 INFO 20984 [-/127.0.0.1/-/9ms GET /public/admin/home.904828274e8b6dffcc67.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.904828274e8b6dffcc67.hot-update.js HTTP/200 5431 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:56:17,877 INFO 20984 [-/127.0.0.1/-/10ms GET /public/679a6531f7645a9cf5a3.hot-update.json] [access] 127.0.0.1: - GET /public/679a6531f7645a9cf5a3.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:56:17,929 INFO 20984 [-/127.0.0.1/-/4ms GET /public/admin/home.679a6531f7645a9cf5a3.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.679a6531f7645a9cf5a3.hot-update.js HTTP/200 5484 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:56:19,661 ERROR 20984 [admin/home.js] server render bundle error, try client render, the server render error ReferenceError: forgetPwd is not defined
+    at eval (webpack:///./app/web/component/layout/admin/login/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:74:1)
+    at Module../node_modules/cache-loader/dist/cjs.js?!./node_modules/thread-loader/dist/cjs.js?!./node_modules/ts-loader/index.js?!./app/web/component/layout/admin/login/index.ts?vue&type=script&lang=ts& (__vue_ssr_bundle__:864:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/component/layout/admin/login/index.ts?:2:225)
+    at Module../app/web/component/layout/admin/login/index.ts?vue&type=script&lang=ts& (__vue_ssr_bundle__:240:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/component/layout/admin/login/index.vue?:3:92)
+    at Module../app/web/component/layout/admin/login/index.vue (__vue_ssr_bundle__:252:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/component/layout/admin/main/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:8:74)
+2020-05-25 22:56:19,710 ERROR 20984 [-/127.0.0.1/-/318ms GET /admin/] nodejs.TypeError: Cannot read property 'matched' of undefined
+    at render (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-router\dist\vue-router.common.js:99:25)
+    at createFunctionalComponent (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3052:30)
+    at createComponent (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3225:12)
+    at _createElement (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3415:15)
+    at createElement (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3347:10)
+    at vm._c (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3484:42)
+    at Proxy.render (webpack:///./app/web/component/layout/admin/content/index.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:12:8)
+    at Vue._render (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:3538:22)
+    at resolve (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8656:28)
+    at waitForServerPrefetch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue-server-renderer\build.dev.js:8287:3)
+
+pid: 20984
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:57:04,866 INFO 20984 [-/127.0.0.1/-/593ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 593 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:04,895 INFO 20984 [-/127.0.0.1/-/8ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3639 - 7 - axios/0.18.1
+2020-05-25 22:57:04,919 INFO 20984 [-/127.0.0.1/-/13ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:04,941 INFO 20984 [-/127.0.0.1/-/6ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:04,999 INFO 20984 [-/127.0.0.1/-/62ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8829139 http://127.0.0.1:7001/admin/ 61 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:05,864 WARN 20984 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20984
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:57:05,895 INFO 20984 [-/127.0.0.1/-/7ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3647 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:10,395 INFO 20984 [-/127.0.0.1/-/5ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/401 28 http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:54,099 INFO 20984 [-/127.0.0.1/-/4ms GET /public/82d9670c5e59385f6bdd.hot-update.json] [access] 127.0.0.1: - GET /public/82d9670c5e59385f6bdd.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:54,111 INFO 20984 [-/127.0.0.1/-/5ms GET /public/admin/home.82d9670c5e59385f6bdd.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.82d9670c5e59385f6bdd.hot-update.js HTTP/200 5171 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:59,356 INFO 20984 [-/127.0.0.1/-/664ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 664 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:59,384 INFO 20984 [-/127.0.0.1/-/9ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3629 - 9 - axios/0.18.1
+2020-05-25 22:57:59,427 INFO 20984 [-/127.0.0.1/-/20ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:59,454 INFO 20984 [-/127.0.0.1/-/10ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:57:59,508 INFO 20984 [-/127.0.0.1/-/63ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828819 http://127.0.0.1:7001/admin/ 59 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:04,830 INFO 21364 [-/127.0.0.1/-/29ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:06,010 INFO 21364 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:28,507 INFO 21364 [-/127.0.0.1/-/24ms GET /public/7d79a1c01e75f8551b25.hot-update.json] [access] 127.0.0.1: - GET /public/7d79a1c01e75f8551b25.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 22 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:28,608 INFO 21364 [-/127.0.0.1/-/7ms GET /public/admin/home.7d79a1c01e75f8551b25.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.7d79a1c01e75f8551b25.hot-update.js HTTP/200 5459 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:30,409 INFO 21364 [-/127.0.0.1/-/5ms GET /public/font/element-icons.woff] [access] 127.0.0.1: - GET /public/font/element-icons.woff HTTP/200 28200 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:38,453 INFO 21364 [-/127.0.0.1/-/1423ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 1423 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:38,538 INFO 21364 [-/127.0.0.1/-/24ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:38,550 INFO 21364 [-/127.0.0.1/-/16ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:38,561 INFO 21364 [-/127.0.0.1/-/45ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3641 - 42 - axios/0.18.1
+2020-05-25 22:58:38,622 INFO 21364 [-/127.0.0.1/-/76ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8829107 http://127.0.0.1:7001/admin/ 75 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:39,520 WARN 21364 [-/127.0.0.1/-/2ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21364
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 22:58:39,616 INFO 21364 [-/127.0.0.1/-/8ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3674 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:58:44,265 INFO 21364 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:00,181 INFO 21364 [-/127.0.0.1/-/5ms GET /public/8f0b13a162a1acdeac19.hot-update.json] [access] 127.0.0.1: - GET /public/8f0b13a162a1acdeac19.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:00,195 INFO 21364 [-/127.0.0.1/-/7ms GET /public/admin/home.8f0b13a162a1acdeac19.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.8f0b13a162a1acdeac19.hot-update.js HTTP/200 5469 http://127.0.0.1:7001/admin/ 7 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:04,537 INFO 21364 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:23,319 INFO 21364 [-/127.0.0.1/-/16ms GET /public/526111dd98abfcfe2b0e.hot-update.json] [access] 127.0.0.1: - GET /public/526111dd98abfcfe2b0e.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:23,348 INFO 21364 [-/127.0.0.1/-/7ms GET /public/admin/home.526111dd98abfcfe2b0e.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.526111dd98abfcfe2b0e.hot-update.js HTTP/200 5522 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:29,042 INFO 21364 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:47,189 INFO 21364 [-/127.0.0.1/-/11ms GET /public/757795c7e16d086007c3.hot-update.json] [access] 127.0.0.1: - GET /public/757795c7e16d086007c3.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:47,202 INFO 21364 [-/127.0.0.1/-/4ms GET /public/admin/home.757795c7e16d086007c3.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.757795c7e16d086007c3.hot-update.js HTTP/200 5170 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:50,737 INFO 21364 [-/127.0.0.1/-/4ms GET /public/font/element-icons.woff] [access] 127.0.0.1: - GET /public/font/element-icons.woff HTTP/200 28200 http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 22:59:52,121 INFO 21364 [-/127.0.0.1/-/1ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:00:41,892 INFO 21364 [-/127.0.0.1/-/117ms GET /public/ad88e9362791ad7e3103.hot-update.json] [access] 127.0.0.1: - GET /public/ad88e9362791ad7e3103.hot-update.json HTTP/200 52 http://127.0.0.1:7001/admin/ 115 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:00:41,925 INFO 21364 [-/127.0.0.1/-/16ms GET /public/admin/home.ad88e9362791ad7e3103.hot-update.js] [access] 127.0.0.1: - GET /public/admin/home.ad88e9362791ad7e3103.hot-update.js HTTP/200 5226 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:00:47,489 INFO 21364 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:00:50,440 INFO 21364 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/404 - http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:00:53,977 INFO 21364 [-/127.0.0.1/-/1ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/404 - http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:01:42,179 INFO 21364 [-/127.0.0.1/-/743ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 http://127.0.0.1:7001/admin/ 743 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:01:42,298 INFO 21364 [-/127.0.0.1/-/22ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 19 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:01:42,300 INFO 21364 [-/127.0.0.1/-/24ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 19 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:01:42,364 INFO 21364 [-/127.0.0.1/-/76ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828874 http://127.0.0.1:7001/admin/ 71 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:01:42,382 INFO 21364 [-/127.0.0.1/-/105ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3663 - 103 - axios/0.18.1
+2020-05-25 23:01:43,434 WARN 20880 [-/127.0.0.1/-/38ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20880
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 23:01:43,681 INFO 20880 [-/127.0.0.1/-/18ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3660 http://127.0.0.1:7001/admin/ 16 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:01:49,672 INFO 20880 [-/127.0.0.1/-/11ms GET /public/font/element-icons.woff] [access] 127.0.0.1: - GET /public/font/element-icons.woff HTTP/200 28200 http://127.0.0.1:7001/admin/ 10 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:01:50,850 INFO 20880 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/404 - http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:02:31,198 INFO 21160 [-/127.0.0.1/-/1338ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 - 1329 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:02:31,296 INFO 21160 [-/127.0.0.1/-/76ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3604 - 29 - axios/0.18.1
+2020-05-25 23:02:31,727 INFO 21160 [-/127.0.0.1/-/512ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 - 512 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:02:31,837 INFO 21160 [-/127.0.0.1/-/62ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 51 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:02:31,866 INFO 21160 [-/127.0.0.1/-/89ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3626 - 87 - axios/0.18.1
+2020-05-25 23:02:31,888 INFO 21160 [-/127.0.0.1/-/13ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 11 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:02:31,965 INFO 21160 [-/127.0.0.1/-/87ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828874 http://127.0.0.1:7001/admin/ 81 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:02:33,452 WARN 21160 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21160
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 23:02:33,581 INFO 21160 [-/127.0.0.1/-/7ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3649 http://127.0.0.1:7001/admin/ 5 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:02:38,401 INFO 21160 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/404 - http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:03:31,936 INFO 21160 [-/127.0.0.1/-/530ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 - 529 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:03:32,026 INFO 21160 [-/127.0.0.1/-/25ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:03:32,029 INFO 21160 [-/127.0.0.1/-/18ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 15 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:03:32,045 INFO 21160 [-/127.0.0.1/-/36ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3657 - 35 - axios/0.18.1
+2020-05-25 23:03:32,088 INFO 21160 [-/127.0.0.1/-/66ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828874 http://127.0.0.1:7001/admin/ 65 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:03:33,209 WARN 21160 [-/127.0.0.1/-/1ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21160
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 23:03:33,241 INFO 21160 [-/127.0.0.1/-/7ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3606 http://127.0.0.1:7001/admin/ 6 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:03:37,866 INFO 20804 [-/127.0.0.1/-/24ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/404 - http://127.0.0.1:7001/admin/ 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:14,224 INFO 17988 [-/127.0.0.1/-/1613ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 - 1604 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:14,323 INFO 17988 [-/127.0.0.1/-/73ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3635 - 29 - axios/0.18.1
+2020-05-25 23:05:14,708 INFO 17988 [-/127.0.0.1/-/462ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 - 461 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:14,741 INFO 17988 [-/127.0.0.1/-/13ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3672 - 11 - axios/0.18.1
+2020-05-25 23:05:14,784 INFO 17988 [-/127.0.0.1/-/29ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 23 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:14,825 INFO 17988 [-/127.0.0.1/-/15ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 14 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:14,876 INFO 17988 [-/127.0.0.1/-/56ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828874 http://127.0.0.1:7001/admin/ 55 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:15,883 WARN 17988 [-/127.0.0.1/-/3ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17988
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 23:05:15,929 INFO 17988 [-/127.0.0.1/-/11ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3653 http://127.0.0.1:7001/admin/ 9 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:20,395 INFO 17988 [-/127.0.0.1/-/4ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/404 - http://127.0.0.1:7001/admin/ 4 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:40,182 INFO 18116 [-/127.0.0.1/-/1528ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 240505 - 1516 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:40,376 INFO 18116 [-/127.0.0.1/-/127ms GET /public/asset/css/bootstrap.min.css] [access] 127.0.0.1: - GET /public/asset/css/bootstrap.min.css HTTP/200 122540 http://127.0.0.1:7001/admin/ 29 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:40,408 INFO 18116 [-/127.0.0.1/-/53ms GET /public/js/runtime.js] [access] 127.0.0.1: - GET /public/js/runtime.js HTTP/200 31668 http://127.0.0.1:7001/admin/ 50 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:40,489 INFO 18116 [-/127.0.0.1/-/132ms GET /public/js/chunk/admin/home.js] [access] 127.0.0.1: - GET /public/js/chunk/admin/home.js HTTP/200 8828874 http://127.0.0.1:7001/admin/ 129 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:40,523 INFO 18116 [-/127.0.0.1/-/272ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3654 - 184 - axios/0.18.1
+2020-05-25 23:05:41,703 WARN 18116 [-/127.0.0.1/-/6ms POST /admin/api/checkLogin] nodejs.UnauthorizedError: Format is Authorization: Bearer [token]
+    at middleware (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-jwt2\lib\index.js:81:15)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:45:18)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:44:32)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at global (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\middleware\global.ts:6:11)
+    at dispatch (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "Format is Authorization: Bearer [token]"
+code: "credentials_bad_format"
+status: 401
+inner: {"message":"Format is Authorization: Bearer [token]"}
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 18116
+hostname: DESKTOP-O0FB5QR
+
+2020-05-25 23:05:41,777 INFO 18116 [-/127.0.0.1/-/9ms POST /admin/api/getQuestionList] [access] 127.0.0.1: - POST /admin/api/getQuestionList HTTP/200 3606 http://127.0.0.1:7001/admin/ 8 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:45,885 INFO 20956 [-/127.0.0.1/-/35ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 19 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:45,919 INFO 20956 [-/127.0.0.1/-/16ms GET /public/font/element-icons.woff] [access] 127.0.0.1: - GET /public/font/element-icons.woff HTTP/200 28200 http://127.0.0.1:7001/admin/ 13 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:05:48,451 INFO 20956 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:16,755 INFO 20956 [-/127.0.0.1/-/4ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:16,897 INFO 20956 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:17,032 INFO 20956 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:17,169 INFO 20956 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:17,297 INFO 20956 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:17,593 INFO 20956 [-/127.0.0.1/-/4ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:21,217 INFO 20956 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 3 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:21,649 INFO 20956 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:23,048 INFO 20956 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:23,671 INFO 20956 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 1 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:23,792 INFO 20956 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:32,584 INFO 20956 [-/127.0.0.1/-/2ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 31 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+2020-05-25 23:06:33,744 INFO 20956 [-/127.0.0.1/-/3ms POST /admin/api/login] [access] 127.0.0.1: - POST /admin/api/login HTTP/200 28 http://127.0.0.1:7001/admin/ 2 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36

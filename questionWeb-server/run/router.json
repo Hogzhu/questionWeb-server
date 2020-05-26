@@ -163,6 +163,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/getStudentInfo",
+    "regexp": "/^\\/admin\\/api\\/getStudentInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/getQuestionList",
     "regexp": "/^\\/admin\\/api\\/getQuestionList(?:\\/(?=$))?$/",
     "stack": [

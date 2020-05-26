@@ -1,0 +1,54 @@
+2020-05-15 00:00:02,728 INFO 19816 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:00:02,728 INFO 19816 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:00:02,728 INFO 19816 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:00:36,843 INFO 18232 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:00:36,843 INFO 18232 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:00:36,844 INFO 18232 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:01:30,200 INFO 17040 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:01:30,200 INFO 17040 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:01:30,200 INFO 17040 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:02:40,415 INFO 18836 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:02:40,415 INFO 18836 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:02:40,415 INFO 18836 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:08:23,778 INFO 15472 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:08:23,778 INFO 15472 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:08:23,778 INFO 15472 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:09:25,416 INFO 5216 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:09:25,416 INFO 5216 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:09:25,416 INFO 5216 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:09:55,557 INFO 6088 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:09:55,557 INFO 6088 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:09:55,557 INFO 6088 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:14:58,079 INFO 7164 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:14:58,079 INFO 7164 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:14:58,079 INFO 7164 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:19:26,353 INFO 17484 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:19:26,353 INFO 17484 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:19:26,353 INFO 17484 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:27:50,411 INFO 19484 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:27:50,411 INFO 19484 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:27:50,411 INFO 19484 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:29:45,592 INFO 2964 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:29:45,592 INFO 2964 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:29:45,592 INFO 2964 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:30:09,787 INFO 6272 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:30:09,787 INFO 6272 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:30:09,787 INFO 6272 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:32:18,905 INFO 17924 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:32:18,905 INFO 17924 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:32:18,905 INFO 17924 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 00:42:50,773 INFO 13668 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 00:42:50,773 INFO 13668 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 00:42:50,773 INFO 13668 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 09:45:02,809 INFO 3480 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-15 09:45:02,809 INFO 3480 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-15 09:45:02,809 INFO 3480 [egg-schedule]: register schedule E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-15 09:45:04,707 INFO 18656 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67495302ms at 2020-05-16 04:30:00.009
+2020-05-15 09:45:04,708 INFO 18656 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51295292ms at 2020-05-16 00:00:00.000
+2020-05-15 09:45:04,708 INFO 18656 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51296292ms at 2020-05-16 00:00:01.000
+2020-05-16 00:00:00,052 INFO 3480 [Job#1589558400019520819682998001] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-05-16 00:00:00,118 INFO 3480 [Job#1589558400019520819682998001] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 56ms
+2020-05-16 00:00:00,032 INFO 18656 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399973ms at 2020-05-17 00:00:00.005
+2020-05-16 00:00:01,003 INFO 3480 [Job#1589558401002520829478079001] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-05-16 00:00:01,128 INFO 3480 [Job#1589558401002520829478079001] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 124ms
+2020-05-16 00:00:01,007 INFO 18656 [Timer] E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399998ms at 2020-05-17 00:00:01.005

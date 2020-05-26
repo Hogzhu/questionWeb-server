@@ -1,5 +1,4 @@
-2020-05-26 00:00:01,036 INFO 20956 [egg-logrotator] app logger reload: got log-reload message
-2020-05-26 01:43:36,820 ERROR 20956 nodejs.ReferenceError: window is not defined
+2020-05-15 00:00:12,498 ERROR 19816 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -11,10 +10,10 @@
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 20956
+pid: 19816
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 02:18:05,076 ERROR 20956 nodejs.ReferenceError: window is not defined
+2020-05-15 00:00:41,349 ERROR 18232 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -26,10 +25,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 20956
+pid: 18232
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 02:18:12,798 ERROR 20956 nodejs.ReferenceError: window is not defined
+2020-05-15 00:01:36,302 ERROR 17040 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -41,10 +40,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 20956
+pid: 17040
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 02:18:15,724 ERROR 20956 nodejs.ReferenceError: window is not defined
+2020-05-15 00:01:55,009 ERROR 17040 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -56,25 +55,17 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 20956
+pid: 17040
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 02:18:23,928 ERROR 20956 nodejs.ReferenceError: window is not defined
-    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
-    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
-    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
-    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
-    at new Promise (<anonymous>)
-    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
-    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
-    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
-    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
-    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
-name: "ReferenceError"
-pid: 20956
+2020-05-15 00:01:56,340 ERROR 17040 [-/127.0.0.1/-/5ms POST /admin/api/getExamList] nodejs.TypeError: Cannot read property 'error' of undefined
+    at UserController.getExamList (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\app\controller\question.ts:57:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17040
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 02:18:33,793 ERROR 20956 nodejs.ReferenceError: window is not defined
+2020-05-15 00:02:06,633 ERROR 17040 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -86,10 +77,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 20956
+pid: 17040
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 02:18:36,265 ERROR 20956 nodejs.ReferenceError: window is not defined
+2020-05-15 00:02:42,961 ERROR 17040 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -101,25 +92,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 20956
+pid: 17040
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 09:29:47,030 INFO 18696 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-05-26 09:29:47,070 INFO 18696 [egg-multipart] stream mode enable
-2020-05-26 09:29:47,098 INFO 18696 [egg-mysql] connecting root@localhost:3306/student
-2020-05-26 09:29:48,829 INFO 18696 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
-2020-05-26 09:29:48,872 INFO 18696 [egg-security] use methodnoallow middleware
-2020-05-26 09:29:48,882 INFO 18696 [egg-security] use noopen middleware
-2020-05-26 09:29:48,894 INFO 18696 [egg-security] use nosniff middleware
-2020-05-26 09:29:48,894 INFO 18696 [egg-security] use xssProtection middleware
-2020-05-26 09:29:48,897 INFO 18696 [egg-security] use xframe middleware
-2020-05-26 09:29:48,902 INFO 18696 [egg-security] use dta middleware
-2020-05-26 09:29:48,902 INFO 18696 [egg-security] compose 6 middlewares into one security middleware
-2020-05-26 09:29:48,927 INFO 18696 [egg:core] dump config after load, 9ms
-2020-05-26 09:29:48,948 INFO 18696 [egg-watcher:application] watcher start success
-2020-05-26 09:29:48,956 INFO 18696 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 26 2020 09:29:48 GMT+0800 (GMT+08:00)
-2020-05-26 09:29:48,966 INFO 18696 [egg:core] dump config after ready, 8ms
-2020-05-26 09:30:34,265 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:02:52,509 ERROR 18836 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -131,10 +107,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 18836
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 09:33:34,915 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:08:27,760 ERROR 15472 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -146,10 +122,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 15472
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:08:34,176 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:09:58,248 ERROR 5216 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -161,10 +137,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 5216
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:39:42,633 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:15:02,424 ERROR 7164 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -176,10 +152,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 7164
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:39:50,460 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:17:01,620 ERROR 7164 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -191,10 +167,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 7164
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:47:01,948 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:21:23,918 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -206,10 +182,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:47:15,489 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:21:41,565 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -221,10 +197,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:49:18,889 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:21:45,834 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -236,10 +212,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:52:38,242 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:22:19,743 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -251,10 +227,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 10:53:01,221 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:23:04,819 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -266,10 +242,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 11:05:34,256 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:23:25,178 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -281,10 +257,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:32:46,899 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:24:04,326 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -296,10 +272,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:33:27,460 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:27:51,503 ERROR 17484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -311,10 +287,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:34:42,067 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:28:46,065 ERROR 19484 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -326,10 +302,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 19484
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:35:41,284 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:30:32,951 ERROR 6272 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -341,25 +317,20 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 6272
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:35:56,630 ERROR 18696 nodejs.ReferenceError: window is not defined
-    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
-    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
-    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
-    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
-    at new Promise (<anonymous>)
-    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
-    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
-    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
-    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
-    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
-name: "ReferenceError"
-pid: 18696
+2020-05-15 00:32:21,620 ERROR 17924 [-/undefined/-/53ms POST /admin/api/getQuestionList] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:36:22,644 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:33:28,115 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -371,10 +342,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:36:33,175 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:33:37,376 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -386,10 +357,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:37:16,731 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:34:50,970 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -401,10 +372,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:39:56,032 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:35:17,764 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -416,10 +387,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:40:17,692 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:35:44,209 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -431,10 +402,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:43:36,248 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:36:02,223 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -446,10 +417,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:43:39,997 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:36:16,890 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -461,10 +432,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:43:43,154 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:36:39,594 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -476,10 +447,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:43:51,186 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:37:02,558 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -491,10 +462,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:52:39,185 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:38:35,162 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -506,10 +477,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:52:42,836 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:39:05,018 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -521,10 +492,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 15:52:49,101 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:40:24,137 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -536,10 +507,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:17:12,976 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:41:04,671 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -551,10 +522,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:17:22,278 ERROR 18696 nodejs.ReferenceError: window is not defined
+2020-05-15 00:41:27,941 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -566,70 +537,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 18696
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:31:02,353 INFO 10580 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-05-26 16:31:02,394 INFO 10580 [egg-multipart] stream mode enable
-2020-05-26 16:31:02,395 INFO 10580 [egg-mysql] connecting root@localhost:3306/student
-2020-05-26 16:31:02,532 INFO 10580 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
-2020-05-26 16:31:02,535 INFO 10580 [egg-security] use methodnoallow middleware
-2020-05-26 16:31:02,535 INFO 10580 [egg-security] use noopen middleware
-2020-05-26 16:31:02,537 INFO 10580 [egg-security] use nosniff middleware
-2020-05-26 16:31:02,537 INFO 10580 [egg-security] use xssProtection middleware
-2020-05-26 16:31:02,538 INFO 10580 [egg-security] use xframe middleware
-2020-05-26 16:31:02,538 INFO 10580 [egg-security] use dta middleware
-2020-05-26 16:31:02,538 INFO 10580 [egg-security] compose 6 middlewares into one security middleware
-2020-05-26 16:31:04,543 INFO 10580 [egg:core] dump config after load, 29ms
-2020-05-26 16:31:04,573 INFO 10580 [egg-watcher:application] watcher start success
-2020-05-26 16:31:04,645 INFO 10580 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 26 2020 16:31:04 GMT+0800 (GMT+08:00)
-2020-05-26 16:31:04,655 INFO 10580 [egg:core] dump config after ready, 7ms
-2020-05-26 16:31:10,726 INFO 12676 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-05-26 16:31:10,768 INFO 12676 [egg-multipart] stream mode enable
-2020-05-26 16:31:10,770 INFO 12676 [egg-mysql] connecting root@localhost:3306/student
-2020-05-26 16:31:10,910 INFO 12676 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
-2020-05-26 16:31:10,913 INFO 12676 [egg-security] use methodnoallow middleware
-2020-05-26 16:31:10,914 INFO 12676 [egg-security] use noopen middleware
-2020-05-26 16:31:10,915 INFO 12676 [egg-security] use nosniff middleware
-2020-05-26 16:31:10,915 INFO 12676 [egg-security] use xssProtection middleware
-2020-05-26 16:31:10,916 INFO 12676 [egg-security] use xframe middleware
-2020-05-26 16:31:10,916 INFO 12676 [egg-security] use dta middleware
-2020-05-26 16:31:10,916 INFO 12676 [egg-security] compose 6 middlewares into one security middleware
-2020-05-26 16:31:13,000 INFO 12676 [egg:core] dump config after load, 8ms
-2020-05-26 16:31:13,020 INFO 12676 [egg-watcher:application] watcher start success
-2020-05-26 16:31:13,024 INFO 12676 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 26 2020 16:31:13 GMT+0800 (GMT+08:00)
-2020-05-26 16:31:13,034 INFO 12676 [egg:core] dump config after ready, 8ms
-2020-05-26 16:31:15,752 INFO 7644 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-05-26 16:31:15,792 INFO 7644 [egg-multipart] stream mode enable
-2020-05-26 16:31:15,794 INFO 7644 [egg-mysql] connecting root@localhost:3306/student
-2020-05-26 16:31:15,935 INFO 7644 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
-2020-05-26 16:31:15,938 INFO 7644 [egg-security] use methodnoallow middleware
-2020-05-26 16:31:15,939 INFO 7644 [egg-security] use noopen middleware
-2020-05-26 16:31:15,940 INFO 7644 [egg-security] use nosniff middleware
-2020-05-26 16:31:15,941 INFO 7644 [egg-security] use xssProtection middleware
-2020-05-26 16:31:15,941 INFO 7644 [egg-security] use xframe middleware
-2020-05-26 16:31:15,942 INFO 7644 [egg-security] use dta middleware
-2020-05-26 16:31:15,942 INFO 7644 [egg-security] compose 6 middlewares into one security middleware
-2020-05-26 16:31:15,976 INFO 7644 [egg:core] dump config after load, 17ms
-2020-05-26 16:31:16,003 INFO 7644 [egg-watcher:application] watcher start success
-2020-05-26 16:31:16,007 INFO 7644 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 26 2020 16:31:16 GMT+0800 (GMT+08:00)
-2020-05-26 16:31:16,037 INFO 7644 [egg:core] dump config after ready, 27ms
-2020-05-26 16:31:22,857 INFO 13460 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-05-26 16:31:22,895 INFO 13460 [egg-multipart] stream mode enable
-2020-05-26 16:31:22,897 INFO 13460 [egg-mysql] connecting root@localhost:3306/student
-2020-05-26 16:31:23,046 INFO 13460 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
-2020-05-26 16:31:23,049 INFO 13460 [egg-security] use methodnoallow middleware
-2020-05-26 16:31:23,050 INFO 13460 [egg-security] use noopen middleware
-2020-05-26 16:31:23,051 INFO 13460 [egg-security] use nosniff middleware
-2020-05-26 16:31:23,051 INFO 13460 [egg-security] use xssProtection middleware
-2020-05-26 16:31:23,052 INFO 13460 [egg-security] use xframe middleware
-2020-05-26 16:31:23,052 INFO 13460 [egg-security] use dta middleware
-2020-05-26 16:31:23,052 INFO 13460 [egg-security] compose 6 middlewares into one security middleware
-2020-05-26 16:31:25,122 INFO 13460 [egg:core] dump config after load, 7ms
-2020-05-26 16:31:25,141 INFO 13460 [egg-watcher:application] watcher start success
-2020-05-26 16:31:25,144 INFO 13460 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 26 2020 16:31:25 GMT+0800 (GMT+08:00)
-2020-05-26 16:31:25,153 INFO 13460 [egg:core] dump config after ready, 7ms
-2020-05-26 16:35:53,427 ERROR 13460 nodejs.ReferenceError: window is not defined
+2020-05-15 00:41:48,920 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -641,10 +552,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 13460
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:36:28,916 ERROR 13460 nodejs.ReferenceError: window is not defined
+2020-05-15 00:42:03,118 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -656,25 +567,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 13460
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:36:27,542 INFO 15964 [egg:logger] init all loggers with options: {"dir":"E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"questionWeb-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-05-26 16:36:27,583 INFO 15964 [egg-multipart] stream mode enable
-2020-05-26 16:36:27,584 INFO 15964 [egg-mysql] connecting root@localhost:3306/student
-2020-05-26 16:36:27,736 INFO 15964 [egg-static] starting static serve /public/ -> E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\public
-2020-05-26 16:36:27,739 INFO 15964 [egg-security] use methodnoallow middleware
-2020-05-26 16:36:27,740 INFO 15964 [egg-security] use noopen middleware
-2020-05-26 16:36:27,741 INFO 15964 [egg-security] use nosniff middleware
-2020-05-26 16:36:27,741 INFO 15964 [egg-security] use xssProtection middleware
-2020-05-26 16:36:27,742 INFO 15964 [egg-security] use xframe middleware
-2020-05-26 16:36:27,742 INFO 15964 [egg-security] use dta middleware
-2020-05-26 16:36:27,742 INFO 15964 [egg-security] compose 6 middlewares into one security middleware
-2020-05-26 16:36:30,738 INFO 15964 [egg:core] dump config after load, 10ms
-2020-05-26 16:36:30,795 INFO 15964 [egg-watcher:application] watcher start success
-2020-05-26 16:36:30,799 INFO 15964 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 26 2020 16:36:30 GMT+0800 (GMT+08:00)
-2020-05-26 16:36:30,809 INFO 15964 [egg:core] dump config after ready, 8ms
-2020-05-26 16:36:36,277 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 00:42:52,764 ERROR 17924 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -686,10 +582,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 17924
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:38:37,723 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 00:43:55,363 ERROR 13668 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -701,10 +597,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 13668
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:41:52,013 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 09:45:43,743 ERROR 3480 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -716,10 +612,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 3480
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:43:08,075 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 09:51:53,305 ERROR 3480 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -731,10 +627,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 3480
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:47:45,804 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 09:52:01,738 ERROR 3480 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -746,10 +642,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 3480
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:48:32,854 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 09:52:10,258 ERROR 3480 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -761,10 +657,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 3480
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:51:55,348 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 09:54:28,156 ERROR 3480 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -776,10 +672,10 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 3480
 hostname: DESKTOP-O0FB5QR
 
-2020-05-26 16:52:31,162 ERROR 15964 nodejs.ReferenceError: window is not defined
+2020-05-15 09:57:59,102 ERROR 3480 nodejs.ReferenceError: window is not defined
     at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
     at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
     at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
@@ -791,6 +687,186 @@ hostname: DESKTOP-O0FB5QR
     at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
     at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
 name: "ReferenceError"
-pid: 15964
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 09:58:24,322 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 09:58:43,946 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 09:58:51,304 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 09:59:26,563 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 09:59:29,086 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 09:59:35,864 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 10:04:59,530 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 10:05:39,136 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 10:05:43,081 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 10:05:50,582 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 10:12:52,424 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
+hostname: DESKTOP-O0FB5QR
+
+2020-05-15 10:13:03,096 ERROR 3480 nodejs.ReferenceError: window is not defined
+    at VueComponent.eval (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:33:25)
+    at step (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:139:27)
+    at Object.next (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:120:57)
+    at E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:113:75
+    at new Promise (<anonymous>)
+    at __awaiter (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\tslib\tslib.js:109:16)
+    at VueComponent.Header.checkLoginStatus (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:28:71)
+    at VueComponent.Header.created (webpack:///./app/web/component/layout/admin/header/index.ts?./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/thread-loader/dist/cjs.js??ref--0-1!./node_modules/ts-loader??ref--0-2:25:14)
+    at invokeWithErrorHandling (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:1850:57)
+    at callHook (E:\QQPCmgr\Desktop\questionWeb\questionWeb-server\questionWeb-server\node_modules\vue\dist\vue.runtime.common.dev.js:4207:7)
+name: "ReferenceError"
+pid: 3480
 hostname: DESKTOP-O0FB5QR
 

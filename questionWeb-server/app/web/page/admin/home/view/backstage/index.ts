@@ -6,8 +6,11 @@ import { Action } from 'vuex-class';
 })
 export default class Backstage extends Vue {
   @Action('importStudent') importStudent
+  @Action('getStudentInfo') getStudentInfo
   private fileName: string = '导入学生信息'
   private studentInfo: string = ''
+  private showStdent: boolean = true
+  private studentBaseInfo: any = {}
 
   // 点击选择文件触发隐藏的input按钮选择文件(用于修改input的样式)
   private clickInput () {
@@ -43,9 +46,17 @@ export default class Backstage extends Vue {
 
   // 将学生信息通过接口插入数据库
   private async handlerImport () {
+    this.$message('导入成功')
     const data = {
       studentInfo: this.studentInfo
     }
     await this.importStudent(data)
+  }
+
+  private async manageStudent () {
+    this.showStdent = false
+    const res = await this.getStudentInfo()
+    this.studentBaseInfo = res.data
+    console.log(this.studentBaseInfo)
   }
 }

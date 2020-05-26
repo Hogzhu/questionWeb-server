@@ -7,6 +7,7 @@ export default class QuestionList extends Vue {
   @Action('getQuestionList') getQuestionList
   @Action('searchProblem') searchProblem
   @Getter('userSolved') userSolved: any
+  @Getter('identity') identity;
   private question: any = ''
   private questionNum: any[] = []
   private questionData: any = {}
@@ -18,6 +19,21 @@ export default class QuestionList extends Vue {
 
   private created () {
     this.getList()
+  }
+
+  private mounted () {
+    // 监听总体数的变化确认获取题目列表的接口是否已返回值
+    if (this.$store.getters.identity !== 'administartor') {
+      this.$watch(function () {
+        return this.$store.getters.identity
+      }, (v, o) => {
+        console.log(this.identity)
+        console.log(this.$store.getters.identity)
+      })
+    } else {
+      console.log(this.identity)
+      console.log(this.$store.getters.identity)
+    }
   }
 
   private async getList () {

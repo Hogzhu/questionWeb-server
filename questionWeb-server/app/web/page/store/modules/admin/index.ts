@@ -113,14 +113,17 @@ export default class AdminModule implements Module<AdminState, RootState> {
     },
     // 导入学生数据
     async importStudent ({ commit, dispatch, state , rootState}, data) {
-      console.log(typeof data)
       const res = await axios.post(`${rootState.origin}/admin/api/importStudent`, data);
       return res;
     },
     // 获得个人做题数据
     async getPersonalInfo ({ commit, dispatch, state , rootState}, data) {
-      console.log(typeof data)
       const res = await axios.post(`${rootState.origin}/admin/api/getPersonalInfo`, data);
+      return res;
+    },
+    // 获得学生基本信息
+    async getStudentInfo ({ commit, dispatch, state , rootState}) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getStudentInfo`);
       return res;
     },
   };
