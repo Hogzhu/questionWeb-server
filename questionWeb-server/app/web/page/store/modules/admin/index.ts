@@ -72,8 +72,13 @@ export default class AdminModule implements Module<AdminState, RootState> {
       return res;
     },
     // 获得题目列表
-    async getQuestionList ({ commit, dispatch, state , rootState}) {
-      const res = await axios.post(`${rootState.origin}/admin/api/getQuestionList`, {});
+    async getQuestionList ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getQuestionList`, data);
+      return res;
+    },
+    // 获得学科信息
+    async getSubject ({ commit, dispatch, state , rootState}) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getSubject`);
       return res;
     },
     // 获得做题和排行数据

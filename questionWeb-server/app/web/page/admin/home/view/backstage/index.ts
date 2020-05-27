@@ -9,6 +9,7 @@ export default class Backstage extends Vue {
   @Action('getStudentInfo') getStudentInfo
   private fileName: string = '导入学生信息'
   private studentInfo: string = ''
+  private studentArr: any = {}
   private showStdent: boolean = true
   private studentBaseInfo: any = {}
 
@@ -31,6 +32,7 @@ export default class Backstage extends Vue {
       const sheetJSON = Vue.prototype.xlsx.utils.sheet_to_json(sheet)
       let pwd: string = ''
       console.log(sheetJSON)
+      this.studentArr = sheetJSON
       sheetJSON.forEach((item: any, index: number) => {
         pwd = String(item['学号']).substr(-6)
         if (index === sheetJSON.length - 1) {

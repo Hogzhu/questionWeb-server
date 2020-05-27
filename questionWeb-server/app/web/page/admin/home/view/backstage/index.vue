@@ -1,10 +1,15 @@
 <template>
 <div class="backstage">
-    <div class="backstage-import">
+    <div class="backstage-import" v-if="!showStdent">
       <h2>{{fileName}}</h2>
       <div class="backstage-import-file">
         <input type="file" class="backstage-import-file-input" accept="application/vnd.ms-excel" ref="file" @change="importInfo" />
         <button class="backstage-import-file-btn" ref="btn" @click="clickInput">选择文件</button>
+      </div>
+      <div class="backstage-import-info" v-for="(item, index) of studentArr" :key="index">
+        <span>{{item['姓名']}}</span>
+        <span>{{item['班级']}}</span>
+        <span>{{item['学号']}}</span>
       </div>
       <button class="backstage-import-btn" @click="handlerImport">确定导入</button>
     </div>
@@ -25,6 +30,26 @@
           <span>{{item.name}}</span>
           <span>{{item.number}}</span>
           <span>{{item.class}}</span>
+          <span>修改</span>
+          <span>删除</span>
+        </div>
+      </div>
+    </div>
+    <div class="backstage-manage-subject">
+      <h2>学科信息管理</h2>
+      <button class="backstage-manage-showSubject" ref="subject-btn" @click="manageSubject" v-if="showSubject">管理学科信息</button>
+      <div class="backstage-manage-subject" v-if="!showSubject">
+        <div class="backstage-manage-subject-nav">
+          <ul>
+            <li class="backstage-manage-subject-nav-name">名称</li>
+            <li class="backstage-manage-subject-nav-teacher">任课老师</li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="backstage-manage-subject-item" v-for="(item, index) of subjectBaseInfo" :key="index">
+          <span>{{item.name}}</span>
+          <span>{{item.teacher}}</span>
           <span>修改</span>
           <span>删除</span>
         </div>
@@ -61,6 +86,9 @@
             background-color: #33afff;
           }
         }
+      }
+      &-info span {
+        padding-right: 5rem;
       }
       &-btn {
         margin: 2rem 0;

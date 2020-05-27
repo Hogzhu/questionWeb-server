@@ -187,6 +187,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/getSubject",
+    "regexp": "/^\\/admin\\/api\\/getSubject(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/searchProblem",
     "regexp": "/^\\/admin\\/api\\/searchProblem(?:\\/(?=$))?$/",
     "stack": [

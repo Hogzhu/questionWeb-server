@@ -24,8 +24,8 @@ export default class UserController extends Controller {
     //     'select id,title,choose_A,choose_B,choose_C,choose_D,level,class ' +
     //     'from problem where id >= (select floor(RAND() * (select MAX(id) from problem))) ORDER BY id LIMIT 10', '');
     const questionList = await app.mysql.query(
-        'select id,title,choose_A,choose_B,choose_C,choose_D,level,class,edit,accept ' +
-        'from problem ORDER BY rand() LIMIT 20', '');
+        `select id,title,choose_A,choose_B,choose_C,choose_D,level,class,edit,accept` +
+        ` from problem where subject LIKE '${ctx.request.body.subject}%' ORDER BY rand()`, '');
     const questionData = {
         questionNum,
         easyNum,
@@ -36,11 +36,19 @@ export default class UserController extends Controller {
     ctx.body = questionData;
   }
 
+  // 获取学科信息
+  public async getSubject () {
+    const { ctx , app } = this;
+    const subjectData = await app.mysql.query(`select name from subject` , '');
+    ctx.body = subjectData;
+  }
+
   // 点击搜索框后找到所有关键字的题目
   public async searchProblem () {
     const { ctx , app } = this;
     const body = ctx.request.body;
-    const questionData = await app.mysql.query(`select * from problem where title regexp '${body.search}'` , '');
+    const questionData = await app.mysql.query(`select * from problem where title regexp '${body.search}'` +
+    ` AND subject LIKE '${ctx.request.body.subject}%'` , '');
     ctx.body = questionData;
   }
 

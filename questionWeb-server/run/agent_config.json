@@ -77,7 +77,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -90,8 +90,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -141,7 +141,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\public",
+      "dir": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -149,7 +149,7 @@
       "maxAge": 0
     },
     "view": {
-      "root": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view",
+      "root": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -159,8 +159,8 @@
     },
     "vuessr": {
       "doctype": "<!doctype html>",
-      "layout": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\web\\view\\layout.html",
-      "manifest": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\manifest.json",
+      "layout": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\web\\view\\layout.html",
+      "manifest": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": false,
@@ -176,7 +176,7 @@
       },
       "renderOptions": {
         "runInNewContext": "once",
-        "basedir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view"
+        "basedir": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\app\\view"
       },
       "afterRender": "<Function afterRender>"
     },
@@ -317,9 +317,9 @@
         }
       }
     },
-    "baseDir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server",
+    "baseDir": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server",
     "HOME": "C:\\Users\\Shinelon",
-    "rundir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\run",
+    "rundir": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -355,7 +355,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs",
+      "dir": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\logs",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -423,7 +423,7 @@
       "global"
     ],
     "logview": {
-      "dir": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\logs"
+      "dir": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\logs"
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -437,8 +437,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -450,8 +450,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-security",
       "version": "2.8.0"
     },
     "jsonp": {
@@ -463,8 +463,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -476,8 +476,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -487,8 +487,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -498,8 +498,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -509,8 +509,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -522,8 +522,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-multipart",
       "version": "2.10.2"
     },
     "development": {
@@ -537,8 +537,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -550,8 +550,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -561,8 +561,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -572,8 +572,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "vuessr": {
@@ -583,8 +583,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-view-vue-ssr",
       "version": "3.3.2"
     },
     "mysql": {
@@ -594,8 +594,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
     "jwt": {
@@ -607,8 +607,8 @@
         "onerror"
       ],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.ts",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-jwt",
       "version": "3.1.7"
     },
     "cors": {
@@ -617,9 +617,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
       "package": "egg-cors",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-cors",
       "version": "2.2.3"
     },
     "webpack": {
@@ -631,8 +631,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack",
       "version": "4.5.3"
     },
     "webpackvue": {
@@ -644,8 +644,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
-      "path": "E:\\QQPCmgr\\Desktop\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack-vue",
+      "from": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\config\\plugin.local.ts",
+      "path": "C:\\项目资料\\questionWeb\\questionWeb-server\\questionWeb-server\\node_modules\\egg-webpack-vue",
       "version": "2.0.2"
     }
   }

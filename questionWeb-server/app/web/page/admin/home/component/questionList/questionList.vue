@@ -8,6 +8,9 @@
         <input type="text" @keyup.enter="searchKeyWords" placeholder="请输入搜索关键字" />
       </div>
     </div>
+    <div class="questionList-condition" v-for="(item, index) of subjectArr" :key="index">
+      <span @click="searchSubject(item.name)">{{item.name}}</span>
+    </div>
     <div class="questionList-list">
       <div class="questionList-list-nav">
         <ul>
@@ -18,13 +21,22 @@
           <li class="questionList-list-nav-type">题型</li>
         </ul>
       </div>
-      <div class="questionList-list-item" v-for="(item,index) in question" :key="index" @click="handlerQuestion(item.id)">
+      <div class="questionList-list-item" v-for="(item,index) in currentPageData" :key="index" @click="handlerQuestion(item.id)">
         <span>{{item.id}}</span>
         <span>{{item.title}}</span>
         <span>{{item.edit === 0 ? 0 : (item.accept / item.edit * 100).toFixed(1)}}%</span>
         <span>{{item.level}}</span>
         <span>{{item.class}}</span>
       </div>
+      <footer>
+        <button @click="prevPage()">
+            上一页
+        </button>
+        <span>第{{currentPage}}页/共{{totalPage}}页</span>
+        <button @click="nextPage()">
+            下一页
+        </button>
+      </footer>
     </div>
   </div>
 </template>
@@ -118,6 +130,30 @@ a {
         }
         &:nth-child(2) {
           flex: 5;
+        }
+      }
+    }
+    & footer {
+      text-align: center;
+      & button {
+        margin: 4rem 2rem;
+        width: 10rem;
+        height: 3rem;
+        border-radius: 0.2rem;
+        border: none;
+        font-size: 1.4rem;
+        color: #fff;
+        background-color: #007fff;
+        outline: none;
+        cursor: pointer;
+        &:hover {
+          background-color: #33afff;
+        }
+        &:nth-child(1) {
+          background-color: #42b983;
+          &:hover {
+            background-color: #42aa70;
+          }
         }
       }
     }
