@@ -26,13 +26,13 @@
         <span>{{item.title}}</span>
         <span>{{item.edit === 0 ? 0 : (item.accept / item.edit * 100).toFixed(1)}}%</span>
         <span>{{item.level}}</span>
-        <span>{{item.class}}</span>
+        <span>{{item.type}}</span>
       </div>
       <footer>
         <button @click="prevPage()">
             上一页
         </button>
-        <span>第{{currentPage}}页/共{{totalPage}}页</span>
+        <span>第{{currentPage}}页/共{{totalPage}}页，共{{question.length}}题</span>
         <button @click="nextPage()">
             下一页
         </button>
@@ -80,6 +80,20 @@ a {
         &:hover {
           border-color: #42b983;
         }
+      }
+    }
+  }
+  &-condition {
+    display: inline-block;
+    margin: 0 2rem 2rem 0;
+    & span {
+      padding: 0.5rem 1rem;
+      background-color: rgba(0,0,255,0.6);
+      color: #fff;
+      border-radius: 3rem;
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(0,0,255,0.4);
       }
     }
   }

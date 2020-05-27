@@ -28,7 +28,7 @@ export default class AutoExam extends Vue {
         }
         const res = await this.findQuestion(data)
         this.questionData = res.data[0]
-        if (this.questionData.class === '选择题') {
+        if (this.questionData.type === '选择题') {
             this.isChoose = true
         }
     }

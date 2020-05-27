@@ -7,9 +7,13 @@ export default class Exam extends Vue {
   @Getter('account') account;
   @Getter('userSolved') userSolved;
 
+  private subject: string = 'Web前端'
   private chooseQuestion: any = []
   private essayQuestion: any[] = []
   private chooseArr: number[] = [0, 0, 0, 0, 0, 0, 0]
+  private essayId: string = ''
+  private studentAnswer: string = ''
+  private grade: any = 0
   private isSubmit: boolean = false
   private btnLocked: boolean = true
 
@@ -42,10 +46,18 @@ export default class Exam extends Vue {
       account: this.account
     }
     const res = await this.getExamList(data)
-    this.chooseQuestion = res.data.choose.concat(res.data.errorArr)
+    if (res.data.errorArr) {
+      this.chooseQuestion = res.data.choose.concat(res.data.errorArr)
+    } else {
+      this.chooseQuestion = res.data.choose
+    }
     console.log(this.chooseQuestion)
     console.log(res.data.errorArr)
     this.essayQuestion = res.data.essay
+    this.essayQuestion.forEach((item, index) => {
+      item = Object.assign(item, { student_answer: ''})
+    })
+    console.log(this.essayQuestion)
   }
 
   // 提交答案，回答错误的题目加入用户的错题
@@ -68,13 +80,28 @@ export default class Exam extends Vue {
         errorArr.push(this.chooseQuestion[index].id)
       } else {
         trueArr.push(this.chooseQuestion[index].id)
+        this.grade += 5
+      }
+    })
+    this.essayQuestion.forEach((item, index) => {
+      if (index !== this.essayQuestion.length - 1) {
+        this.essayId += item.id + ','
+        this.studentAnswer += item.student_answer + '!!!!!'
+      } else {
+        this.essayId += item.id
+        this.studentAnswer += item.student_answer
       }
     })
     const data = {
       account: this.account,
       errorArr,
-      trueArr
+      trueArr,
+      essayId: this.essayId,
+      studentAnswer: this.studentAnswer,
+      subject: this.subject,
+      grade: this.grade
     }
+    console.log(data)
     await this.submitExam(data)
   }
 

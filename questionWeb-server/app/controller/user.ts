@@ -97,7 +97,6 @@ export default class UserController extends Controller {
     const allStr = (body.trueArr.concat(body.errorArr)).join(',')
     // const errorData = await app.mysql.query(`update user SET error=CONCAT(error,',${ctx.request.body.errorArr}') WHERE number=${ctx.request.body.account};`, '')
     const oldData = await app.mysql.query(`select id,done,solved,error from user WHERE number=${body.account};`, '')
-    console.log(12334)
     console.log(oldData[0].done)
     const oldDoneData = oldData[0].done.split(',')
     const oldSolvedData = oldData[0].solved.split(',')
@@ -143,6 +142,10 @@ export default class UserController extends Controller {
     `WHERE number=${body.account};`, '')
     const acceptData = await app.mysql.query(`update problem SET accept= CASE id WHEN id THEN accept+1 END WHERE id IN (${trueStr});`, '')
     const editData = await app.mysql.query(`update problem SET edit= CASE id WHEN id THEN edit+1 END WHERE id IN (${allStr});`, '')
+    const studentInfo = await app.mysql.query(`select name,class from user where number='${body.account}'`, '')
+    console.log(studentInfo)
+    await app.mysql.query(`insert into exam (number,name,subject,class,problem,answer,grade) values ('${body.account}','${studentInfo[0].name}',` +
+    `'${body.subject}','${studentInfo[0].class}','${body.essayId}','${body.studentAnswer}','${body.grade}');`, '')
     ctx.body = resData
   }
 
@@ -216,7 +219,73 @@ export default class UserController extends Controller {
   // 获得学生基本信息
   public async getStudentInfo () {
     const { ctx , app } = this
-    const studentData = await app.mysql.query(`select name,number,class from user;`, '')
+    const studentData = await app.mysql.query(`select id,name,number,class from user where identity='student';`, '')
     ctx.body = studentData
+  }
+
+  // 修改学生基本信息
+  public async changeStudentInfo () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    const studentData = await app.mysql.query(`update user set name='${body.name}',number='${body.number}',class='${body.class}' ` +
+    `where id=${body.id};`, '')
+    ctx.body = studentData
+  }
+
+  // 删除学生基本信息
+  public async deleteStudentInfo () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    const studentData = await app.mysql.query(`delete from user where id=${body.id}`, '')
+    ctx.body = studentData
+  }
+
+  // 获得教师基本信息
+  public async getTeacherInfo () {
+    const { ctx , app } = this
+    let teacherStr = ''
+    const teacher = await app.mysql.query(`select number from user where identity='teacher';`, '')
+    teacher.forEach((item, index) => {
+      if (index !== teacher.length - 1 ) {
+        teacherStr += '"' +  item.number + '"' + ','
+      } else {
+        teacherStr += '"' + item.number + '"'
+      }
+    })
+    const teacherData = await app.mysql.query(`select number,name,subject,class from teacher where number in (${teacherStr});`, '')
+    ctx.body = teacherData
+  }
+
+  // 修改教师基本信息
+  public async changeTeacherInfo () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    const teacherData = await app.mysql.query(`update teacher set name='${body.name}',number='${body.number}',` +
+    `subject='${body.subject}',class='${body.class}' where number=${body.number};`, '')
+    ctx.body = teacherData
+  }
+
+  // 删除教师基本信息
+  public async deleteTeacherInfo () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    await app.mysql.query(`delete from teacher where number=${body.number}`, '')
+    await app.mysql.query(`delete from user where number=${body.number}`, '')
+    ctx.body = '删除成功'
+  }
+
+  // 获得学科基本信息
+  public async getSubjectInfo () {
+    const { ctx , app } = this
+    const teacherData = await app.mysql.query(`select * from subject`, '')
+    ctx.body = teacherData
+  }
+
+  // 删除学科信息
+  public async deleteSubjectInfo () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    await app.mysql.query(`delete from subject where name='${body.name}'`, '')
+    ctx.body = '删除成功'
   }
 }

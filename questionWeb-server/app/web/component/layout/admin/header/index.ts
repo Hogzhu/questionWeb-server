@@ -25,6 +25,9 @@ export default class Header extends Vue {
   }
 
   private async checkLoginStatus () {
+    if (!window.localStorage.getItem('token')) {
+      return false
+    }
     const token = window.localStorage.token
     const headers = {
       // 切记 token 不要直接发送，要在前面加上 Bearer 字符串和一个空格

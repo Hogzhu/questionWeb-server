@@ -19,7 +19,7 @@
       <div class="exam-essay-container" v-for="(item, index) of essayQuestion" :key="index">
         <div class="exam-essay-container-title">{{index+11}}、{{item.title}}</div>
         <div class="exam-essay-container-reply">
-          <textarea rows="3" cols="120"></textarea>
+          <textarea rows="3" cols="120" v-model="item.student_answer"></textarea>
         </div>
         <div class="exam-choose-container-answer" v-if="isSubmit">参考答案：{{item.answer}}</div>
       </div>

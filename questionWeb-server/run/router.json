@@ -175,6 +175,90 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/changeStudentInfo",
+    "regexp": "/^\\/admin\\/api\\/changeStudentInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/deleteStudentInfo",
+    "regexp": "/^\\/admin\\/api\\/deleteStudentInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/getTeacherInfo",
+    "regexp": "/^\\/admin\\/api\\/getTeacherInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/changeTeacherInfo",
+    "regexp": "/^\\/admin\\/api\\/changeTeacherInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/deleteTeacherInfo",
+    "regexp": "/^\\/admin\\/api\\/deleteTeacherInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/getSubjectInfo",
+    "regexp": "/^\\/admin\\/api\\/getSubjectInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/deleteSubjectInfo",
+    "regexp": "/^\\/admin\\/api\\/deleteSubjectInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/getQuestionList",
     "regexp": "/^\\/admin\\/api\\/getQuestionList(?:\\/(?=$))?$/",
     "stack": [
@@ -237,6 +321,30 @@
     "paramNames": [],
     "path": "/admin/api/findQuestion",
     "regexp": "/^\\/admin\\/api\\/findQuestion(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/getProblemInfo",
+    "regexp": "/^\\/admin\\/api\\/getProblemInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/unPassProblem",
+    "regexp": "/^\\/admin\\/api\\/unPassProblem(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

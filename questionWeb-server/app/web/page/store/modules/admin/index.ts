@@ -131,6 +131,51 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.post(`${rootState.origin}/admin/api/getStudentInfo`);
       return res;
     },
+    // 修改学生基本信息
+    async changeStudentInfo ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/changeStudentInfo`, data);
+      return res;
+    },
+    // 删除学生基本信息
+    async deleteStudentInfo ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/deleteStudentInfo`, data);
+      return res;
+    },
+    // 获得教师基本信息
+    async getTeacherInfo ({ commit, dispatch, state , rootState}) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getTeacherInfo`);
+      return res;
+    },
+    // 修改教师基本信息
+    async changeTeacherInfo ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/changeTeacherInfo`, data);
+      return res;
+    },
+    // 删除教师基本信息
+    async deleteTeacherInfo ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/deleteTeacherInfo`, data);
+      return res;
+    },
+    // 获得待入库题目基本信息
+    async getProblemInfo ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getProblemInfo`, data);
+      return res;
+    },
+    // 入库不通过
+    async unPassProblem ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/unPassProblem`, data);
+      return res;
+    },
+    // 获得学科信息
+    async getSubjectInfo ({ commit, dispatch, state , rootState}) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getSubjectInfo`);
+      return res;
+    },
+    // 删除学科信息
+    async deleteSubjectInfo ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/deleteSubjectInfo`, data);
+      return res;
+    },
   };
 
   mutations: MutationTree<AdminState> = {
@@ -171,6 +216,7 @@ export default class AdminModule implements Module<AdminState, RootState> {
       userDone: 0,
       userSolved: 0,
       questionNum: 0,
+      identity: '',
       ...initState
     };
   }

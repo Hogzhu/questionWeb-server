@@ -39,18 +39,15 @@
         <span>答案:</span>
         <textarea class="createQuestion-list-answer-input" ref="answer" rows="3" />
       </div>
-      <div class="createQuestion-list-point">
-        <span>知识点:</span>
-        <select>
-          <option>web前端</option>
-          <option>嵌入式设计</option>
-          <option>Java</option>
-        </select>
+      <div class="createQuestion-list-analysis">
+        <span>解析:</span>
+        <textarea class="createQuestion-list-analysis-input" ref="analysis" rows="3" />
       </div>
-      <div class="createQuestion-list-important">
-        <span>重点:</span>
-        <input type="radio" name="question-important" value="important-yes" @change="changeImportant(true)" />是
-        <input type="radio" name="question-important" value="important-no" @change="changeImportant(false)" checked />否
+      <div class="createQuestion-list-point">
+        <span>学科:</span>
+        <select @change="changeSubject($event)">
+          <option v-for="(item, index) of subjectArr" :key="index">{{item.name}}</option>
+        </select>
       </div>
       <button class="createQuestion-list-btn" @click="submitQuestion()">提交</button>
     </div>
