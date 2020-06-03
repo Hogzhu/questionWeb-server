@@ -115,6 +115,30 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/getStudentExam",
+    "regexp": "/^\\/admin\\/api\\/getStudentExam(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/getPassExamInfo",
+    "regexp": "/^\\/admin\\/api\\/getPassExamInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/submitExam",
     "regexp": "/^\\/admin\\/api\\/submitExam(?:\\/(?=$))?$/",
     "stack": [
@@ -295,8 +319,44 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/admin/api/changeProblem",
+    "regexp": "/^\\/admin\\/api\\/changeProblem(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/deleteProblem",
+    "regexp": "/^\\/admin\\/api\\/deleteProblem(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/admin/api/getExamList",
     "regexp": "/^\\/admin\\/api\\/getExamList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/admin/api/getExamProblem",
+    "regexp": "/^\\/admin\\/api\\/getExamProblem(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

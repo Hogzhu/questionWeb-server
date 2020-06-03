@@ -52,6 +52,7 @@
         <button class="alert-container-btn" @click="changeStudent()">确认修改</button>
       </div>
     </div>
+    <div v-if="identity === 'administrator'">
     <h2>教师信息管理</h2>
     <button class="backstage-manage-showTeacher" ref="teacher-btn" @click="manageTeacher" v-if="showTeacher">管理教师信息</button>
     <div class="backstage-manage-teacher" v-if="!showTeacher">
@@ -90,6 +91,7 @@
           <button class="alert-container-btn" @click="changeTeacher()">确认修改</button>
         </div>
       </div>
+    </div>
     <h2>题目入库</h2>
     <button class="backstage-manage-showProblem" ref="problem-btn" @click="manageProblem" v-if="showProblem">题目入库</button>
     <div class="backstage-manage-problem" v-if="!showProblem">
@@ -155,11 +157,13 @@
         <li class="backstage-manage-subject-nav-name">名称</li>
         <li class="backstage-manage-subject-nav-teacher">任课老师</li>
         <li></li>
+        <li></li>
       </ul>
     </div>
     <div class="backstage-manage-subject-item" v-for="(item, index) of subjectBaseInfo" :key="index">
       <span>{{item.name}}</span>
       <span>{{item.teacher}}</span>
+      <span @click="deleteSubject(item.name)">查看</span>
       <span @click="deleteSubject(item.name)">删除</span>
     </div>
   </div>

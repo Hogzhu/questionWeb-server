@@ -91,6 +91,31 @@ export default class AdminModule implements Module<AdminState, RootState> {
       const res = await axios.post(`${rootState.origin}/admin/api/searchProblem`, data);
       return res;
     },
+    // 修改题目信息
+    async changeProblem ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/changeProblem`, data);
+      return res;
+    },
+    // 删除题目
+    async deleteProblem ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/deleteProblem`, data);
+      return res;
+    },
+    // 获得学生的考试信息
+    async getPassExamInfo ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getPassExamInfo`, data);
+      return res;
+    },
+    // 获得待批改信息
+    async getStudentExam ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getStudentExam`, data);
+      return res;
+    },
+    // 获得待批改信息
+    async getExamProblem ({ commit, dispatch, state , rootState}, data) {
+      const res = await axios.post(`${rootState.origin}/admin/api/getExamProblem`, data);
+      return res;
+    },
     // 获得考试题目
     async getExamList ({ commit, dispatch, state , rootState}, data) {
       const res = await axios.post(`${rootState.origin}/admin/api/getExamList`, data);

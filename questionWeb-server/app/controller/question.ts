@@ -13,6 +13,7 @@ export default class UserController extends Controller {
   // 获取首页的题目列表
   public async getQuestionList () {
     const { ctx , app } = this;
+    const body = ctx.request.body
     // 选取各难度题目数以及题目数据
     const easy = await app.mysql.query('select count(*) from problem where level = "简单"', '');
     const mid = await app.mysql.query('select count(*) from problem where level = "中等"', '');
@@ -22,8 +23,8 @@ export default class UserController extends Controller {
     const difficultNum = difficult[0]['count(*)']
     const questionNum = easyNum + midNum + difficultNum;
     const questionList = await app.mysql.query(
-        `select id,title,choose_A,choose_B,choose_C,choose_D,level,type,edit,accept` +
-        ` from problem where subject LIKE '${ctx.request.body.subject}%' ORDER BY rand()`, '');
+        `select id,title,choose_A,choose_B,choose_C,choose_D,answer,analysis,level,type,edit,accept` +
+        ` from problem where subject LIKE '${body.subject}%' ORDER BY rand()`, '');
     const questionData = {
         questionNum,
         easyNum,
@@ -50,20 +51,40 @@ export default class UserController extends Controller {
     ctx.body = questionData;
   }
 
+  // 修改题目信息
+  public async changeProblem () {
+    const { ctx , app } = this;
+    const body = ctx.request.body;
+    const questionData = await app.mysql.query(`update problem set title='${body.title}',` +
+    `choose_A='${body.choose_A}',choose_B='${body.choose_B}',choose_C='${body.choose_C}',` +
+    `choose_D='${body.choose_D}',answer='${body.answer}',analysis='${body.analysis}',` +
+    `type='${body.type}',level='${body.level}' where id='${body.id}'` , '');
+    ctx.body = questionData;
+  }
+
+  // 删除题目
+  public async deleteProblem () {
+    const { ctx , app } = this;
+    const body = ctx.request.body;
+    const questionData = await app.mysql.query(`delete from problem where id='${body.id}'` , '');
+    ctx.body = questionData;
+  }
+
   // 获取考试题
   public async getExamList () {
     const { ctx , app } = this;
+    const body = ctx.request.body
     let choose: any = ''
     let index: number = 0
     let errorChoose: any = [] // 带引号的错题id数组
     let noQuote: any = [] // 无引号的错题id数组
     let questionData: any = {}
     // 随机选择10个选择题和5个问答题
-    const essay = await app.mysql.query('select * from problem where type = "简答题" limit 5', '');
+    const essay = await app.mysql.query(`select * from problem where type = "简答题" AND subject = "${body.subject}" limit 5`, '');
     let errorList = await app.mysql.query(`select error from user where number = ${ctx.request.body.account}`, '');
     errorList = errorList[0].error.split(',')
     if (errorList.length < 3) {
-      choose = await app.mysql.query('select * from problem where type = "选择题" limit 10', '');
+      choose = await app.mysql.query(`select * from problem where type = "选择题"  AND subject = "${body.subject}" limit 10`, '');
       questionData = {
         choose,
         essay
@@ -79,8 +100,8 @@ export default class UserController extends Controller {
       errorChoose = errorChoose.join(',')
       noQuote = noQuote.join(',')
       console.log(noQuote)
-      const errorArr = await app.mysql.query(`select * from problem where id in (${errorChoose}) limit 3`, '');
-      choose = await app.mysql.query(`select * from problem where type="选择题" and id not in (${noQuote}) limit 7`, '');
+      const errorArr = await app.mysql.query(`select * from problem where id in (${errorChoose})  AND subject = "${body.subject}" limit 3`, '');
+      choose = await app.mysql.query(`select * from problem where type="选择题" and id not in (${noQuote})  AND subject = "${body.subject}" limit 7`, '');
       questionData = {
         errorArr,
         choose,
@@ -129,6 +150,15 @@ export default class UserController extends Controller {
     const body = ctx.request.body;
     // 通过教师的id取得所有需要教师通过的待入库题目信息
     const questionData = await app.mysql.query(`select * from pre_problem where teacher = "${body.account}"` , '');
+    ctx.body = questionData;
+  }
+
+  // 后台管理获得待入库题目信息
+  public async getExamProblem () {
+    const { ctx , app } = this;
+    const body = ctx.request.body;
+    // 通过教师的id取得所有需要教师通过的待入库题目信息
+    const questionData = await app.mysql.query(`select * from pre_problem where id in ("${body.problem}")` , '');
     ctx.body = questionData;
   }
 

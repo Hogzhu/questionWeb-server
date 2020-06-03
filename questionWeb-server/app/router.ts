@@ -10,6 +10,8 @@ export default (application: Application) => {
   router.post('/admin/api/login', controller.user.login);
   router.post('/admin/api/checkLogin', jwt, controller.user.checkLogin);
   router.post('/admin/api/getUserRank', controller.user.getUserRank);
+  router.post('/admin/api/getStudentExam', controller.user.getStudentExam);
+  router.post('/admin/api/getPassExamInfo', controller.user.getPassExamInfo);
   router.post('/admin/api/submitExam', controller.user.submitExam);
   router.post('/admin/api/submitQuestion', controller.user.submitQuestion);
   router.post('/admin/api/getPersonalInfo', controller.user.getPersonalInfo);
@@ -25,7 +27,10 @@ export default (application: Application) => {
   router.post('/admin/api/getQuestionList', controller.question.getQuestionList);
   router.post('/admin/api/getSubject', controller.question.getSubject);
   router.post('/admin/api/searchProblem', controller.question.searchProblem);
+  router.post('/admin/api/changeProblem', controller.question.changeProblem);
+  router.post('/admin/api/deleteProblem', controller.question.deleteProblem);
   router.post('/admin/api/getExamList', controller.question.getExamList);
+  router.post('/admin/api/getExamProblem', controller.question.getExamProblem);
   router.post('/admin/api/newQuestion', controller.question.newQuestion);
   router.post('/admin/api/findQuestion', controller.question.findQuestion);
   router.post('/admin/api/getProblemInfo', controller.question.getProblemInfo);

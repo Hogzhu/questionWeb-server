@@ -2,12 +2,20 @@ import { Vue, Component } from 'vue-property-decorator'
 import { Action, Getter } from 'vuex-class'
 @Component({})
 export default class Exam extends Vue {
+  @Action('getPassExamInfo') getPassExamInfo;
+  @Action('getSubject') getSubject;
+  @Action('getStudentExam') getStudentExam;
   @Action('getExamList') getExamList;
+  @Action('getExamProblem') getExamProblem;
   @Action('submitExam') submitExam;
   @Getter('account') account;
+  @Getter('identity') identity;
   @Getter('userSolved') userSolved;
 
+  private passExam: any = []
+  private subjectArr: any = []
   private subject: string = 'Web前端'
+  private showExam: boolean = false
   private chooseQuestion: any = []
   private essayQuestion: any[] = []
   private chooseArr: number[] = [0, 0, 0, 0, 0, 0, 0]
@@ -16,6 +24,9 @@ export default class Exam extends Vue {
   private grade: any = 0
   private isSubmit: boolean = false
   private btnLocked: boolean = true
+  private studentExamList: any = []
+  private showHandler: boolean = false
+  private selectExamInfo: any = {}
 
   // 通过url直接进入页面的用户未登录则提示登录并退回首页
   private beforeMount () {
@@ -33,18 +44,74 @@ export default class Exam extends Vue {
         this.$watch(function () {
           return this.$store.getters.account
         }, (v, o) => {
-          this.getExamInfo()
+          console.log(this.identity)
+          this.getSubjectInfo()
+          this.getPassExam()
+          this.getStudentExamInfo()
         })
       } else {
-        this.getExamInfo()
+        this.getSubjectInfo()
+        this.getPassExam()
+        this.getStudentExamInfo()
       }
     }
   }
 
-  private async getExamInfo () {
+  private async getPassExam () {
     const data = {
       account: this.account
     }
+    const res = await this.getPassExamInfo(data)
+    this.passExam = res.data
+    console.log(this.passExam)
+  }
+
+  private async getStudentExamInfo () {
+    const data = {
+      account: this.account
+    }
+    const res = await this.getStudentExam(data)
+    this.studentExamList = res.data
+    console.log(this.studentExamList)
+  }
+
+  private async handlerExam (id: any) {
+    this.showHandler = true
+    console.log(id)
+    this.studentExamList.forEach((item, index) => {
+      if (item.id === id) {
+        this.selectExamInfo = this.studentExamList[index]
+      }
+    })
+    let problem = this.selectExamInfo.problem.split(',')
+    for (let i = 0 ; i < problem.length ; i++) {
+      problem[i] = "'" + problem[i] + "'"
+    }
+    problem = problem.join(',')
+    const data = {
+      problem
+    }
+    const problemRes = await this.getExamProblem(data)
+    console.log(problemRes)
+  }
+
+  private closeHandler () {
+    this.showHandler = false
+  }
+
+  private async getSubjectInfo () {
+    const res = await this.getSubject()
+    this.subjectArr = res.data
+    console.log(this.subjectArr)
+  }
+
+  private async getExamInfo (e: any) {
+    this.showExam = true
+    const data = {
+      account: this.account,
+      subject: e.target.value
+    }
+    this.subject = e.target.value
     const res = await this.getExamList(data)
     if (res.data.errorArr) {
       this.chooseQuestion = res.data.choose.concat(res.data.errorArr)

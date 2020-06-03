@@ -19,6 +19,8 @@
           <li class="questionList-list-nav-accept">通过率</li>
           <li class="questionList-list-nav-difficult">难度</li>
           <li class="questionList-list-nav-type">题型</li>
+          <li class="questionList-list-nav-change" v-if="identity && identity !== 'student'"></li>
+          <li class="questionList-list-nav-delete" v-if="identity && identity !== 'student'"></li>
         </ul>
       </div>
       <div class="questionList-list-item" v-for="(item,index) in currentPageData" :key="index" @click="handlerQuestion(item.id)">
@@ -27,6 +29,40 @@
         <span>{{item.edit === 0 ? 0 : (item.accept / item.edit * 100).toFixed(1)}}%</span>
         <span>{{item.level}}</span>
         <span>{{item.type}}</span>
+        <span class="questionList-list-item-change" @click.stop="change(item.id)" v-if="identity && identity !== 'student'">修改</span>
+        <span class="questionList-list-item-delete" @click.stop="deleteProblemItem(item.id)" v-if="identity && identity !== 'student'">删除</span>
+      </div>
+      <div class="alert" v-if="showProblemItem">
+        <div class="alert-bg" @click="closeProblemItem"></div>
+        <div class="alert-container">
+          <div class="alert-container-title">
+            <span>题目：</span>
+            <input type="text" ref="title" :value="selectProblem.title" /><br/>
+          </div>
+          <div class="alert-container-choose" v-if="selectProblem.type === '选择题'">
+            <span>选项A：</span>
+            <input type="text" ref="choose_A" :value="selectProblem.choose_A" /><br/>
+            <span>选项B：</span>
+            <input type="text" ref="choose_B" :value="selectProblem.choose_B" /><br/>
+            <span>选项C：</span>
+            <input type="text" ref="choose_C" :value="selectProblem.choose_C" /><br/>
+            <span>选项D：</span>
+            <input type="text" ref="choose_D" :value="selectProblem.choose_D" /><br/>
+          </div>
+          <div class="alert-container-answer">
+            <span>答案：</span>
+            <input type="text" ref="answer" :value="selectProblem.answer" /><br/>
+          </div>
+          <div class="alert-container-analysis">
+            <span>解析：</span>
+            <input type="text" ref="analysis" :value="selectProblem.analysis" /><br/>
+          </div>
+          <div class="alert-container-level">
+            <span>难度：</span>
+            <input type="text" ref="level" :value="selectProblem.level" /><br/>
+          </div>
+          <button class="alert-container-btn" @click="changeCheck">确定修改</button>
+        </div>
       </div>
       <footer>
         <button @click="prevPage()">
@@ -146,6 +182,11 @@ a {
           flex: 5;
         }
       }
+      &-change, &-delete {
+        &:hover {
+          color: #42b983;
+        }
+      }
     }
     & footer {
       text-align: center;
@@ -169,6 +210,70 @@ a {
             background-color: #42aa70;
           }
         }
+      }
+    }
+  }
+}
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.8rem;
+  z-index: 100;
+  &-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  &-container {
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100rem;
+    height: 60rem;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px #fff;
+    background-color: rgba(245,245,245,1);
+    overflow: scroll;
+    input {
+      width: 60rem;
+      height: 3rem;
+    }
+    &-title {
+      padding: 4rem;
+    }
+    &-name, &-number, &-class, &-subject, &-choose, &-answer, &-analysis, &-type, &-level {
+      padding: 1rem 4rem;
+    }
+    &-name, &-number, &-class, &-subject {
+      margin: 1rem auto;
+    }
+    &-choose span {
+      display: inline-block;
+      padding: 1rem 0;
+    }
+    &-btn {
+      margin: 4rem auto 0 auto;
+      width: 20rem;
+      height: 4rem;
+      border-radius: 2.5rem;
+      border: none;
+      font-size: 1.8rem;
+      color: #fff;
+      background-color: #42b983;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        background-color: #42aa70;
       }
     }
   }

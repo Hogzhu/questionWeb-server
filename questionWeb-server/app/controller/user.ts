@@ -89,6 +89,21 @@ export default class UserController extends Controller {
     ctx.body = rankData
   }
 
+  // 获得学生考试信息
+  public async getPassExamInfo () {
+    const { ctx , app } = this
+    const examData = await app.mysql.query(`select * from exam where number='${ctx.request.body.account}'`, '')
+    ctx.body = examData
+  }
+
+  // 获得待批改信息
+  public async getStudentExam () {
+    const { ctx , app } = this
+    const body = ctx.request.body
+    const studentExamData = await app.mysql.query(`select * from exam where teacher='${body.account}'`, '')
+    ctx.body = studentExamData
+  }
+
   // 考试后修改用户的做题数据
   public async submitExam () {
     const { ctx , app } = this
@@ -144,8 +159,9 @@ export default class UserController extends Controller {
     const editData = await app.mysql.query(`update problem SET edit= CASE id WHEN id THEN edit+1 END WHERE id IN (${allStr});`, '')
     const studentInfo = await app.mysql.query(`select name,class from user where number='${body.account}'`, '')
     console.log(studentInfo)
-    await app.mysql.query(`insert into exam (number,name,subject,class,problem,answer,grade) values ('${body.account}','${studentInfo[0].name}',` +
-    `'${body.subject}','${studentInfo[0].class}','${body.essayId}','${body.studentAnswer}','${body.grade}');`, '')
+    const teacher = await app.mysql.query(`select number from teacher where subject LIKE '%${body.subject}%' AND class LIKE '%${studentInfo[0].class}%'`, '')
+    await app.mysql.query(`insert into exam (number,name,subject,class,teacher,problem,answer,grade) values ('${body.account}','${studentInfo[0].name}',` +
+    `'${body.subject}','${studentInfo[0].class}','${teacher[0].number}','${body.essayId}','${body.studentAnswer}','${body.grade}');`, '')
     ctx.body = resData
   }
 

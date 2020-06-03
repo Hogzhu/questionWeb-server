@@ -7,13 +7,17 @@ export default class QuestionList extends Vue {
   @Action('getQuestionList') getQuestionList
   @Action('getSubject') getSubject
   @Action('searchProblem') searchProblem
+  @Action('changeProblem') changeProblem
+  @Action('deleteProblem') deleteProblem
   @Getter('userSolved') userSolved: any
   @Getter('identity') identity;
-  private question: any = ''
+  private question: any = []
   private questionNum: any[] = []
   private questionData: any = {}
   private subject: any = ''
   private subjectArr: any = []
+  private selectProblem: any = []
+  private showProblemItem: boolean = false
   private totalPage: number = 1
   private currentPage: number = 1
   private pageSize: number = 10
@@ -25,23 +29,20 @@ export default class QuestionList extends Vue {
   }
 
   private created () {
-    this.getList()
-    this.getSubjectInfo()
-  }
-
-  private mounted () {
     // 监听总体数的变化确认获取题目列表的接口是否已返回值
-    // if (this.$store.getters.identity !== 'administartor') {
+    // if (!this.identity) {
     //   this.$watch(function () {
-    //     return this.$store.getters.identity
+    //     return this.identity
     //   }, (v, o) => {
-    //     console.log(this.identity)
-    //     console.log(this.$store.getters.identity)
+    //       this.getList()
+    //       this.getSubjectInfo()
     //   })
     // } else {
-    //   console.log(this.identity)
-    //   console.log(this.$store.getters.identity)
+    //   this.getList()
+    //   this.getSubjectInfo()
     // }
+    this.getList()
+    this.getSubjectInfo()
   }
 
   private async getSubjectInfo () {
@@ -50,16 +51,17 @@ export default class QuestionList extends Vue {
   }
 
   private async getList () {
+    console.log(this.identity)
     let res: any = ''
     const data = {
-      subject: this.subject
+      subject: this.subject,
+      identity: this.identity
     }
     await this.getQuestionList(data).then((resolve) => {
       res = resolve
     })
     this.questionData = res.data
     this.question = this.questionData.questionList
-    console.log(this.question)
     this.setPage()
     this.getQuestionNum()
   }
@@ -116,6 +118,74 @@ export default class QuestionList extends Vue {
     res = await this.searchProblem(data)
     this.question = res.data
     this.setPage()
+  }
+
+  // 修改题目
+  private change (id: any) {
+    this.question.forEach((item, index) => {
+      if (item.id === id) {
+        this.selectProblem = this.question[index]
+      }
+    })
+    this.showProblemItem = true
+  }
+
+  // 确认修改
+  private async changeCheck () {
+    const refs: any = this.$refs
+    const title = refs.title.value
+    const chooseA = refs.choose_A ? refs.choose_A.value : null
+    console.log(chooseA)
+    const chooseB = refs.choose_B ? refs.choose_B.value : null
+    const chooseC = refs.choose_C ? refs.choose_C.value : null
+    const chooseD = refs.choose_D ? refs.choose_D.value : null
+    const answer = refs.answer.value
+    const analysis = refs.analysis.value
+    const level = refs.level.value
+    this.showProblemItem = false
+    const data = {
+      id: this.selectProblem.id,
+      title,
+      choose_A: chooseA,
+      choose_B: chooseB,
+      choose_C: chooseC,
+      choose_D: chooseD,
+      answer,
+      analysis,
+      level,
+      type: this.selectProblem.type
+    }
+    await this.changeProblem(data).then(() => {
+      this.$message('修改成功')
+      this.question.forEach((item, index) => {
+        if (item.id === this.selectProblem.id) {
+          this.$set(this.question[index], 'title', title)
+          this.$set(this.question[index], 'level', level)
+          this.$set(this.question[index], 'type', item.type)
+        }
+      })
+    })
+  }
+
+  // 删除题目
+  private async deleteProblemItem (id: any) {
+    const data = {
+      id
+    }
+    this.question.forEach((item, index) => {
+      if (item.id === id) {
+        this.question.splice(index, 1)
+      }
+    })
+    await this.deleteProblem(data).then(() => {
+      this.$message('删除成功')
+    })
+    this.setCurrentPageData()
+  }
+
+  // 关闭查看页面
+  private closeProblemItem () {
+    this.showProblemItem = false
   }
 
   // 设置当前页面数据，对数组操作的截取规则为[0~10],[10~20]...

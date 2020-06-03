@@ -7,11 +7,11 @@
       <span class="doQuestion-container-title-detail">{{questionData.title}}</span>
     </div>
     <div class="doQuestion-container-choose" v-if="isChoose">
-      <span class="doQuestion-container-choose-text">选项:</span>
-      <input type="radio" ref="choose_A" name="choose" value="A" @change="select('A')" /><label>{{questionData.choose_A}}</label>
-      <input type="radio" ref="choose_B" name="choose" value="B" @change="select('B')" /><label>{{questionData.choose_B}}</label>
-      <input type="radio" ref="choose_C" name="choose" value="C" @change="select('C')" /><label>{{questionData.choose_C}}</label>
-      <input type="radio" ref="choose_D" name="choose" value="D" @change="select('D')" /><label>{{questionData.choose_D}}</label>
+      <span class="doQuestion-container-choose-text">选项:</span></br>
+      <input type="radio" ref="choose_A" name="choose" value="A" @change="select('A')" /><label>{{questionData.choose_A}}</label></br>
+      <input type="radio" ref="choose_B" name="choose" value="B" @change="select('B')" /><label>{{questionData.choose_B}}</label></br>
+      <input type="radio" ref="choose_C" name="choose" value="C" @change="select('C')" /><label>{{questionData.choose_C}}</label></br>
+      <input type="radio" ref="choose_D" name="choose" value="D" @change="select('D')" /><label>{{questionData.choose_D}}</label></br>
     </div>
     <div class="doQuestion-container-essay" v-if="!isChoose">
       <span class="doQuestion-container-essay-text">答案：</span>

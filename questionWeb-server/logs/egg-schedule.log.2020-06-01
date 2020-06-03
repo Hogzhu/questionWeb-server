@@ -1,0 +1,66 @@
+2020-05-30 10:41:44,098 INFO 18276 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 64095908ms at 2020-05-31 04:30:00.005
+2020-05-30 10:41:44,098 INFO 18276 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47895902ms at 2020-05-31 00:00:00.000
+2020-05-30 10:41:44,099 INFO 18276 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47896902ms at 2020-05-31 00:00:01.001
+2020-05-30 10:41:43,717 INFO 18536 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 10:41:43,717 INFO 18536 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 10:41:43,717 INFO 18536 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 12:03:26,659 INFO 5916 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 12:03:26,659 INFO 5916 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 12:03:26,659 INFO 5916 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 12:21:59,604 INFO 8988 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 12:21:59,604 INFO 8988 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 12:21:59,604 INFO 8988 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 12:22:09,788 INFO 16156 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 12:22:09,788 INFO 16156 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 12:22:09,788 INFO 16156 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 12:51:05,447 INFO 3268 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 12:51:05,447 INFO 3268 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 12:51:05,447 INFO 3268 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 13:11:10,063 INFO 1916 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 13:11:10,063 INFO 1916 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 13:11:10,063 INFO 1916 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 13:11:34,062 INFO 19668 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 13:11:34,062 INFO 19668 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 13:11:34,062 INFO 19668 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 13:35:14,816 INFO 13372 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 13:35:14,816 INFO 13372 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 13:35:14,816 INFO 13372 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 14:00:41,108 INFO 7620 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 14:00:41,108 INFO 7620 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 14:00:41,108 INFO 7620 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 14:37:48,832 INFO 8272 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 14:37:48,832 INFO 8272 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 14:37:48,832 INFO 8272 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 14:42:16,177 INFO 15364 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 14:42:16,177 INFO 15364 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 14:42:16,177 INFO 15364 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 14:44:28,386 INFO 17824 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 14:44:28,386 INFO 17824 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 14:44:28,386 INFO 17824 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 15:08:24,486 INFO 9368 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 15:08:24,486 INFO 9368 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 15:08:24,486 INFO 9368 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 15:12:47,428 INFO 19864 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 15:12:47,428 INFO 19864 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 15:12:47,428 INFO 19864 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 15:14:17,402 INFO 17816 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 15:14:17,402 INFO 17816 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 15:14:17,402 INFO 17816 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 15:15:36,385 INFO 12348 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 15:15:36,385 INFO 12348 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 15:15:36,385 INFO 12348 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-30 15:20:16,490 INFO 19260 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-30 15:20:16,490 INFO 19260 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-30 15:20:16,490 INFO 19260 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-01 19:13:49,047 INFO 14492 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 33370958ms at 2020-06-02 04:30:00.005
+2020-06-01 19:13:49,047 INFO 14492 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 17170953ms at 2020-06-02 00:00:00.000
+2020-06-01 19:13:49,047 INFO 14492 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 17171953ms at 2020-06-02 00:00:01.000
+2020-06-01 19:13:48,713 INFO 2268 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-01 19:13:48,713 INFO 2268 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-01 19:13:48,713 INFO 2268 [egg-schedule]: register schedule C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-02 00:00:01,921 INFO 14492 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86398088ms at 2020-06-03 00:00:00.008
+2020-06-02 00:00:01,943 INFO 2268 [Job#1591027201906478749587964991] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-06-02 00:00:01,980 INFO 2268 [Job#1591027201906478749587964991] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 28ms
+2020-06-02 00:00:02,903 INFO 2268 [Job#1591027202902478759535832001] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-06-02 00:00:02,920 INFO 2268 [Job#1591027202902478759535832001] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 16ms
+2020-06-02 00:00:02,907 INFO 14492 [Timer] C:\项目资料\questionWeb\questionWeb-server\questionWeb-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86398098ms at 2020-06-03 00:00:01.005
